@@ -34,7 +34,7 @@ jobs:
           git reset --hard
           git stash
           git pull --rebase
-          git stash pop
+          if git stash list | grep -q 'stash@{0}'; then git stash pop; fi
           git add data/badge.json data/data.json data/package-stats.json
           git diff-index --quiet HEAD || git commit -m 'ci: Update npm-stat data'
           git push
