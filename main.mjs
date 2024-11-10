@@ -4,7 +4,7 @@ import path from "path";
 import color from "colors-cli/safe";
 import { format, startOfWeek, subYears } from "date-fns";
 
-const username = 'wcjiang'; // 替换为你的 npm 用户名
+const username = 'yyx990803'; // 替换为你的 npm 用户名
 const dataPath = 'data/data.json';
 const packageDir = 'data/package';
 const statsPath = 'data/package-stats.json';
@@ -139,7 +139,7 @@ async function main() {
       const stats = calculateStats(allDownloads);
       stats.topPackages = Object.entries(packageDownloads)
         .sort(([, a], [, b]) => b - a)
-        .slice(0, 200)
+        .slice(0, 250)
         .map(([name, downloads]) => ({ name, downloads }));
 
       /// 合并旧的年下载统计数据 -------- Start --------
