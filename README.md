@@ -1,8 +1,8 @@
 sindresorhus-npm-stat
 ===
 
-![NPM Stats](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jaywcjlove/my-npm-stat/main/data/badge.json)
-[![Build & Deploy](https://github.com/jaywcjlove/my-npm-stat/actions/workflows/ci.yml/badge.svg)](https://github.com/jaywcjlove/my-npm-stat/actions/workflows/ci.yml)
+![NPM Stats](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/forksss/yyx990803-npm-stat/main/data/badge.json)
+[![Build & Deploy](https://github.com/forksss/yyx990803-npm-stat/actions/workflows/ci.yml/badge.svg)](https://github.com/forksss/yyx990803-npm-stat/actions/workflows/ci.yml)
 
 NPM download statistics for [Evan You](https://www.npmjs.com/~yyx990803)'s opens source projects for the past year. Updated Daily.
 
