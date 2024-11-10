@@ -1,4 +1,4 @@
-sindresorhus-npm-stat
+yyx990803-npm-stat
 ===
 
 ![NPM Stats](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/forksss/yyx990803-npm-stat/main/data/badge.json)
