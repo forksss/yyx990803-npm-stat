@@ -34,7 +34,9 @@ jobs:
           git stash
           git pull --rebase
           git stash pop
-          git add data/badge.json data/data.json data/package-stats.json
+          git restore --staged data/package
+          git restore data/package
+          git add .
           git diff-index --quiet HEAD || git commit -m 'ci: Update npm-stat data'
           git push
 
