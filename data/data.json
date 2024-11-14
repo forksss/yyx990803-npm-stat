@@ -194,6 +194,52 @@
     ]
   },
   {
+    "name": "@vitejs/plugin-vue",
+    "scope": "vitejs",
+    "version": "5.2.0",
+    "description": "> Note: as of `vue` 3.2.13+ and `@vitejs/plugin-vue` 1.9.0+, `@vue/compiler-sfc` is no longer required as a peer dependency.",
+    "date": "2024-11-13T10:39:59.452Z",
+    "links": {
+      "npm": "https://www.npmjs.com/package/%40vitejs%2Fplugin-vue",
+      "homepage": "https://github.com/vitejs/vite-plugin-vue/tree/main/packages/plugin-vue#readme",
+      "repository": "https://github.com/vitejs/vite-plugin-vue",
+      "bugs": "https://github.com/vitejs/vite-plugin-vue/issues"
+    },
+    "author": {
+      "name": "Evan You"
+    },
+    "publisher": {
+      "username": "vitebot",
+      "email": "vitejs.twitter@gmail.com"
+    },
+    "maintainers": [
+      {
+        "username": "soda",
+        "email": "npm@haoqun.me"
+      },
+      {
+        "username": "vitebot",
+        "email": "vitejs.twitter@gmail.com"
+      },
+      {
+        "username": "yyx990803",
+        "email": "yyx990803@gmail.com"
+      },
+      {
+        "username": "patak",
+        "email": "hey.patak@gmail.com"
+      },
+      {
+        "username": "antfu",
+        "email": "anthonyfu117@hotmail.com"
+      },
+      {
+        "username": "sxzz",
+        "email": "sxzz@sxzz.moe"
+      }
+    ]
+  },
+  {
     "name": "eslint-plugin-vue",
     "scope": "unscoped",
     "version": "9.31.0",
@@ -241,52 +287,6 @@
       {
         "username": "ota-meshi",
         "email": "otameshiyo23@gmail.com"
-      }
-    ]
-  },
-  {
-    "name": "@vitejs/plugin-vue",
-    "scope": "vitejs",
-    "version": "5.1.5",
-    "description": "> Note: as of `vue` 3.2.13+ and `@vitejs/plugin-vue` 1.9.0+, `@vue/compiler-sfc` is no longer required as a peer dependency.",
-    "date": "2024-11-11T01:49:04.837Z",
-    "links": {
-      "npm": "https://www.npmjs.com/package/%40vitejs%2Fplugin-vue",
-      "homepage": "https://github.com/vitejs/vite-plugin-vue/tree/main/packages/plugin-vue#readme",
-      "repository": "https://github.com/vitejs/vite-plugin-vue",
-      "bugs": "https://github.com/vitejs/vite-plugin-vue/issues"
-    },
-    "author": {
-      "name": "Evan You"
-    },
-    "publisher": {
-      "username": "vitebot",
-      "email": "vitejs.twitter@gmail.com"
-    },
-    "maintainers": [
-      {
-        "username": "soda",
-        "email": "npm@haoqun.me"
-      },
-      {
-        "username": "vitebot",
-        "email": "vitejs.twitter@gmail.com"
-      },
-      {
-        "username": "yyx990803",
-        "email": "yyx990803@gmail.com"
-      },
-      {
-        "username": "patak",
-        "email": "hey.patak@gmail.com"
-      },
-      {
-        "username": "antfu",
-        "email": "anthonyfu117@hotmail.com"
-      },
-      {
-        "username": "sxzz",
-        "email": "sxzz@sxzz.moe"
       }
     ]
   },
@@ -638,40 +638,6 @@
     ]
   },
   {
-    "name": "vue-template-compiler",
-    "scope": "unscoped",
-    "version": "2.7.16",
-    "description": "template compiler for Vue 2.0",
-    "keywords": [
-      "vue",
-      "compiler"
-    ],
-    "date": "2023-12-24T15:02:16.927Z",
-    "links": {
-      "npm": "https://www.npmjs.com/package/vue-template-compiler",
-      "homepage": "https://github.com/vuejs/vue/tree/dev/packages/vue-template-compiler#readme",
-      "repository": "https://github.com/vuejs/vue",
-      "bugs": "https://github.com/vuejs/vue/issues"
-    },
-    "author": {
-      "name": "Evan You"
-    },
-    "publisher": {
-      "username": "yyx990803",
-      "email": "yyx990803@gmail.com"
-    },
-    "maintainers": [
-      {
-        "username": "posva",
-        "email": "posva13@gmail.com"
-      },
-      {
-        "username": "yyx990803",
-        "email": "yyx990803@gmail.com"
-      }
-    ]
-  },
-  {
     "name": "@vitejs/plugin-vue-jsx",
     "scope": "vitejs",
     "version": "4.1.0",
@@ -758,6 +724,40 @@
       {
         "username": "afontcu",
         "email": "afontcu@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "vue-template-compiler",
+    "scope": "unscoped",
+    "version": "2.7.16",
+    "description": "template compiler for Vue 2.0",
+    "keywords": [
+      "vue",
+      "compiler"
+    ],
+    "date": "2023-12-24T15:02:16.927Z",
+    "links": {
+      "npm": "https://www.npmjs.com/package/vue-template-compiler",
+      "homepage": "https://github.com/vuejs/vue/tree/dev/packages/vue-template-compiler#readme",
+      "repository": "https://github.com/vuejs/vue",
+      "bugs": "https://github.com/vuejs/vue/issues"
+    },
+    "author": {
+      "name": "Evan You"
+    },
+    "publisher": {
+      "username": "yyx990803",
+      "email": "yyx990803@gmail.com"
+    },
+    "maintainers": [
+      {
+        "username": "posva",
+        "email": "posva13@gmail.com"
+      },
+      {
+        "username": "yyx990803",
+        "email": "yyx990803@gmail.com"
       }
     ]
   },
@@ -1294,41 +1294,6 @@
     ]
   },
   {
-    "name": "vue-server-renderer",
-    "scope": "unscoped",
-    "version": "2.7.16",
-    "description": "server renderer for Vue 2.0",
-    "keywords": [
-      "vue",
-      "server",
-      "ssr"
-    ],
-    "date": "2023-12-24T15:02:13.777Z",
-    "links": {
-      "npm": "https://www.npmjs.com/package/vue-server-renderer",
-      "homepage": "https://github.com/vuejs/vue/tree/dev/packages/vue-server-renderer#readme",
-      "repository": "https://github.com/vuejs/vue",
-      "bugs": "https://github.com/vuejs/vue/issues"
-    },
-    "author": {
-      "name": "Evan You"
-    },
-    "publisher": {
-      "username": "yyx990803",
-      "email": "yyx990803@gmail.com"
-    },
-    "maintainers": [
-      {
-        "username": "posva",
-        "email": "posva13@gmail.com"
-      },
-      {
-        "username": "yyx990803",
-        "email": "yyx990803@gmail.com"
-      }
-    ]
-  },
-  {
     "name": "@vue/babel-plugin-resolve-type",
     "scope": "vue",
     "version": "1.2.5",
@@ -1418,6 +1383,41 @@
       {
         "username": "soda",
         "email": "npm@haoqun.me"
+      },
+      {
+        "username": "yyx990803",
+        "email": "yyx990803@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "vue-server-renderer",
+    "scope": "unscoped",
+    "version": "2.7.16",
+    "description": "server renderer for Vue 2.0",
+    "keywords": [
+      "vue",
+      "server",
+      "ssr"
+    ],
+    "date": "2023-12-24T15:02:13.777Z",
+    "links": {
+      "npm": "https://www.npmjs.com/package/vue-server-renderer",
+      "homepage": "https://github.com/vuejs/vue/tree/dev/packages/vue-server-renderer#readme",
+      "repository": "https://github.com/vuejs/vue",
+      "bugs": "https://github.com/vuejs/vue/issues"
+    },
+    "author": {
+      "name": "Evan You"
+    },
+    "publisher": {
+      "username": "yyx990803",
+      "email": "yyx990803@gmail.com"
+    },
+    "maintainers": [
+      {
+        "username": "posva",
+        "email": "posva13@gmail.com"
       },
       {
         "username": "yyx990803",
@@ -2254,6 +2254,45 @@
     ]
   },
   {
+    "name": "rolldown",
+    "scope": "unscoped",
+    "version": "0.14.0",
+    "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API.",
+    "keywords": [
+      "webpack",
+      "parcel",
+      "esbuild",
+      "rollup",
+      "bundler",
+      "rolldown"
+    ],
+    "date": "2024-11-05T15:36:55.033Z",
+    "links": {
+      "npm": "https://www.npmjs.com/package/rolldown",
+      "homepage": "https://rolldown.rs/",
+      "repository": "https://github.com/rolldown/rolldown",
+      "bugs": "https://github.com/rolldown/rolldown/issues"
+    },
+    "publisher": {
+      "username": "rolldownbot",
+      "email": "rolldown@voidzero.dev"
+    },
+    "maintainers": [
+      {
+        "username": "rolldownbot",
+        "email": "rolldown@voidzero.dev"
+      },
+      {
+        "username": "yyx990803",
+        "email": "yyx990803@gmail.com"
+      },
+      {
+        "username": "broooooklyn",
+        "email": "lynweklm@gmail.com"
+      }
+    ]
+  },
+  {
     "name": "@vue/reactivity-transform-canary",
     "scope": "vue",
     "version": "3.20231225.0",
@@ -2263,7 +2302,9 @@
     ],
     "date": "2023-12-25T01:25:55.212Z",
     "links": {
-      "npm": "https://www.npmjs.com/package/%40vue%2Freactivity-transform-canary"
+      "npm": "https://www.npmjs.com/package/%40vue%2Freactivity-transform-canary",
+      "homepage": "https://github.com/vuejs/core#readme",
+      "repository": "https://github.com/vuejs/core"
     },
     "author": {
       "name": "Evan You"
@@ -2312,45 +2353,6 @@
       {
         "username": "kiaking",
         "email": "kia.king.08@gmail.com"
-      }
-    ]
-  },
-  {
-    "name": "rolldown",
-    "scope": "unscoped",
-    "version": "0.14.0",
-    "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API.",
-    "keywords": [
-      "webpack",
-      "parcel",
-      "esbuild",
-      "rollup",
-      "bundler",
-      "rolldown"
-    ],
-    "date": "2024-11-05T15:36:55.033Z",
-    "links": {
-      "npm": "https://www.npmjs.com/package/rolldown",
-      "homepage": "https://rolldown.rs/",
-      "repository": "https://github.com/rolldown/rolldown",
-      "bugs": "https://github.com/rolldown/rolldown/issues"
-    },
-    "publisher": {
-      "username": "rolldownbot",
-      "email": "rolldown@voidzero.dev"
-    },
-    "maintainers": [
-      {
-        "username": "rolldownbot",
-        "email": "rolldown@voidzero.dev"
-      },
-      {
-        "username": "yyx990803",
-        "email": "yyx990803@gmail.com"
-      },
-      {
-        "username": "broooooklyn",
-        "email": "lynweklm@gmail.com"
       }
     ]
   },
@@ -2866,9 +2868,7 @@
     "date": "2024-11-05T15:35:54.945Z",
     "links": {
       "npm": "https://www.npmjs.com/package/%40rolldown%2Fbinding-darwin-arm64",
-      "homepage": "https://rolldown.rs/",
-      "repository": "https://github.com/rolldown/rolldown",
-      "bugs": "https://github.com/rolldown/rolldown/issues"
+      "homepage": "https://rolldown.rs/"
     },
     "publisher": {
       "username": "rolldownbot",
@@ -3083,7 +3083,7 @@
     ]
   },
   {
-    "name": "@rolldown/binding-linux-arm64-musl",
+    "name": "@rolldown/binding-linux-arm-gnueabihf",
     "scope": "rolldown",
     "version": "0.14.0",
     "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API.",
@@ -3095,9 +3095,9 @@
       "bundler",
       "rolldown"
     ],
-    "date": "2024-11-05T15:36:20.886Z",
+    "date": "2024-11-05T15:36:10.927Z",
     "links": {
-      "npm": "https://www.npmjs.com/package/%40rolldown%2Fbinding-linux-arm64-musl",
+      "npm": "https://www.npmjs.com/package/%40rolldown%2Fbinding-linux-arm-gnueabihf",
       "homepage": "https://rolldown.rs/",
       "repository": "https://github.com/rolldown/rolldown",
       "bugs": "https://github.com/rolldown/rolldown/issues"
@@ -3122,7 +3122,7 @@
     ]
   },
   {
-    "name": "@rolldown/binding-linux-arm-gnueabihf",
+    "name": "@rolldown/binding-linux-arm64-musl",
     "scope": "rolldown",
     "version": "0.14.0",
     "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API.",
@@ -3134,9 +3134,9 @@
       "bundler",
       "rolldown"
     ],
-    "date": "2024-11-05T15:36:10.927Z",
+    "date": "2024-11-05T15:36:20.886Z",
     "links": {
-      "npm": "https://www.npmjs.com/package/%40rolldown%2Fbinding-linux-arm-gnueabihf",
+      "npm": "https://www.npmjs.com/package/%40rolldown%2Fbinding-linux-arm64-musl",
       "homepage": "https://rolldown.rs/",
       "repository": "https://github.com/rolldown/rolldown",
       "bugs": "https://github.com/rolldown/rolldown/issues"
@@ -4534,35 +4534,6 @@
     ]
   },
   {
-    "name": "babel-preset-vue-app",
-    "scope": "unscoped",
-    "version": "2.0.0",
-    "description": "Complete babel presets for a Vue app.",
-    "date": "2017-12-06T14:30:40.970Z",
-    "links": {
-      "npm": "https://www.npmjs.com/package/babel-preset-vue-app"
-    },
-    "author": {
-      "name": "egoist",
-      "email": "0x142857@gmail.com",
-      "username": "rem"
-    },
-    "publisher": {
-      "username": "rem",
-      "email": "0x142857@gmail.com"
-    },
-    "maintainers": [
-      {
-        "username": "rem",
-        "email": "0x142857@gmail.com"
-      },
-      {
-        "username": "yyx990803",
-        "email": "yyx990803@gmail.com"
-      }
-    ]
-  },
-  {
     "name": "@vuepress/shared-utils",
     "scope": "vuepress",
     "version": "1.9.10",
@@ -4603,6 +4574,35 @@
       {
         "username": "meteorlxy",
         "email": "meteor.lxy@foxmail.com"
+      }
+    ]
+  },
+  {
+    "name": "babel-preset-vue-app",
+    "scope": "unscoped",
+    "version": "2.0.0",
+    "description": "Complete babel presets for a Vue app.",
+    "date": "2017-12-06T14:30:40.970Z",
+    "links": {
+      "npm": "https://www.npmjs.com/package/babel-preset-vue-app"
+    },
+    "author": {
+      "name": "egoist",
+      "email": "0x142857@gmail.com",
+      "username": "rem"
+    },
+    "publisher": {
+      "username": "rem",
+      "email": "0x142857@gmail.com"
+    },
+    "maintainers": [
+      {
+        "username": "rem",
+        "email": "0x142857@gmail.com"
+      },
+      {
+        "username": "yyx990803",
+        "email": "yyx990803@gmail.com"
       }
     ]
   },
@@ -5487,50 +5487,6 @@
     ]
   },
   {
-    "name": "@rolldown/node-binding-linux-x64-musl",
-    "scope": "rolldown",
-    "version": "0.0.5",
-    "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API.",
-    "keywords": [
-      "napi-rs",
-      "NAPI",
-      "N-API",
-      "Rust",
-      "node-addon",
-      "node-addon-api",
-      "rollup",
-      "rolldown",
-      "bundler",
-      "swc",
-      "esbuild"
-    ],
-    "date": "2024-03-08T08:29:52.977Z",
-    "links": {
-      "npm": "https://www.npmjs.com/package/%40rolldown%2Fnode-binding-linux-x64-musl",
-      "homepage": "https://github.com/rolldown-rs/rolldown#readme",
-      "repository": "https://github.com/rolldown-rs/rolldown",
-      "bugs": "https://github.com/rolldown-rs/rolldown/issues"
-    },
-    "publisher": {
-      "username": "rolldownbot",
-      "email": "rolldown@vitelabs.dev"
-    },
-    "maintainers": [
-      {
-        "username": "rolldownbot",
-        "email": "rolldown@vitelabs.dev"
-      },
-      {
-        "username": "yyx990803",
-        "email": "yyx990803@gmail.com"
-      },
-      {
-        "username": "broooooklyn",
-        "email": "lynweklm@gmail.com"
-      }
-    ]
-  },
-  {
     "name": "@rolldown/node-binding-linux-arm64-musl",
     "scope": "rolldown",
     "version": "0.0.5",
@@ -5551,50 +5507,6 @@
     "date": "2024-03-08T08:30:22.491Z",
     "links": {
       "npm": "https://www.npmjs.com/package/%40rolldown%2Fnode-binding-linux-arm64-musl",
-      "homepage": "https://github.com/rolldown-rs/rolldown#readme",
-      "repository": "https://github.com/rolldown-rs/rolldown",
-      "bugs": "https://github.com/rolldown-rs/rolldown/issues"
-    },
-    "publisher": {
-      "username": "rolldownbot",
-      "email": "rolldown@vitelabs.dev"
-    },
-    "maintainers": [
-      {
-        "username": "rolldownbot",
-        "email": "rolldown@vitelabs.dev"
-      },
-      {
-        "username": "yyx990803",
-        "email": "yyx990803@gmail.com"
-      },
-      {
-        "username": "broooooklyn",
-        "email": "lynweklm@gmail.com"
-      }
-    ]
-  },
-  {
-    "name": "@rolldown/node-binding-linux-x64-gnu",
-    "scope": "rolldown",
-    "version": "0.0.5",
-    "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API.",
-    "keywords": [
-      "napi-rs",
-      "NAPI",
-      "N-API",
-      "Rust",
-      "node-addon",
-      "node-addon-api",
-      "rollup",
-      "rolldown",
-      "bundler",
-      "swc",
-      "esbuild"
-    ],
-    "date": "2024-03-08T08:29:47.745Z",
-    "links": {
-      "npm": "https://www.npmjs.com/package/%40rolldown%2Fnode-binding-linux-x64-gnu",
       "homepage": "https://github.com/rolldown-rs/rolldown#readme",
       "repository": "https://github.com/rolldown-rs/rolldown",
       "bugs": "https://github.com/rolldown-rs/rolldown/issues"
@@ -5664,6 +5576,50 @@
     ]
   },
   {
+    "name": "@rolldown/node-binding-linux-x64-musl",
+    "scope": "rolldown",
+    "version": "0.0.5",
+    "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API.",
+    "keywords": [
+      "napi-rs",
+      "NAPI",
+      "N-API",
+      "Rust",
+      "node-addon",
+      "node-addon-api",
+      "rollup",
+      "rolldown",
+      "bundler",
+      "swc",
+      "esbuild"
+    ],
+    "date": "2024-03-08T08:29:52.977Z",
+    "links": {
+      "npm": "https://www.npmjs.com/package/%40rolldown%2Fnode-binding-linux-x64-musl",
+      "homepage": "https://github.com/rolldown-rs/rolldown#readme",
+      "repository": "https://github.com/rolldown-rs/rolldown",
+      "bugs": "https://github.com/rolldown-rs/rolldown/issues"
+    },
+    "publisher": {
+      "username": "rolldownbot",
+      "email": "rolldown@vitelabs.dev"
+    },
+    "maintainers": [
+      {
+        "username": "rolldownbot",
+        "email": "rolldown@vitelabs.dev"
+      },
+      {
+        "username": "yyx990803",
+        "email": "yyx990803@gmail.com"
+      },
+      {
+        "username": "broooooklyn",
+        "email": "lynweklm@gmail.com"
+      }
+    ]
+  },
+  {
     "name": "@rolldown/node-binding-linux-arm64-gnu",
     "scope": "rolldown",
     "version": "0.0.5",
@@ -5728,6 +5684,50 @@
     "date": "2024-03-08T08:30:30.519Z",
     "links": {
       "npm": "https://www.npmjs.com/package/%40rolldown%2Fnode-binding-android-arm-eabi",
+      "homepage": "https://github.com/rolldown-rs/rolldown#readme",
+      "repository": "https://github.com/rolldown-rs/rolldown",
+      "bugs": "https://github.com/rolldown-rs/rolldown/issues"
+    },
+    "publisher": {
+      "username": "rolldownbot",
+      "email": "rolldown@vitelabs.dev"
+    },
+    "maintainers": [
+      {
+        "username": "rolldownbot",
+        "email": "rolldown@vitelabs.dev"
+      },
+      {
+        "username": "yyx990803",
+        "email": "yyx990803@gmail.com"
+      },
+      {
+        "username": "broooooklyn",
+        "email": "lynweklm@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "@rolldown/node-binding-linux-x64-gnu",
+    "scope": "rolldown",
+    "version": "0.0.5",
+    "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API.",
+    "keywords": [
+      "napi-rs",
+      "NAPI",
+      "N-API",
+      "Rust",
+      "node-addon",
+      "node-addon-api",
+      "rollup",
+      "rolldown",
+      "bundler",
+      "swc",
+      "esbuild"
+    ],
+    "date": "2024-03-08T08:29:47.745Z",
+    "links": {
+      "npm": "https://www.npmjs.com/package/%40rolldown%2Fnode-binding-linux-x64-gnu",
       "homepage": "https://github.com/rolldown-rs/rolldown#readme",
       "repository": "https://github.com/rolldown-rs/rolldown",
       "bugs": "https://github.com/rolldown-rs/rolldown/issues"
@@ -5934,47 +5934,6 @@
     ]
   },
   {
-    "name": "@vue/server-test-utils",
-    "scope": "vue",
-    "version": "1.3.0",
-    "description": "Utilities for testing Vue components.",
-    "date": "2021-11-17T04:05:48.437Z",
-    "links": {
-      "npm": "https://www.npmjs.com/package/%40vue%2Fserver-test-utils",
-      "homepage": "https://github.com/vuejs/vue-test-utils#readme",
-      "repository": "https://github.com/vuejs/vue-test-utils"
-    },
-    "author": {
-      "name": "vuejs"
-    },
-    "publisher": {
-      "username": "lmiller1990",
-      "email": "lachlan.miller.1990@outlook.com"
-    },
-    "maintainers": [
-      {
-        "username": "yyx990803",
-        "email": "yyx990803@gmail.com"
-      },
-      {
-        "username": "eddyerburgh",
-        "email": "edward.yerburgh@gmail.com"
-      },
-      {
-        "username": "dobromir-hristov",
-        "email": "dobromir92@gmail.com"
-      },
-      {
-        "username": "lmiller1990",
-        "email": "lachlan.miller.1990@outlook.com"
-      },
-      {
-        "username": "afontcu",
-        "email": "afontcu@gmail.com"
-      }
-    ]
-  },
-  {
     "name": "@vue/cli-plugin-router",
     "scope": "vue",
     "version": "5.0.8",
@@ -6127,6 +6086,35 @@
     ]
   },
   {
+    "name": "@vite-plugin-vue-devtools/client",
+    "scope": "vite-plugin-vue-devtools",
+    "version": "1.0.0-rc.8",
+    "date": "2023-12-13T12:51:14.666Z",
+    "links": {
+      "npm": "https://www.npmjs.com/package/%40vite-plugin-vue-devtools%2Fclient",
+      "homepage": "https://github.com/webfansplz/vite-plugin-vue-devtools#readme",
+      "repository": "https://github.com/webfansplz/vite-plugin-vue-devtools",
+      "bugs": "https://github.com/webfansplz/vite-plugin-vue-devtools/issues"
+    },
+    "author": {
+      "name": "webfansplz"
+    },
+    "publisher": {
+      "username": "webfansplz",
+      "email": "308241863@qq.com"
+    },
+    "maintainers": [
+      {
+        "username": "yyx990803",
+        "email": "yyx990803@gmail.com"
+      },
+      {
+        "username": "webfansplz",
+        "email": "webfansplz@gmail.com"
+      }
+    ]
+  },
+  {
     "name": "@vue/eslint-plugin",
     "scope": "vue",
     "version": "4.2.0",
@@ -6167,35 +6155,6 @@
       {
         "username": "mysticatea",
         "email": "public@mysticatea.dev"
-      }
-    ]
-  },
-  {
-    "name": "@vite-plugin-vue-devtools/client",
-    "scope": "vite-plugin-vue-devtools",
-    "version": "1.0.0-rc.8",
-    "date": "2023-12-13T12:51:14.666Z",
-    "links": {
-      "npm": "https://www.npmjs.com/package/%40vite-plugin-vue-devtools%2Fclient",
-      "homepage": "https://github.com/webfansplz/vite-plugin-vue-devtools#readme",
-      "repository": "https://github.com/webfansplz/vite-plugin-vue-devtools",
-      "bugs": "https://github.com/webfansplz/vite-plugin-vue-devtools/issues"
-    },
-    "author": {
-      "name": "webfansplz"
-    },
-    "publisher": {
-      "username": "webfansplz",
-      "email": "308241863@qq.com"
-    },
-    "maintainers": [
-      {
-        "username": "yyx990803",
-        "email": "yyx990803@gmail.com"
-      },
-      {
-        "username": "webfansplz",
-        "email": "webfansplz@gmail.com"
       }
     ]
   },
@@ -6500,6 +6459,47 @@
     ]
   },
   {
+    "name": "@vue/server-test-utils",
+    "scope": "vue",
+    "version": "1.3.0",
+    "description": "Utilities for testing Vue components.",
+    "date": "2021-11-17T04:05:48.437Z",
+    "links": {
+      "npm": "https://www.npmjs.com/package/%40vue%2Fserver-test-utils",
+      "homepage": "https://github.com/vuejs/vue-test-utils#readme",
+      "repository": "https://github.com/vuejs/vue-test-utils"
+    },
+    "author": {
+      "name": "vuejs"
+    },
+    "publisher": {
+      "username": "lmiller1990",
+      "email": "lachlan.miller.1990@outlook.com"
+    },
+    "maintainers": [
+      {
+        "username": "yyx990803",
+        "email": "yyx990803@gmail.com"
+      },
+      {
+        "username": "eddyerburgh",
+        "email": "edward.yerburgh@gmail.com"
+      },
+      {
+        "username": "dobromir-hristov",
+        "email": "dobromir92@gmail.com"
+      },
+      {
+        "username": "lmiller1990",
+        "email": "lachlan.miller.1990@outlook.com"
+      },
+      {
+        "username": "afontcu",
+        "email": "afontcu@gmail.com"
+      }
+    ]
+  },
+  {
     "name": "@vue/cli-plugin-e2e-cypress",
     "scope": "vue",
     "version": "5.0.8",
@@ -6635,46 +6635,29 @@
     ]
   },
   {
-    "name": "@rolldown/node-binding-win32-x64-msvc",
-    "scope": "rolldown",
-    "version": "0.0.5",
-    "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API.",
-    "keywords": [
-      "napi-rs",
-      "NAPI",
-      "N-API",
-      "Rust",
-      "node-addon",
-      "node-addon-api",
-      "rollup",
-      "rolldown",
-      "bundler",
-      "swc",
-      "esbuild"
-    ],
-    "date": "2024-03-08T08:29:39.443Z",
+    "name": "eslint-plugin-vue-libs",
+    "scope": "unscoped",
+    "version": "4.0.0",
+    "description": "eslint plugin for vue.js projects",
+    "date": "2019-07-08T11:01:13.838Z",
     "links": {
-      "npm": "https://www.npmjs.com/package/%40rolldown%2Fnode-binding-win32-x64-msvc",
-      "homepage": "https://github.com/rolldown-rs/rolldown#readme",
-      "repository": "https://github.com/rolldown-rs/rolldown",
-      "bugs": "https://github.com/rolldown-rs/rolldown/issues"
+      "npm": "https://www.npmjs.com/package/eslint-plugin-vue-libs"
+    },
+    "author": {
+      "name": "Evan You"
     },
     "publisher": {
-      "username": "rolldownbot",
-      "email": "rolldown@vitelabs.dev"
+      "username": "michalsnik",
+      "email": "msajnog93@gmail.com"
     },
     "maintainers": [
       {
-        "username": "rolldownbot",
-        "email": "rolldown@vitelabs.dev"
+        "username": "michalsnik",
+        "email": "msajnog93@gmail.com"
       },
       {
         "username": "yyx990803",
         "email": "yyx990803@gmail.com"
-      },
-      {
-        "username": "broooooklyn",
-        "email": "lynweklm@gmail.com"
       }
     ]
   },
@@ -6743,6 +6726,49 @@
     "date": "2024-03-08T08:30:05.060Z",
     "links": {
       "npm": "https://www.npmjs.com/package/%40rolldown%2Fnode-binding-win32-ia32-msvc",
+      "homepage": "https://github.com/rolldown-rs/rolldown#readme",
+      "repository": "https://github.com/rolldown-rs/rolldown"
+    },
+    "publisher": {
+      "username": "rolldownbot",
+      "email": "rolldown@vitelabs.dev"
+    },
+    "maintainers": [
+      {
+        "username": "rolldownbot",
+        "email": "rolldown@vitelabs.dev"
+      },
+      {
+        "username": "yyx990803",
+        "email": "yyx990803@gmail.com"
+      },
+      {
+        "username": "broooooklyn",
+        "email": "lynweklm@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "@rolldown/node-binding-win32-x64-msvc",
+    "scope": "rolldown",
+    "version": "0.0.5",
+    "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API.",
+    "keywords": [
+      "napi-rs",
+      "NAPI",
+      "N-API",
+      "Rust",
+      "node-addon",
+      "node-addon-api",
+      "rollup",
+      "rolldown",
+      "bundler",
+      "swc",
+      "esbuild"
+    ],
+    "date": "2024-03-08T08:29:39.443Z",
+    "links": {
+      "npm": "https://www.npmjs.com/package/%40rolldown%2Fnode-binding-win32-x64-msvc",
       "homepage": "https://github.com/rolldown-rs/rolldown#readme",
       "repository": "https://github.com/rolldown-rs/rolldown",
       "bugs": "https://github.com/rolldown-rs/rolldown/issues"
@@ -6921,33 +6947,6 @@
       "email": "yyx990803@gmail.com"
     },
     "maintainers": [
-      {
-        "username": "yyx990803",
-        "email": "yyx990803@gmail.com"
-      }
-    ]
-  },
-  {
-    "name": "eslint-plugin-vue-libs",
-    "scope": "unscoped",
-    "version": "4.0.0",
-    "description": "eslint plugin for vue.js projects",
-    "date": "2019-07-08T11:01:13.838Z",
-    "links": {
-      "npm": "https://www.npmjs.com/package/eslint-plugin-vue-libs"
-    },
-    "author": {
-      "name": "Evan You"
-    },
-    "publisher": {
-      "username": "michalsnik",
-      "email": "msajnog93@gmail.com"
-    },
-    "maintainers": [
-      {
-        "username": "michalsnik",
-        "email": "msajnog93@gmail.com"
-      },
       {
         "username": "yyx990803",
         "email": "yyx990803@gmail.com"
@@ -7244,6 +7243,36 @@
         "username": "soda",
         "email": "haoqunjiang+npm@gmail.com"
       },
+      {
+        "username": "yyx990803",
+        "email": "yyx990803@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "nightwatch-helpers",
+    "scope": "unscoped",
+    "version": "1.2.0",
+    "description": "custom assertions and commands for easier nightwatch tests",
+    "keywords": [
+      "nightwatch",
+      "e2e",
+      "testing"
+    ],
+    "date": "2016-07-29T00:29:54.743Z",
+    "links": {
+      "npm": "https://www.npmjs.com/package/nightwatch-helpers",
+      "homepage": "https://github.com/yyx990803/nightwatch-helpers#readme",
+      "repository": "https://github.com/yyx990803/nightwatch-helpers"
+    },
+    "author": {
+      "name": "Evan You"
+    },
+    "publisher": {
+      "username": "yyx990803",
+      "email": "yyx990803@gmail.com"
+    },
+    "maintainers": [
       {
         "username": "yyx990803",
         "email": "yyx990803@gmail.com"
@@ -7665,34 +7694,6 @@
       "npm": "https://www.npmjs.com/package/browser-audio",
       "homepage": "https://github.com/yyx990803/browser-audio",
       "repository": "https://github.com/yyx990803/browser-audio"
-    },
-    "author": {
-      "name": "Evan You"
-    },
-    "publisher": {
-      "username": "yyx990803",
-      "email": "yyx990803@gmail.com"
-    },
-    "maintainers": [
-      {
-        "username": "yyx990803",
-        "email": "yyx990803@gmail.com"
-      }
-    ]
-  },
-  {
-    "name": "nightwatch-helpers",
-    "scope": "unscoped",
-    "version": "1.2.0",
-    "description": "custom assertions and commands for easier nightwatch tests",
-    "keywords": [
-      "nightwatch",
-      "e2e",
-      "testing"
-    ],
-    "date": "2016-07-29T00:29:54.743Z",
-    "links": {
-      "npm": "https://www.npmjs.com/package/nightwatch-helpers"
     },
     "author": {
       "name": "Evan You"
@@ -8322,29 +8323,6 @@
     ]
   },
   {
-    "name": "babel-preset-flow-vue",
-    "scope": "unscoped",
-    "version": "1.0.0",
-    "description": "yet another preset",
-    "date": "2016-05-12T17:41:48.145Z",
-    "links": {
-      "npm": "https://www.npmjs.com/package/babel-preset-flow-vue"
-    },
-    "author": {
-      "name": "Evan You"
-    },
-    "publisher": {
-      "username": "yyx990803",
-      "email": "yyx990803@gmail.com"
-    },
-    "maintainers": [
-      {
-        "username": "yyx990803",
-        "email": "yyx990803@gmail.com"
-      }
-    ]
-  },
-  {
     "name": "@rolldown/core-linux-x64-musl",
     "scope": "rolldown",
     "version": "0.1.2",
@@ -8383,6 +8361,29 @@
       {
         "username": "broooooklyn",
         "email": "lynweklm@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "babel-preset-flow-vue",
+    "scope": "unscoped",
+    "version": "1.0.0",
+    "description": "yet another preset",
+    "date": "2016-05-12T17:41:48.145Z",
+    "links": {
+      "npm": "https://www.npmjs.com/package/babel-preset-flow-vue"
+    },
+    "author": {
+      "name": "Evan You"
+    },
+    "publisher": {
+      "username": "yyx990803",
+      "email": "yyx990803@gmail.com"
+    },
+    "maintainers": [
+      {
+        "username": "yyx990803",
+        "email": "yyx990803@gmail.com"
       }
     ]
   },
