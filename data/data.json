@@ -1,5 +1,55 @@
 [
   {
+    "name": "vite",
+    "scope": "unscoped",
+    "version": "6.0.1",
+    "description": "Native-ESM powered web dev build tool",
+    "keywords": [
+      "frontend",
+      "framework",
+      "hmr",
+      "dev-server",
+      "build-tool",
+      "vite"
+    ],
+    "date": "2024-11-27T04:57:31.332Z",
+    "links": {
+      "npm": "https://www.npmjs.com/package/vite",
+      "homepage": "https://vite.dev",
+      "repository": "https://github.com/vitejs/vite",
+      "bugs": "https://github.com/vitejs/vite/issues"
+    },
+    "author": {
+      "name": "Evan You"
+    },
+    "publisher": {
+      "username": "vitebot",
+      "email": "vitejs.twitter@gmail.com"
+    },
+    "maintainers": [
+      {
+        "username": "soda",
+        "email": "npm@haoqun.me"
+      },
+      {
+        "username": "yyx990803",
+        "email": "yyx990803@gmail.com"
+      },
+      {
+        "username": "patak",
+        "email": "hey.patak@gmail.com"
+      },
+      {
+        "username": "antfu",
+        "email": "anthonyfu117@hotmail.com"
+      },
+      {
+        "username": "vitebot",
+        "email": "vitejs.twitter@gmail.com"
+      }
+    ]
+  },
+  {
     "name": "vue",
     "scope": "unscoped",
     "version": "3.5.13",
@@ -37,61 +87,11 @@
     ]
   },
   {
-    "name": "vite",
-    "scope": "unscoped",
-    "version": "5.4.11",
-    "description": "Native-ESM powered web dev build tool",
-    "keywords": [
-      "frontend",
-      "framework",
-      "hmr",
-      "dev-server",
-      "build-tool",
-      "vite"
-    ],
-    "date": "2024-11-11T09:38:08.835Z",
-    "links": {
-      "npm": "https://www.npmjs.com/package/vite",
-      "homepage": "https://vite.dev",
-      "repository": "https://github.com/vitejs/vite",
-      "bugs": "https://github.com/vitejs/vite/issues"
-    },
-    "author": {
-      "name": "Evan You"
-    },
-    "publisher": {
-      "username": "vitebot",
-      "email": "vitejs.twitter@gmail.com"
-    },
-    "maintainers": [
-      {
-        "username": "soda",
-        "email": "npm@haoqun.me"
-      },
-      {
-        "username": "vitebot",
-        "email": "vitejs.twitter@gmail.com"
-      },
-      {
-        "username": "yyx990803",
-        "email": "yyx990803@gmail.com"
-      },
-      {
-        "username": "patak",
-        "email": "hey.patak@gmail.com"
-      },
-      {
-        "username": "antfu",
-        "email": "anthonyfu117@hotmail.com"
-      }
-    ]
-  },
-  {
     "name": "@vitejs/plugin-react",
     "scope": "vitejs",
-    "version": "4.3.3",
+    "version": "4.3.4",
     "description": "The default Vite plugin for React projects.",
-    "date": "2024-10-19T16:08:12.626Z",
+    "date": "2024-11-26T11:03:59.826Z",
     "links": {
       "npm": "https://www.npmjs.com/package/%40vitejs%2Fplugin-react",
       "homepage": "https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#readme",
@@ -111,10 +111,6 @@
         "email": "npm@haoqun.me"
       },
       {
-        "username": "vitebot",
-        "email": "vitejs.twitter@gmail.com"
-      },
-      {
         "username": "yyx990803",
         "email": "yyx990803@gmail.com"
       },
@@ -125,6 +121,10 @@
       {
         "username": "antfu",
         "email": "anthonyfu117@hotmail.com"
+      },
+      {
+        "username": "vitebot",
+        "email": "vitejs.twitter@gmail.com"
       }
     ]
   },
@@ -245,9 +245,9 @@
   {
     "name": "@vitejs/plugin-vue",
     "scope": "vitejs",
-    "version": "5.2.0",
+    "version": "5.2.1",
     "description": "> Note: as of `vue` 3.2.13+ and `@vitejs/plugin-vue` 1.9.0+, `@vue/compiler-sfc` is no longer required as a peer dependency.",
-    "date": "2024-11-13T10:39:59.452Z",
+    "date": "2024-11-26T12:47:45.443Z",
     "links": {
       "npm": "https://www.npmjs.com/package/%40vitejs%2Fplugin-vue",
       "homepage": "https://github.com/vitejs/vite-plugin-vue/tree/main/packages/plugin-vue#readme",
@@ -267,10 +267,6 @@
         "email": "npm@haoqun.me"
       },
       {
-        "username": "vitebot",
-        "email": "vitejs.twitter@gmail.com"
-      },
-      {
         "username": "yyx990803",
         "email": "yyx990803@gmail.com"
       },
@@ -281,6 +277,10 @@
       {
         "username": "antfu",
         "email": "anthonyfu117@hotmail.com"
+      },
+      {
+        "username": "vitebot",
+        "email": "vitejs.twitter@gmail.com"
       },
       {
         "username": "sxzz",
@@ -526,7 +526,7 @@
   {
     "name": "@vitejs/plugin-react-swc",
     "scope": "vitejs",
-    "version": "3.7.1",
+    "version": "3.7.2",
     "description": "Speed up your Vite dev server with SWC",
     "keywords": [
       "vite",
@@ -536,9 +536,12 @@
       "react-refresh",
       "fast refresh"
     ],
-    "date": "2024-09-29T21:22:59.709Z",
+    "date": "2024-11-26T10:22:57.001Z",
     "links": {
-      "npm": "https://www.npmjs.com/package/%40vitejs%2Fplugin-react-swc"
+      "npm": "https://www.npmjs.com/package/%40vitejs%2Fplugin-react-swc",
+      "homepage": "https://github.com/vitejs/vite-plugin-react-swc#readme",
+      "repository": "https://github.com/vitejs/vite-plugin-react-swc",
+      "bugs": "https://github.com/vitejs/vite-plugin-react-swc/issues"
     },
     "author": {
       "name": "Arnaud Barré",
@@ -554,10 +557,6 @@
         "email": "npm@haoqun.me"
       },
       {
-        "username": "vitebot",
-        "email": "vitejs.twitter@gmail.com"
-      },
-      {
         "username": "yyx990803",
         "email": "yyx990803@gmail.com"
       },
@@ -568,6 +567,10 @@
       {
         "username": "antfu",
         "email": "anthonyfu117@hotmail.com"
+      },
+      {
+        "username": "vitebot",
+        "email": "vitejs.twitter@gmail.com"
       }
     ]
   },
@@ -640,9 +643,9 @@
   {
     "name": "@vitejs/plugin-vue-jsx",
     "scope": "vitejs",
-    "version": "4.1.0",
+    "version": "4.1.1",
     "description": "Provides Vue 3 JSX & TSX support with HMR.",
-    "date": "2024-11-11T01:49:48.054Z",
+    "date": "2024-11-26T12:49:46.159Z",
     "links": {
       "npm": "https://www.npmjs.com/package/%40vitejs%2Fplugin-vue-jsx",
       "homepage": "https://github.com/vitejs/vite-plugin-vue/tree/main/packages/plugin-vue-jsx#readme",
@@ -662,10 +665,6 @@
         "email": "npm@haoqun.me"
       },
       {
-        "username": "vitebot",
-        "email": "vitejs.twitter@gmail.com"
-      },
-      {
         "username": "yyx990803",
         "email": "yyx990803@gmail.com"
       },
@@ -676,6 +675,10 @@
       {
         "username": "antfu",
         "email": "anthonyfu117@hotmail.com"
+      },
+      {
+        "username": "vitebot",
+        "email": "vitejs.twitter@gmail.com"
       },
       {
         "username": "sxzz",
@@ -1096,7 +1099,7 @@
   {
     "name": "@vitejs/plugin-legacy",
     "scope": "vitejs",
-    "version": "5.4.3",
+    "version": "6.0.0",
     "description": "Vite's default browser support baseline is [Native ESM](https://caniuse.com/es6-module), [native ESM dynamic import](https://caniuse.com/es6-module-dynamic-import), and [`import.meta`](https://caniuse.com/mdn-javascript_operators_import_meta). This plugin",
     "keywords": [
       "frontend",
@@ -1104,11 +1107,12 @@
       "vite-plugin",
       "@vitejs/plugin-legacy"
     ],
-    "date": "2024-10-25T13:12:48.959Z",
+    "date": "2024-11-26T10:44:30.002Z",
     "links": {
       "npm": "https://www.npmjs.com/package/%40vitejs%2Fplugin-legacy",
       "homepage": "https://github.com/vitejs/vite/tree/main/packages/plugin-legacy#readme",
-      "repository": "https://github.com/vitejs/vite"
+      "repository": "https://github.com/vitejs/vite",
+      "bugs": "https://github.com/vitejs/vite/issues"
     },
     "author": {
       "name": "Evan You"
@@ -1123,10 +1127,6 @@
         "email": "npm@haoqun.me"
       },
       {
-        "username": "vitebot",
-        "email": "vitejs.twitter@gmail.com"
-      },
-      {
         "username": "yyx990803",
         "email": "yyx990803@gmail.com"
       },
@@ -1137,6 +1137,10 @@
       {
         "username": "antfu",
         "email": "anthonyfu117@hotmail.com"
+      },
+      {
+        "username": "vitebot",
+        "email": "vitejs.twitter@gmail.com"
       }
     ]
   },
@@ -1414,9 +1418,9 @@
   {
     "name": "create-vite",
     "scope": "unscoped",
-    "version": "5.5.5",
+    "version": "6.0.1",
     "description": "## Scaffolding Your First Vite Project",
-    "date": "2024-10-30T09:56:30.792Z",
+    "date": "2024-11-27T04:59:07.263Z",
     "links": {
       "npm": "https://www.npmjs.com/package/create-vite",
       "homepage": "https://github.com/vitejs/vite/tree/main/packages/create-vite#readme",
@@ -1436,10 +1440,6 @@
         "email": "npm@haoqun.me"
       },
       {
-        "username": "vitebot",
-        "email": "vitejs.twitter@gmail.com"
-      },
-      {
         "username": "yyx990803",
         "email": "yyx990803@gmail.com"
       },
@@ -1450,6 +1450,10 @@
       {
         "username": "antfu",
         "email": "anthonyfu117@hotmail.com"
+      },
+      {
+        "username": "vitebot",
+        "email": "vitejs.twitter@gmail.com"
       }
     ]
   },
@@ -1693,52 +1697,6 @@
     ]
   },
   {
-    "name": "@vitejs/plugin-vue2",
-    "scope": "vitejs",
-    "version": "2.3.1",
-    "description": "> Note: this plugin only works with Vue@^2.7.0.",
-    "date": "2023-11-16T21:51:02.710Z",
-    "links": {
-      "npm": "https://www.npmjs.com/package/%40vitejs%2Fplugin-vue2",
-      "homepage": "https://github.com/vitejs/vite-plugin-vue2/#readme",
-      "repository": "https://github.com/vitejs/vite-plugin-vue2",
-      "bugs": "https://github.com/vitejs/vite-plugin-vue2/issues"
-    },
-    "author": {
-      "name": "Evan You"
-    },
-    "publisher": {
-      "username": "sxzz",
-      "email": "sxzz@sxzz.moe"
-    },
-    "maintainers": [
-      {
-        "username": "soda",
-        "email": "npm@haoqun.me"
-      },
-      {
-        "username": "vitebot",
-        "email": "vitejs.twitter@gmail.com"
-      },
-      {
-        "username": "yyx990803",
-        "email": "yyx990803@gmail.com"
-      },
-      {
-        "username": "patak",
-        "email": "matias.capeletto@gmail.com"
-      },
-      {
-        "username": "antfu",
-        "email": "anthonyfu117@hotmail.com"
-      },
-      {
-        "username": "sxzz",
-        "email": "sxzz@sxzz.moe"
-      }
-    ]
-  },
-  {
     "name": "create-vue",
     "scope": "unscoped",
     "version": "3.12.1",
@@ -1807,6 +1765,52 @@
       {
         "username": "soda",
         "email": "npm@haoqun.me"
+      }
+    ]
+  },
+  {
+    "name": "@vitejs/plugin-vue2",
+    "scope": "vitejs",
+    "version": "2.3.3",
+    "description": "> [!CAUTION] > Vue 2 has reached EOL, and this project is no longer actively maintained.",
+    "date": "2024-11-26T15:18:35.085Z",
+    "links": {
+      "npm": "https://www.npmjs.com/package/%40vitejs%2Fplugin-vue2",
+      "homepage": "https://github.com/vitejs/vite-plugin-vue2/#readme",
+      "repository": "https://github.com/vitejs/vite-plugin-vue2",
+      "bugs": "https://github.com/vitejs/vite-plugin-vue2/issues"
+    },
+    "author": {
+      "name": "Evan You"
+    },
+    "publisher": {
+      "username": "sxzz",
+      "email": "sxzz@sxzz.moe"
+    },
+    "maintainers": [
+      {
+        "username": "soda",
+        "email": "npm@haoqun.me"
+      },
+      {
+        "username": "yyx990803",
+        "email": "yyx990803@gmail.com"
+      },
+      {
+        "username": "patak",
+        "email": "hey.patak@gmail.com"
+      },
+      {
+        "username": "antfu",
+        "email": "anthonyfu117@hotmail.com"
+      },
+      {
+        "username": "vitebot",
+        "email": "vitejs.twitter@gmail.com"
+      },
+      {
+        "username": "sxzz",
+        "email": "sxzz@sxzz.moe"
       }
     ]
   },
@@ -9442,12 +9446,19 @@
     ]
   },
   {
-    "name": "@vue/publish-test",
-    "scope": "vue",
-    "version": "1.0.1",
-    "date": "2018-01-25T16:37:18.793Z",
+    "name": "starz",
+    "scope": "unscoped",
+    "version": "0.0.4",
+    "description": "count a github user's stars",
+    "keywords": [
+      "github",
+      "stars"
+    ],
+    "date": "2023-10-28T01:14:53.240Z",
     "links": {
-      "npm": "https://www.npmjs.com/package/%40vue%2Fpublish-test"
+      "npm": "https://www.npmjs.com/package/starz",
+      "homepage": "https://github.com/yyx990803/starz#readme",
+      "repository": "https://github.com/yyx990803/starz"
     },
     "author": {
       "name": "Evan You"
@@ -9464,19 +9475,12 @@
     ]
   },
   {
-    "name": "starz",
-    "scope": "unscoped",
-    "version": "0.0.4",
-    "description": "count a github user's stars",
-    "keywords": [
-      "github",
-      "stars"
-    ],
-    "date": "2023-10-28T01:14:53.240Z",
+    "name": "@vue/publish-test",
+    "scope": "vue",
+    "version": "1.0.1",
+    "date": "2018-01-25T16:37:18.793Z",
     "links": {
-      "npm": "https://www.npmjs.com/package/starz",
-      "homepage": "https://github.com/yyx990803/starz#readme",
-      "repository": "https://github.com/yyx990803/starz"
+      "npm": "https://www.npmjs.com/package/%40vue%2Fpublish-test"
     },
     "author": {
       "name": "Evan You"
