@@ -47,6 +47,36 @@
     }
   },
   {
+    "name": "@vue/shared",
+    "keywords": [
+      "vue"
+    ],
+    "version": "3.5.13",
+    "description": "internal utils shared across @vue packages",
+    "publisher": {
+      "email": "yyx990803@gmail.com",
+      "username": "yyx990803"
+    },
+    "maintainers": [
+      {
+        "email": "npm@haoqun.me",
+        "username": "soda"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      }
+    ],
+    "license": "MIT",
+    "date": "2024-11-15T14:48:47.233Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/core/tree/main/packages/shared#readme",
+      "repository": "git+https://github.com/vuejs/core.git",
+      "bugs": "https://github.com/vuejs/core/issues",
+      "npm": "https://www.npmjs.com/package/@vue/shared"
+    }
+  },
+  {
     "name": "launch-editor",
     "keywords": [
       "launch",
@@ -106,36 +136,6 @@
     }
   },
   {
-    "name": "@vue/shared",
-    "keywords": [
-      "vue"
-    ],
-    "version": "3.5.13",
-    "description": "internal utils shared across @vue packages",
-    "publisher": {
-      "email": "yyx990803@gmail.com",
-      "username": "yyx990803"
-    },
-    "maintainers": [
-      {
-        "email": "npm@haoqun.me",
-        "username": "soda"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      }
-    ],
-    "license": "MIT",
-    "date": "2024-11-15T14:48:47.233Z",
-    "links": {
-      "homepage": "https://github.com/vuejs/core/tree/main/packages/shared#readme",
-      "repository": "git+https://github.com/vuejs/core.git",
-      "bugs": "https://github.com/vuejs/core/issues",
-      "npm": "https://www.npmjs.com/package/@vue/shared"
-    }
-  },
-  {
     "name": "@vue/compiler-core",
     "keywords": [
       "vue"
@@ -163,6 +163,174 @@
       "repository": "git+https://github.com/vuejs/core.git",
       "bugs": "https://github.com/vuejs/core/issues",
       "npm": "https://www.npmjs.com/package/@vue/compiler-core"
+    }
+  },
+  {
+    "name": "de-indent",
+    "keywords": [
+      "deindent"
+    ],
+    "version": "1.0.2",
+    "description": "remove extra indent from a block of code",
+    "publisher": {
+      "email": "yyx990803@gmail.com",
+      "username": "yyx990803"
+    },
+    "maintainers": [
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      }
+    ],
+    "license": "MIT",
+    "date": "2016-01-05T17:03:34.693Z",
+    "links": {
+      "homepage": "https://github.com/yyx990803/de-indent#readme",
+      "repository": "git+https://github.com/yyx990803/de-indent.git",
+      "bugs": "https://github.com/yyx990803/de-indent/issues",
+      "npm": "https://www.npmjs.com/package/de-indent"
+    }
+  },
+  {
+    "name": "vue-template-compiler",
+    "keywords": [
+      "vue",
+      "compiler"
+    ],
+    "version": "2.7.16",
+    "description": "template compiler for Vue 2.0",
+    "publisher": {
+      "email": "yyx990803@gmail.com",
+      "username": "yyx990803"
+    },
+    "maintainers": [
+      {
+        "email": "posva13@gmail.com",
+        "username": "posva"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      }
+    ],
+    "license": "MIT",
+    "date": "2023-12-24T15:02:16.927Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/vue/tree/dev/packages/vue-template-compiler#readme",
+      "repository": "git+https://github.com/vuejs/vue.git",
+      "bugs": "https://github.com/vuejs/vue/issues",
+      "npm": "https://www.npmjs.com/package/vue-template-compiler"
+    }
+  },
+  {
+    "name": "@vue/compiler-ssr",
+    "keywords": [
+      "vue"
+    ],
+    "version": "3.5.13",
+    "description": "@vue/compiler-ssr",
+    "publisher": {
+      "email": "yyx990803@gmail.com",
+      "username": "yyx990803"
+    },
+    "maintainers": [
+      {
+        "email": "npm@haoqun.me",
+        "username": "soda"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      }
+    ],
+    "license": "MIT",
+    "date": "2024-11-15T14:48:27.159Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/core/tree/main/packages/compiler-ssr#readme",
+      "repository": "git+https://github.com/vuejs/core.git",
+      "bugs": "https://github.com/vuejs/core/issues",
+      "npm": "https://www.npmjs.com/package/@vue/compiler-ssr"
+    }
+  },
+  {
+    "name": "eslint-plugin-vue",
+    "keywords": [
+      "eslint",
+      "eslint-plugin",
+      "eslint-config",
+      "vue",
+      "vuejs",
+      "rules"
+    ],
+    "version": "9.32.0",
+    "description": "Official ESLint plugin for Vue.js",
+    "publisher": {
+      "email": "otameshiyo23@gmail.com",
+      "username": "ota-meshi"
+    },
+    "maintainers": [
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "public@mysticatea.dev",
+        "username": "mysticatea"
+      },
+      {
+        "email": "chrisvfritz@gmail.com",
+        "username": "chrisvfritz"
+      },
+      {
+        "email": "msajnog93@gmail.com",
+        "username": "michalsnik"
+      },
+      {
+        "email": "otameshiyo23@gmail.com",
+        "username": "ota-meshi"
+      }
+    ],
+    "license": "MIT",
+    "date": "2024-11-30T05:56:10.801Z",
+    "links": {
+      "homepage": "https://eslint.vuejs.org",
+      "repository": "git+https://github.com/vuejs/eslint-plugin-vue.git",
+      "bugs": "https://github.com/vuejs/eslint-plugin-vue/issues",
+      "npm": "https://www.npmjs.com/package/eslint-plugin-vue"
+    }
+  },
+  {
+    "name": "vue",
+    "keywords": [
+      "vue"
+    ],
+    "version": "3.5.13",
+    "description": "The progressive JavaScript framework for building modern web UI.",
+    "publisher": {
+      "email": "yyx990803@gmail.com",
+      "username": "yyx990803"
+    },
+    "maintainers": [
+      {
+        "email": "npm@haoqun.me",
+        "username": "soda"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "posva13@gmail.com",
+        "username": "posva"
+      }
+    ],
+    "license": "MIT",
+    "date": "2024-11-15T14:48:51.738Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/core/tree/main/packages/vue#readme",
+      "repository": "git+https://github.com/vuejs/core.git",
+      "bugs": "https://github.com/vuejs/core/issues",
+      "npm": "https://www.npmjs.com/package/vue"
     }
   },
   {
@@ -226,6 +394,46 @@
     }
   },
   {
+    "name": "@vitejs/plugin-basic-ssl",
+    "keywords": [],
+    "version": "1.2.0",
+    "description": "A plugin to generate untrusted certificates which still allows to access the page after proceeding a wall with warning.",
+    "publisher": {
+      "email": "hey.patak@gmail.com",
+      "username": "patak"
+    },
+    "maintainers": [
+      {
+        "email": "npm@haoqun.me",
+        "username": "soda"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "hey.patak@gmail.com",
+        "username": "patak"
+      },
+      {
+        "email": "anthonyfu117@hotmail.com",
+        "username": "antfu"
+      },
+      {
+        "email": "vitejs.twitter@gmail.com",
+        "username": "vitebot"
+      }
+    ],
+    "license": "MIT",
+    "date": "2024-11-27T06:28:03.221Z",
+    "links": {
+      "homepage": "https://github.com/vitejs/vite-plugin-basic-ssl/#readme",
+      "repository": "git+https://github.com/vitejs/vite-plugin-basic-ssl.git",
+      "bugs": "https://github.com/vitejs/vite-plugin-basic-ssl/issues",
+      "npm": "https://www.npmjs.com/package/@vitejs/plugin-basic-ssl"
+    }
+  },
+  {
     "name": "@vue/compiler-sfc",
     "keywords": [
       "vue"
@@ -253,143 +461,6 @@
       "repository": "git+https://github.com/vuejs/core.git",
       "bugs": "https://github.com/vuejs/core/issues",
       "npm": "https://www.npmjs.com/package/@vue/compiler-sfc"
-    }
-  },
-  {
-    "name": "de-indent",
-    "keywords": [
-      "deindent"
-    ],
-    "version": "1.0.2",
-    "description": "remove extra indent from a block of code",
-    "publisher": {
-      "email": "yyx990803@gmail.com",
-      "username": "yyx990803"
-    },
-    "maintainers": [
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      }
-    ],
-    "license": "MIT",
-    "date": "2016-01-05T17:03:34.693Z",
-    "links": {
-      "homepage": "https://github.com/yyx990803/de-indent#readme",
-      "repository": "git+https://github.com/yyx990803/de-indent.git",
-      "bugs": "https://github.com/yyx990803/de-indent/issues",
-      "npm": "https://www.npmjs.com/package/de-indent"
-    }
-  },
-  {
-    "name": "@vue/compiler-ssr",
-    "keywords": [
-      "vue"
-    ],
-    "version": "3.5.13",
-    "description": "@vue/compiler-ssr",
-    "publisher": {
-      "email": "yyx990803@gmail.com",
-      "username": "yyx990803"
-    },
-    "maintainers": [
-      {
-        "email": "npm@haoqun.me",
-        "username": "soda"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      }
-    ],
-    "license": "MIT",
-    "date": "2024-11-15T14:48:27.159Z",
-    "links": {
-      "homepage": "https://github.com/vuejs/core/tree/main/packages/compiler-ssr#readme",
-      "repository": "git+https://github.com/vuejs/core.git",
-      "bugs": "https://github.com/vuejs/core/issues",
-      "npm": "https://www.npmjs.com/package/@vue/compiler-ssr"
-    }
-  },
-  {
-    "name": "vue",
-    "keywords": [
-      "vue"
-    ],
-    "version": "3.5.13",
-    "description": "The progressive JavaScript framework for building modern web UI.",
-    "publisher": {
-      "email": "yyx990803@gmail.com",
-      "username": "yyx990803"
-    },
-    "maintainers": [
-      {
-        "email": "npm@haoqun.me",
-        "username": "soda"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "posva13@gmail.com",
-        "username": "posva"
-      }
-    ],
-    "license": "MIT",
-    "date": "2024-11-15T14:48:51.738Z",
-    "links": {
-      "homepage": "https://github.com/vuejs/core/tree/main/packages/vue#readme",
-      "repository": "git+https://github.com/vuejs/core.git",
-      "bugs": "https://github.com/vuejs/core/issues",
-      "npm": "https://www.npmjs.com/package/vue"
-    }
-  },
-  {
-    "name": "eslint-plugin-vue",
-    "keywords": [
-      "eslint",
-      "eslint-plugin",
-      "eslint-config",
-      "vue",
-      "vuejs",
-      "rules"
-    ],
-    "version": "9.32.0",
-    "description": "Official ESLint plugin for Vue.js",
-    "publisher": {
-      "email": "otameshiyo23@gmail.com",
-      "username": "ota-meshi"
-    },
-    "maintainers": [
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "public@mysticatea.dev",
-        "username": "mysticatea"
-      },
-      {
-        "email": "chrisvfritz@gmail.com",
-        "username": "chrisvfritz"
-      },
-      {
-        "email": "msajnog93@gmail.com",
-        "username": "michalsnik"
-      },
-      {
-        "email": "otameshiyo23@gmail.com",
-        "username": "ota-meshi"
-      }
-    ],
-    "license": "MIT",
-    "date": "2024-11-30T05:56:10.801Z",
-    "links": {
-      "homepage": "https://eslint.vuejs.org",
-      "repository": "git+https://github.com/vuejs/eslint-plugin-vue.git",
-      "bugs": "https://github.com/vuejs/eslint-plugin-vue/issues",
-      "npm": "https://www.npmjs.com/package/eslint-plugin-vue"
     }
   },
   {
@@ -433,242 +504,6 @@
     }
   },
   {
-    "name": "vue-template-compiler",
-    "keywords": [
-      "vue",
-      "compiler"
-    ],
-    "version": "2.7.16",
-    "description": "template compiler for Vue 2.0",
-    "publisher": {
-      "email": "yyx990803@gmail.com",
-      "username": "yyx990803"
-    },
-    "maintainers": [
-      {
-        "email": "posva13@gmail.com",
-        "username": "posva"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      }
-    ],
-    "license": "MIT",
-    "date": "2023-12-24T15:02:16.927Z",
-    "links": {
-      "homepage": "https://github.com/vuejs/vue/tree/dev/packages/vue-template-compiler#readme",
-      "repository": "git+https://github.com/vuejs/vue.git",
-      "bugs": "https://github.com/vuejs/vue/issues",
-      "npm": "https://www.npmjs.com/package/vue-template-compiler"
-    }
-  },
-  {
-    "name": "@vitejs/plugin-basic-ssl",
-    "keywords": [],
-    "version": "1.2.0",
-    "description": "A plugin to generate untrusted certificates which still allows to access the page after proceeding a wall with warning.",
-    "publisher": {
-      "email": "hey.patak@gmail.com",
-      "username": "patak"
-    },
-    "maintainers": [
-      {
-        "email": "npm@haoqun.me",
-        "username": "soda"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "hey.patak@gmail.com",
-        "username": "patak"
-      },
-      {
-        "email": "anthonyfu117@hotmail.com",
-        "username": "antfu"
-      },
-      {
-        "email": "vitejs.twitter@gmail.com",
-        "username": "vitebot"
-      }
-    ],
-    "license": "MIT",
-    "date": "2024-11-27T06:28:03.221Z",
-    "links": {
-      "homepage": "https://github.com/vitejs/vite-plugin-basic-ssl/#readme",
-      "repository": "git+https://github.com/vitejs/vite-plugin-basic-ssl.git",
-      "bugs": "https://github.com/vitejs/vite-plugin-basic-ssl/issues",
-      "npm": "https://www.npmjs.com/package/@vitejs/plugin-basic-ssl"
-    }
-  },
-  {
-    "name": "@vue/runtime-dom",
-    "keywords": [
-      "vue"
-    ],
-    "version": "3.5.13",
-    "description": "@vue/runtime-dom",
-    "publisher": {
-      "email": "yyx990803@gmail.com",
-      "username": "yyx990803"
-    },
-    "maintainers": [
-      {
-        "email": "npm@haoqun.me",
-        "username": "soda"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      }
-    ],
-    "license": "MIT",
-    "date": "2024-11-15T14:48:39.254Z",
-    "links": {
-      "homepage": "https://github.com/vuejs/core/tree/main/packages/runtime-dom#readme",
-      "repository": "git+https://github.com/vuejs/core.git",
-      "bugs": "https://github.com/vuejs/core/issues",
-      "npm": "https://www.npmjs.com/package/@vue/runtime-dom"
-    }
-  },
-  {
-    "name": "@vue/test-utils",
-    "keywords": [],
-    "version": "2.4.6",
-    "description": "Component testing utils for Vue 3.",
-    "publisher": {
-      "email": "lachlan.miller.1990@outlook.com",
-      "username": "lmiller1990"
-    },
-    "maintainers": [
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "edward.yerburgh@gmail.com",
-        "username": "eddyerburgh"
-      },
-      {
-        "email": "dobromir92@gmail.com",
-        "username": "dobromir-hristov"
-      },
-      {
-        "email": "lachlan.miller.1990@outlook.com",
-        "username": "lmiller1990"
-      },
-      {
-        "email": "afontcu@gmail.com",
-        "username": "afontcu"
-      }
-    ],
-    "license": "MIT",
-    "date": "2024-05-07T00:07:48.868Z",
-    "links": {
-      "homepage": "https://github.com/vuejs/test-utils",
-      "repository": "git+https://github.com/vuejs/test-utils.git",
-      "bugs": "https://github.com/vuejs/test-utils/issues",
-      "npm": "https://www.npmjs.com/package/@vue/test-utils"
-    }
-  },
-  {
-    "name": "@vue/server-renderer",
-    "keywords": [
-      "vue"
-    ],
-    "version": "3.5.13",
-    "description": "@vue/server-renderer",
-    "publisher": {
-      "email": "yyx990803@gmail.com",
-      "username": "yyx990803"
-    },
-    "maintainers": [
-      {
-        "email": "npm@haoqun.me",
-        "username": "soda"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      }
-    ],
-    "license": "MIT",
-    "date": "2024-11-15T14:48:43.403Z",
-    "links": {
-      "homepage": "https://github.com/vuejs/core/tree/main/packages/server-renderer#readme",
-      "repository": "git+https://github.com/vuejs/core.git",
-      "bugs": "https://github.com/vuejs/core/issues",
-      "npm": "https://www.npmjs.com/package/@vue/server-renderer"
-    }
-  },
-  {
-    "name": "@vue/runtime-core",
-    "keywords": [
-      "vue"
-    ],
-    "version": "3.5.13",
-    "description": "@vue/runtime-core",
-    "publisher": {
-      "email": "yyx990803@gmail.com",
-      "username": "yyx990803"
-    },
-    "maintainers": [
-      {
-        "email": "npm@haoqun.me",
-        "username": "soda"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      }
-    ],
-    "license": "MIT",
-    "date": "2024-11-15T14:48:35.074Z",
-    "links": {
-      "homepage": "https://github.com/vuejs/core/tree/main/packages/runtime-core#readme",
-      "repository": "git+https://github.com/vuejs/core.git",
-      "bugs": "https://github.com/vuejs/core/issues",
-      "npm": "https://www.npmjs.com/package/@vue/runtime-core"
-    }
-  },
-  {
-    "name": "@vue/web-component-wrapper",
-    "keywords": [
-      "vue",
-      "web-component"
-    ],
-    "version": "1.3.0",
-    "description": "wrap a vue component as a web component.",
-    "publisher": {
-      "email": "haoqunjiang+npm@gmail.com",
-      "username": "soda"
-    },
-    "maintainers": [
-      {
-        "email": "guillaume.b.chau@gmail.com",
-        "username": "akryum"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "haoqunjiang+npm@gmail.com",
-        "username": "soda"
-      }
-    ],
-    "license": "MIT",
-    "date": "2021-02-13T11:41:28.267Z",
-    "links": {
-      "homepage": "https://github.com/vuejs/web-component-wrapper#readme",
-      "repository": "git+https://github.com/vuejs/web-component-wrapper.git",
-      "bugs": "https://github.com/vuejs/web-component-wrapper/issues",
-      "npm": "https://www.npmjs.com/package/@vue/web-component-wrapper"
-    }
-  },
-  {
     "name": "vuex",
     "keywords": [],
     "version": "4.1.0",
@@ -702,46 +537,6 @@
       "repository": "git+https://github.com/vuejs/vuex.git",
       "bugs": "https://github.com/vuejs/vuex/issues",
       "npm": "https://www.npmjs.com/package/vuex"
-    }
-  },
-  {
-    "name": "@vue/devtools-api",
-    "keywords": [],
-    "version": "7.6.7",
-    "description": "> Plugins API for easier DevTools integrations.",
-    "publisher": {
-      "email": "webfansplz@gmail.com",
-      "username": "webfansplz"
-    },
-    "maintainers": [
-      {
-        "email": "msajnog93@gmail.com",
-        "username": "michalsnik"
-      },
-      {
-        "email": "guillaume.b.chau@gmail.com",
-        "username": "akryum"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "npm@haoqun.me",
-        "username": "soda"
-      },
-      {
-        "email": "webfansplz@gmail.com",
-        "username": "webfansplz"
-      }
-    ],
-    "license": "MIT",
-    "date": "2024-11-28T15:02:28.693Z",
-    "links": {
-      "homepage": "https://github.com/vuejs/devtools#readme",
-      "repository": "git+https://github.com/vuejs/devtools.git",
-      "bugs": "https://github.com/vuejs/devtools/issues",
-      "npm": "https://www.npmjs.com/package/@vue/devtools-api"
     }
   },
   {
@@ -797,6 +592,106 @@
     }
   },
   {
+    "name": "@vue/runtime-dom",
+    "keywords": [
+      "vue"
+    ],
+    "version": "3.5.13",
+    "description": "@vue/runtime-dom",
+    "publisher": {
+      "email": "yyx990803@gmail.com",
+      "username": "yyx990803"
+    },
+    "maintainers": [
+      {
+        "email": "npm@haoqun.me",
+        "username": "soda"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      }
+    ],
+    "license": "MIT",
+    "date": "2024-11-15T14:48:39.254Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/core/tree/main/packages/runtime-dom#readme",
+      "repository": "git+https://github.com/vuejs/core.git",
+      "bugs": "https://github.com/vuejs/core/issues",
+      "npm": "https://www.npmjs.com/package/@vue/runtime-dom"
+    }
+  },
+  {
+    "name": "@vue/server-renderer",
+    "keywords": [
+      "vue"
+    ],
+    "version": "3.5.13",
+    "description": "@vue/server-renderer",
+    "publisher": {
+      "email": "yyx990803@gmail.com",
+      "username": "yyx990803"
+    },
+    "maintainers": [
+      {
+        "email": "npm@haoqun.me",
+        "username": "soda"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      }
+    ],
+    "license": "MIT",
+    "date": "2024-11-15T14:48:43.403Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/core/tree/main/packages/server-renderer#readme",
+      "repository": "git+https://github.com/vuejs/core.git",
+      "bugs": "https://github.com/vuejs/core/issues",
+      "npm": "https://www.npmjs.com/package/@vue/server-renderer"
+    }
+  },
+  {
+    "name": "@vue/test-utils",
+    "keywords": [],
+    "version": "2.4.6",
+    "description": "Component testing utils for Vue 3.",
+    "publisher": {
+      "email": "lachlan.miller.1990@outlook.com",
+      "username": "lmiller1990"
+    },
+    "maintainers": [
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "edward.yerburgh@gmail.com",
+        "username": "eddyerburgh"
+      },
+      {
+        "email": "dobromir92@gmail.com",
+        "username": "dobromir-hristov"
+      },
+      {
+        "email": "lachlan.miller.1990@outlook.com",
+        "username": "lmiller1990"
+      },
+      {
+        "email": "afontcu@gmail.com",
+        "username": "afontcu"
+      }
+    ],
+    "license": "MIT",
+    "date": "2024-05-07T00:07:48.868Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/test-utils",
+      "repository": "git+https://github.com/vuejs/test-utils.git",
+      "bugs": "https://github.com/vuejs/test-utils/issues",
+      "npm": "https://www.npmjs.com/package/@vue/test-utils"
+    }
+  },
+  {
     "name": "@vitejs/plugin-vue",
     "keywords": [],
     "version": "5.2.1",
@@ -838,6 +733,201 @@
       "repository": "git+https://github.com/vitejs/vite-plugin-vue.git",
       "bugs": "https://github.com/vitejs/vite-plugin-vue/issues",
       "npm": "https://www.npmjs.com/package/@vitejs/plugin-vue"
+    }
+  },
+  {
+    "name": "@vue/runtime-core",
+    "keywords": [
+      "vue"
+    ],
+    "version": "3.5.13",
+    "description": "@vue/runtime-core",
+    "publisher": {
+      "email": "yyx990803@gmail.com",
+      "username": "yyx990803"
+    },
+    "maintainers": [
+      {
+        "email": "npm@haoqun.me",
+        "username": "soda"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      }
+    ],
+    "license": "MIT",
+    "date": "2024-11-15T14:48:35.074Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/core/tree/main/packages/runtime-core#readme",
+      "repository": "git+https://github.com/vuejs/core.git",
+      "bugs": "https://github.com/vuejs/core/issues",
+      "npm": "https://www.npmjs.com/package/@vue/runtime-core"
+    }
+  },
+  {
+    "name": "@vue/devtools-api",
+    "keywords": [],
+    "version": "7.6.7",
+    "description": "> Plugins API for easier DevTools integrations.",
+    "publisher": {
+      "email": "webfansplz@gmail.com",
+      "username": "webfansplz"
+    },
+    "maintainers": [
+      {
+        "email": "msajnog93@gmail.com",
+        "username": "michalsnik"
+      },
+      {
+        "email": "guillaume.b.chau@gmail.com",
+        "username": "akryum"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "npm@haoqun.me",
+        "username": "soda"
+      },
+      {
+        "email": "webfansplz@gmail.com",
+        "username": "webfansplz"
+      }
+    ],
+    "license": "MIT",
+    "date": "2024-11-28T15:02:28.693Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/devtools#readme",
+      "repository": "git+https://github.com/vuejs/devtools.git",
+      "bugs": "https://github.com/vuejs/devtools/issues",
+      "npm": "https://www.npmjs.com/package/@vue/devtools-api"
+    }
+  },
+  {
+    "name": "@vue/web-component-wrapper",
+    "keywords": [
+      "vue",
+      "web-component"
+    ],
+    "version": "1.3.0",
+    "description": "wrap a vue component as a web component.",
+    "publisher": {
+      "email": "haoqunjiang+npm@gmail.com",
+      "username": "soda"
+    },
+    "maintainers": [
+      {
+        "email": "guillaume.b.chau@gmail.com",
+        "username": "akryum"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "haoqunjiang+npm@gmail.com",
+        "username": "soda"
+      }
+    ],
+    "license": "MIT",
+    "date": "2021-02-13T11:41:28.267Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/web-component-wrapper#readme",
+      "repository": "git+https://github.com/vuejs/web-component-wrapper.git",
+      "bugs": "https://github.com/vuejs/web-component-wrapper/issues",
+      "npm": "https://www.npmjs.com/package/@vue/web-component-wrapper"
+    }
+  },
+  {
+    "name": "@vue/eslint-config-prettier",
+    "keywords": [
+      "vue",
+      "create-vue",
+      "create-eslint-config",
+      "eslint",
+      "prettier"
+    ],
+    "version": "10.1.0",
+    "description": "eslint-config-prettier for create-vue",
+    "publisher": {
+      "email": "npm@haoqun.me",
+      "username": "soda"
+    },
+    "maintainers": [
+      {
+        "email": "guillaume.b.chau@gmail.com",
+        "username": "akryum"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "npm@haoqun.me",
+        "username": "soda"
+      },
+      {
+        "email": "msajnog93@gmail.com",
+        "username": "michalsnik"
+      },
+      {
+        "email": "public@mysticatea.dev",
+        "username": "mysticatea"
+      }
+    ],
+    "license": "MIT",
+    "date": "2024-10-23T08:59:50.158Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/eslint-config-prettier#readme",
+      "repository": "git+https://github.com/vuejs/eslint-config-prettier.git",
+      "bugs": "https://github.com/vuejs/eslint-config-prettier/issues",
+      "npm": "https://www.npmjs.com/package/@vue/eslint-config-prettier"
+    }
+  },
+  {
+    "name": "@vitejs/plugin-vue-jsx",
+    "keywords": [],
+    "version": "4.1.1",
+    "description": "Provides Vue 3 JSX & TSX support with HMR.",
+    "publisher": {
+      "email": "vitejs.twitter@gmail.com",
+      "username": "vitebot"
+    },
+    "maintainers": [
+      {
+        "email": "npm@haoqun.me",
+        "username": "soda"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "hey.patak@gmail.com",
+        "username": "patak"
+      },
+      {
+        "email": "anthonyfu117@hotmail.com",
+        "username": "antfu"
+      },
+      {
+        "email": "vitejs.twitter@gmail.com",
+        "username": "vitebot"
+      },
+      {
+        "email": "sxzz@sxzz.moe",
+        "username": "sxzz"
+      }
+    ],
+    "license": "MIT",
+    "date": "2024-11-26T12:49:46.159Z",
+    "links": {
+      "homepage": "https://github.com/vitejs/vite-plugin-vue/tree/main/packages/plugin-vue-jsx#readme",
+      "repository": "git+https://github.com/vitejs/vite-plugin-vue.git",
+      "bugs": "https://github.com/vitejs/vite-plugin-vue/issues",
+      "npm": "https://www.npmjs.com/package/@vitejs/plugin-vue-jsx"
     }
   },
   {
@@ -968,53 +1058,6 @@
     }
   },
   {
-    "name": "@vitejs/plugin-react-swc",
-    "keywords": [
-      "vite",
-      "vite-plugin",
-      "react",
-      "swc",
-      "react-refresh",
-      "fast refresh"
-    ],
-    "version": "3.7.2",
-    "description": "Speed up your Vite dev server with SWC",
-    "publisher": {
-      "email": "vitejs.twitter@gmail.com",
-      "username": "vitebot"
-    },
-    "maintainers": [
-      {
-        "email": "npm@haoqun.me",
-        "username": "soda"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "hey.patak@gmail.com",
-        "username": "patak"
-      },
-      {
-        "email": "anthonyfu117@hotmail.com",
-        "username": "antfu"
-      },
-      {
-        "email": "vitejs.twitter@gmail.com",
-        "username": "vitebot"
-      }
-    ],
-    "license": "MIT",
-    "date": "2024-11-26T10:22:57.001Z",
-    "links": {
-      "homepage": "https://github.com/vitejs/vite-plugin-react-swc#readme",
-      "repository": "git+https://github.com/vitejs/vite-plugin-react-swc.git",
-      "bugs": "https://github.com/vitejs/vite-plugin-react-swc/issues",
-      "npm": "https://www.npmjs.com/package/@vitejs/plugin-react-swc"
-    }
-  },
-  {
     "name": "@vue/babel-helper-vue-jsx-merge-props",
     "keywords": [],
     "version": "1.4.0",
@@ -1079,6 +1122,53 @@
     }
   },
   {
+    "name": "@vitejs/plugin-react-swc",
+    "keywords": [
+      "vite",
+      "vite-plugin",
+      "react",
+      "swc",
+      "react-refresh",
+      "fast refresh"
+    ],
+    "version": "3.7.2",
+    "description": "Speed up your Vite dev server with SWC",
+    "publisher": {
+      "email": "vitejs.twitter@gmail.com",
+      "username": "vitebot"
+    },
+    "maintainers": [
+      {
+        "email": "npm@haoqun.me",
+        "username": "soda"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "hey.patak@gmail.com",
+        "username": "patak"
+      },
+      {
+        "email": "anthonyfu117@hotmail.com",
+        "username": "antfu"
+      },
+      {
+        "email": "vitejs.twitter@gmail.com",
+        "username": "vitebot"
+      }
+    ],
+    "license": "MIT",
+    "date": "2024-11-26T10:22:57.001Z",
+    "links": {
+      "homepage": "https://github.com/vitejs/vite-plugin-react-swc#readme",
+      "repository": "git+https://github.com/vitejs/vite-plugin-react-swc.git",
+      "bugs": "https://github.com/vitejs/vite-plugin-react-swc/issues",
+      "npm": "https://www.npmjs.com/package/@vitejs/plugin-react-swc"
+    }
+  },
+  {
     "name": "vue-hot-reload-api",
     "keywords": [
       "vue",
@@ -1108,6 +1198,79 @@
       "repository": "git+https://github.com/vuejs/vue-hot-reload-api.git",
       "bugs": "https://github.com/vuejs/vue-hot-reload-api/issues",
       "npm": "https://www.npmjs.com/package/vue-hot-reload-api"
+    }
+  },
+  {
+    "name": "@vue/babel-helper-vue-transform-on",
+    "keywords": [],
+    "version": "1.2.5",
+    "description": "to help transform on",
+    "publisher": {
+      "email": "sxzz@sxzz.moe",
+      "username": "sxzz"
+    },
+    "maintainers": [
+      {
+        "email": "sxzz@sxzz.moe",
+        "username": "sxzz"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "npm@haoqun.me",
+        "username": "soda"
+      },
+      {
+        "email": "lcz_1996@foxmail.com",
+        "username": "amour1688"
+      }
+    ],
+    "license": "MIT",
+    "date": "2024-09-11T11:23:47.166Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/babel-plugin-jsx#readme",
+      "repository": "git+https://github.com/vuejs/babel-plugin-jsx.git",
+      "bugs": "https://github.com/vuejs/babel-plugin-jsx/issues",
+      "npm": "https://www.npmjs.com/package/@vue/babel-helper-vue-transform-on"
+    }
+  },
+  {
+    "name": "@vue/component-compiler-utils",
+    "keywords": [
+      "vue",
+      "sfc",
+      "component",
+      "compiler"
+    ],
+    "version": "3.3.0",
+    "description": "Lower level utilities for compiling Vue single file components",
+    "publisher": {
+      "email": "haoqunjiang+npm@gmail.com",
+      "username": "soda"
+    },
+    "maintainers": [
+      {
+        "email": "guillaume.b.chau@gmail.com",
+        "username": "akryum"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "haoqunjiang+npm@gmail.com",
+        "username": "soda"
+      }
+    ],
+    "license": "MIT",
+    "date": "2021-10-26T07:41:16.650Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/component-compiler-utils#readme",
+      "repository": "git+https://github.com/vuejs/component-compiler-utils.git",
+      "bugs": "https://github.com/vuejs/component-compiler-utils/issues",
+      "npm": "https://www.npmjs.com/package/@vue/component-compiler-utils"
     }
   },
   {
@@ -1189,122 +1352,35 @@
     }
   },
   {
-    "name": "@vue/babel-helper-vue-transform-on",
+    "name": "@vue/babel-sugar-functional-vue",
     "keywords": [],
-    "version": "1.2.5",
-    "description": "to help transform on",
-    "publisher": {
-      "email": "sxzz@sxzz.moe",
-      "username": "sxzz"
-    },
-    "maintainers": [
-      {
-        "email": "sxzz@sxzz.moe",
-        "username": "sxzz"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "npm@haoqun.me",
-        "username": "soda"
-      },
-      {
-        "email": "lcz_1996@foxmail.com",
-        "username": "amour1688"
-      }
-    ],
-    "license": "MIT",
-    "date": "2024-09-11T11:23:47.166Z",
-    "links": {
-      "homepage": "https://github.com/vuejs/babel-plugin-jsx#readme",
-      "repository": "git+https://github.com/vuejs/babel-plugin-jsx.git",
-      "bugs": "https://github.com/vuejs/babel-plugin-jsx/issues",
-      "npm": "https://www.npmjs.com/package/@vue/babel-helper-vue-transform-on"
-    }
-  },
-  {
-    "name": "@vue/component-compiler-utils",
-    "keywords": [
-      "vue",
-      "sfc",
-      "component",
-      "compiler"
-    ],
-    "version": "3.3.0",
-    "description": "Lower level utilities for compiling Vue single file components",
+    "version": "1.4.0",
+    "description": "Babel syntactic sugar for functional components",
     "publisher": {
       "email": "haoqunjiang+npm@gmail.com",
       "username": "soda"
     },
     "maintainers": [
       {
-        "email": "guillaume.b.chau@gmail.com",
-        "username": "akryum"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
+        "email": "dot.nick.dot.messing@gmail.com",
+        "username": "nickmessing"
       },
       {
         "email": "haoqunjiang+npm@gmail.com",
         "username": "soda"
-      }
-    ],
-    "license": "MIT",
-    "date": "2021-10-26T07:41:16.650Z",
-    "links": {
-      "homepage": "https://github.com/vuejs/component-compiler-utils#readme",
-      "repository": "git+https://github.com/vuejs/component-compiler-utils.git",
-      "bugs": "https://github.com/vuejs/component-compiler-utils/issues",
-      "npm": "https://www.npmjs.com/package/@vue/component-compiler-utils"
-    }
-  },
-  {
-    "name": "@vue/eslint-config-prettier",
-    "keywords": [
-      "vue",
-      "create-vue",
-      "create-eslint-config",
-      "eslint",
-      "prettier"
-    ],
-    "version": "10.1.0",
-    "description": "eslint-config-prettier for create-vue",
-    "publisher": {
-      "email": "npm@haoqun.me",
-      "username": "soda"
-    },
-    "maintainers": [
-      {
-        "email": "guillaume.b.chau@gmail.com",
-        "username": "akryum"
       },
       {
         "email": "yyx990803@gmail.com",
         "username": "yyx990803"
-      },
-      {
-        "email": "npm@haoqun.me",
-        "username": "soda"
-      },
-      {
-        "email": "msajnog93@gmail.com",
-        "username": "michalsnik"
-      },
-      {
-        "email": "public@mysticatea.dev",
-        "username": "mysticatea"
       }
     ],
     "license": "MIT",
-    "date": "2024-10-23T08:59:50.158Z",
+    "date": "2022-08-25T11:55:05.545Z",
     "links": {
-      "homepage": "https://github.com/vuejs/eslint-config-prettier#readme",
-      "repository": "git+https://github.com/vuejs/eslint-config-prettier.git",
-      "bugs": "https://github.com/vuejs/eslint-config-prettier/issues",
-      "npm": "https://www.npmjs.com/package/@vue/eslint-config-prettier"
+      "homepage": "https://github.com/vuejs/jsx/tree/master#readme",
+      "repository": "git+https://github.com/vuejs/jsx.git#master",
+      "bugs": "https://github.com/vuejs/jsx/issues",
+      "npm": "https://www.npmjs.com/package/@vue/babel-sugar-functional-vue"
     }
   },
   {
@@ -1333,50 +1409,6 @@
       "repository": "git+https://github.com/vuejs/babel-helper-vue-jsx-merge-props.git",
       "bugs": "https://github.com/vuejs/babel-helper-vue-jsx-merge-props/issues",
       "npm": "https://www.npmjs.com/package/babel-helper-vue-jsx-merge-props"
-    }
-  },
-  {
-    "name": "@vitejs/plugin-vue-jsx",
-    "keywords": [],
-    "version": "4.1.1",
-    "description": "Provides Vue 3 JSX & TSX support with HMR.",
-    "publisher": {
-      "email": "vitejs.twitter@gmail.com",
-      "username": "vitebot"
-    },
-    "maintainers": [
-      {
-        "email": "npm@haoqun.me",
-        "username": "soda"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "hey.patak@gmail.com",
-        "username": "patak"
-      },
-      {
-        "email": "anthonyfu117@hotmail.com",
-        "username": "antfu"
-      },
-      {
-        "email": "vitejs.twitter@gmail.com",
-        "username": "vitebot"
-      },
-      {
-        "email": "sxzz@sxzz.moe",
-        "username": "sxzz"
-      }
-    ],
-    "license": "MIT",
-    "date": "2024-11-26T12:49:46.159Z",
-    "links": {
-      "homepage": "https://github.com/vitejs/vite-plugin-vue/tree/main/packages/plugin-vue-jsx#readme",
-      "repository": "git+https://github.com/vitejs/vite-plugin-vue.git",
-      "bugs": "https://github.com/vitejs/vite-plugin-vue/issues",
-      "npm": "https://www.npmjs.com/package/@vitejs/plugin-vue-jsx"
     }
   },
   {
@@ -1540,35 +1572,42 @@
     }
   },
   {
-    "name": "@vue/babel-sugar-v-model",
-    "keywords": [],
-    "version": "1.4.0",
-    "description": "Babel syntactic sugar for v-model support in Vue JSX",
+    "name": "@vue/preload-webpack-plugin",
+    "keywords": [
+      "webpack",
+      "plugin",
+      "html-webpack-plugin",
+      "script",
+      "preload",
+      "resource hints"
+    ],
+    "version": "2.0.0",
+    "description": "A webpack plugin for injecting <link rel='preload|prefecth'> into HtmlWebpackPlugin pages, with async chunk support",
     "publisher": {
       "email": "haoqunjiang+npm@gmail.com",
       "username": "soda"
     },
     "maintainers": [
       {
-        "email": "dot.nick.dot.messing@gmail.com",
-        "username": "nickmessing"
-      },
-      {
-        "email": "haoqunjiang+npm@gmail.com",
-        "username": "soda"
+        "email": "guillaume.b.chau@gmail.com",
+        "username": "akryum"
       },
       {
         "email": "yyx990803@gmail.com",
         "username": "yyx990803"
+      },
+      {
+        "email": "haoqunjiang+npm@gmail.com",
+        "username": "soda"
       }
     ],
-    "license": "MIT",
-    "date": "2022-08-25T11:55:08.119Z",
+    "license": "Apache-2.0",
+    "date": "2021-02-13T11:13:41.421Z",
     "links": {
-      "homepage": "https://github.com/vuejs/jsx/tree/master#readme",
-      "repository": "git+https://github.com/vuejs/jsx.git#master",
-      "bugs": "https://github.com/vuejs/jsx/issues",
-      "npm": "https://www.npmjs.com/package/@vue/babel-sugar-v-model"
+      "homepage": "https://github.com/vuejs/preload-webpack-plugin",
+      "repository": "git+https://github.com/vuejs/preload-webpack-plugin.git",
+      "bugs": "https://github.com/vuejs/preload-webpack-plugin/issues",
+      "npm": "https://www.npmjs.com/package/@vue/preload-webpack-plugin"
     }
   },
   {
@@ -1618,10 +1657,10 @@
     }
   },
   {
-    "name": "@vue/babel-sugar-functional-vue",
+    "name": "@vue/babel-sugar-v-model",
     "keywords": [],
     "version": "1.4.0",
-    "description": "Babel syntactic sugar for functional components",
+    "description": "Babel syntactic sugar for v-model support in Vue JSX",
     "publisher": {
       "email": "haoqunjiang+npm@gmail.com",
       "username": "soda"
@@ -1641,12 +1680,80 @@
       }
     ],
     "license": "MIT",
-    "date": "2022-08-25T11:55:05.545Z",
+    "date": "2022-08-25T11:55:08.119Z",
     "links": {
       "homepage": "https://github.com/vuejs/jsx/tree/master#readme",
       "repository": "git+https://github.com/vuejs/jsx.git#master",
       "bugs": "https://github.com/vuejs/jsx/issues",
-      "npm": "https://www.npmjs.com/package/@vue/babel-sugar-functional-vue"
+      "npm": "https://www.npmjs.com/package/@vue/babel-sugar-v-model"
+    }
+  },
+  {
+    "name": "@vue/cli-plugin-vuex",
+    "keywords": [
+      "vue",
+      "cli",
+      "vuex"
+    ],
+    "version": "5.0.8",
+    "description": "Vuex plugin for vue-cli",
+    "publisher": {
+      "email": "haoqunjiang+npm@gmail.com",
+      "username": "soda"
+    },
+    "maintainers": [
+      {
+        "email": "guillaume.b.chau@gmail.com",
+        "username": "akryum"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "haoqunjiang+npm@gmail.com",
+        "username": "soda"
+      }
+    ],
+    "license": "MIT",
+    "date": "2022-07-07T10:22:05.739Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/vue-cli/tree/dev/packages/@vue/cli-plugin-vuex#readme",
+      "repository": "git+https://github.com/vuejs/vue-cli.git",
+      "bugs": "https://github.com/vuejs/vue-cli/issues",
+      "npm": "https://www.npmjs.com/package/@vue/cli-plugin-vuex"
+    }
+  },
+  {
+    "name": "@vue/babel-preset-jsx",
+    "keywords": [],
+    "version": "1.4.0",
+    "description": "Babel preset for Vue JSX",
+    "publisher": {
+      "email": "haoqunjiang+npm@gmail.com",
+      "username": "soda"
+    },
+    "maintainers": [
+      {
+        "email": "dot.nick.dot.messing@gmail.com",
+        "username": "nickmessing"
+      },
+      {
+        "email": "haoqunjiang+npm@gmail.com",
+        "username": "soda"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      }
+    ],
+    "license": "MIT",
+    "date": "2022-08-25T11:55:09.105Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/jsx/tree/master#readme",
+      "repository": "git+https://github.com/vuejs/jsx.git#master",
+      "bugs": "https://github.com/vuejs/jsx/issues",
+      "npm": "https://www.npmjs.com/package/@vue/babel-preset-jsx"
     }
   },
   {
@@ -1683,38 +1790,6 @@
       "repository": "git+https://github.com/vuejs/vue-cli.git",
       "bugs": "https://github.com/vuejs/vue-cli/issues",
       "npm": "https://www.npmjs.com/package/@vue/cli-shared-utils"
-    }
-  },
-  {
-    "name": "@vue/babel-preset-jsx",
-    "keywords": [],
-    "version": "1.4.0",
-    "description": "Babel preset for Vue JSX",
-    "publisher": {
-      "email": "haoqunjiang+npm@gmail.com",
-      "username": "soda"
-    },
-    "maintainers": [
-      {
-        "email": "dot.nick.dot.messing@gmail.com",
-        "username": "nickmessing"
-      },
-      {
-        "email": "haoqunjiang+npm@gmail.com",
-        "username": "soda"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      }
-    ],
-    "license": "MIT",
-    "date": "2022-08-25T11:55:09.105Z",
-    "links": {
-      "homepage": "https://github.com/vuejs/jsx/tree/master#readme",
-      "repository": "git+https://github.com/vuejs/jsx.git#master",
-      "bugs": "https://github.com/vuejs/jsx/issues",
-      "npm": "https://www.npmjs.com/package/@vue/babel-preset-jsx"
     }
   },
   {
@@ -1790,6 +1865,47 @@
     }
   },
   {
+    "name": "yorkie",
+    "keywords": [
+      "git",
+      "hook",
+      "hooks",
+      "pre-commit",
+      "precommit",
+      "post-commit",
+      "postcommit",
+      "pre-push",
+      "prepush",
+      "post-merge",
+      "postmerge",
+      "test"
+    ],
+    "version": "2.0.0",
+    "description": "githooks management forked from husky",
+    "publisher": {
+      "email": "yyx990803@gmail.com",
+      "username": "yyx990803"
+    },
+    "maintainers": [
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "haoqunjiang+npm@gmail.com",
+        "username": "soda"
+      }
+    ],
+    "license": "MIT",
+    "date": "2018-08-09T15:35:11.232Z",
+    "links": {
+      "homepage": "https://github.com/yyx990803/yorkie",
+      "repository": "git://github.com/yyx990803/yorkie.git",
+      "bugs": "https://github.com/yyx990803/yorkie/issues",
+      "npm": "https://www.npmjs.com/package/yorkie"
+    }
+  },
+  {
     "name": "@vue/babel-sugar-composition-api-render-instance",
     "keywords": [],
     "version": "1.4.0",
@@ -1830,14 +1946,59 @@
     }
   },
   {
-    "name": "@vue/cli-plugin-router",
+    "name": "@vitejs/plugin-legacy",
+    "keywords": [
+      "frontend",
+      "vite",
+      "vite-plugin",
+      "@vitejs/plugin-legacy"
+    ],
+    "version": "6.0.0",
+    "description": "Vite's default browser support baseline is [Native ESM](https://caniuse.com/es6-module), [native ESM dynamic import](https://caniuse.com/es6-module-dynamic-import), and [`import.meta`](https://caniuse.com/mdn-javascript_operators_import_meta). This plugin",
+    "publisher": {
+      "email": "vitejs.twitter@gmail.com",
+      "username": "vitebot"
+    },
+    "maintainers": [
+      {
+        "email": "npm@haoqun.me",
+        "username": "soda"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "hey.patak@gmail.com",
+        "username": "patak"
+      },
+      {
+        "email": "anthonyfu117@hotmail.com",
+        "username": "antfu"
+      },
+      {
+        "email": "vitejs.twitter@gmail.com",
+        "username": "vitebot"
+      }
+    ],
+    "license": "MIT",
+    "date": "2024-11-26T10:44:30.002Z",
+    "links": {
+      "homepage": "https://github.com/vitejs/vite/tree/main/packages/plugin-legacy#readme",
+      "repository": "git+https://github.com/vitejs/vite.git",
+      "bugs": "https://github.com/vitejs/vite/issues",
+      "npm": "https://www.npmjs.com/package/@vitejs/plugin-legacy"
+    }
+  },
+  {
+    "name": "@vue/cli-plugin-eslint",
     "keywords": [
       "vue",
       "cli",
-      "router"
+      "eslint"
     ],
     "version": "5.0.8",
-    "description": "router plugin for vue-cli",
+    "description": "eslint plugin for vue-cli",
     "publisher": {
       "email": "haoqunjiang+npm@gmail.com",
       "username": "soda"
@@ -1857,12 +2018,12 @@
       }
     ],
     "license": "MIT",
-    "date": "2022-07-07T10:22:07.376Z",
+    "date": "2022-07-07T10:22:07.183Z",
     "links": {
-      "homepage": "https://github.com/vuejs/vue-cli/tree/dev/packages/@vue/cli-plugin-router#readme",
+      "homepage": "https://github.com/vuejs/vue-cli/tree/dev/packages/@vue/cli-plugin-eslint#readme",
       "repository": "git+https://github.com/vuejs/vue-cli.git",
       "bugs": "https://github.com/vuejs/vue-cli/issues",
-      "npm": "https://www.npmjs.com/package/@vue/cli-plugin-router"
+      "npm": "https://www.npmjs.com/package/@vue/cli-plugin-eslint"
     }
   },
   {
@@ -1896,6 +2057,42 @@
       "repository": "git+https://github.com/vuejs/vue-class-component.git",
       "bugs": "https://github.com/vuejs/vue-class-component/issues",
       "npm": "https://www.npmjs.com/package/vue-class-component"
+    }
+  },
+  {
+    "name": "@vue/cli-plugin-router",
+    "keywords": [
+      "vue",
+      "cli",
+      "router"
+    ],
+    "version": "5.0.8",
+    "description": "router plugin for vue-cli",
+    "publisher": {
+      "email": "haoqunjiang+npm@gmail.com",
+      "username": "soda"
+    },
+    "maintainers": [
+      {
+        "email": "guillaume.b.chau@gmail.com",
+        "username": "akryum"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "haoqunjiang+npm@gmail.com",
+        "username": "soda"
+      }
+    ],
+    "license": "MIT",
+    "date": "2022-07-07T10:22:07.376Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/vue-cli/tree/dev/packages/@vue/cli-plugin-router#readme",
+      "repository": "git+https://github.com/vuejs/vue-cli.git",
+      "bugs": "https://github.com/vuejs/vue-cli/issues",
+      "npm": "https://www.npmjs.com/package/@vue/cli-plugin-router"
     }
   },
   {
@@ -1974,42 +2171,6 @@
     }
   },
   {
-    "name": "@vue/cli-plugin-vuex",
-    "keywords": [
-      "vue",
-      "cli",
-      "vuex"
-    ],
-    "version": "5.0.8",
-    "description": "Vuex plugin for vue-cli",
-    "publisher": {
-      "email": "haoqunjiang+npm@gmail.com",
-      "username": "soda"
-    },
-    "maintainers": [
-      {
-        "email": "guillaume.b.chau@gmail.com",
-        "username": "akryum"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "haoqunjiang+npm@gmail.com",
-        "username": "soda"
-      }
-    ],
-    "license": "MIT",
-    "date": "2022-07-07T10:22:05.739Z",
-    "links": {
-      "homepage": "https://github.com/vuejs/vue-cli/tree/dev/packages/@vue/cli-plugin-vuex#readme",
-      "repository": "git+https://github.com/vuejs/vue-cli.git",
-      "bugs": "https://github.com/vuejs/vue-cli/issues",
-      "npm": "https://www.npmjs.com/package/@vue/cli-plugin-vuex"
-    }
-  },
-  {
     "name": "@vue/cli-service",
     "keywords": [
       "vue",
@@ -2045,17 +2206,14 @@
     }
   },
   {
-    "name": "@vue/preload-webpack-plugin",
+    "name": "@vue/cli-plugin-typescript",
     "keywords": [
-      "webpack",
-      "plugin",
-      "html-webpack-plugin",
-      "script",
-      "preload",
-      "resource hints"
+      "vue",
+      "cli",
+      "typescript"
     ],
-    "version": "2.0.0",
-    "description": "A webpack plugin for injecting <link rel='preload|prefecth'> into HtmlWebpackPlugin pages, with async chunk support",
+    "version": "5.0.8",
+    "description": "typescript plugin for vue-cli",
     "publisher": {
       "email": "haoqunjiang+npm@gmail.com",
       "username": "soda"
@@ -2074,13 +2232,13 @@
         "username": "soda"
       }
     ],
-    "license": "Apache-2.0",
-    "date": "2021-02-13T11:13:41.421Z",
+    "license": "MIT",
+    "date": "2022-07-07T10:22:07.217Z",
     "links": {
-      "homepage": "https://github.com/vuejs/preload-webpack-plugin",
-      "repository": "git+https://github.com/vuejs/preload-webpack-plugin.git",
-      "bugs": "https://github.com/vuejs/preload-webpack-plugin/issues",
-      "npm": "https://www.npmjs.com/package/@vue/preload-webpack-plugin"
+      "homepage": "https://github.com/vuejs/vue-cli/tree/dev/packages/@vue/cli-plugin-typescript#readme",
+      "repository": "git+https://github.com/vuejs/vue-cli.git",
+      "bugs": "https://github.com/vuejs/vue-cli/issues",
+      "npm": "https://www.npmjs.com/package/@vue/cli-plugin-typescript"
     }
   },
   {
@@ -2120,47 +2278,6 @@
     }
   },
   {
-    "name": "yorkie",
-    "keywords": [
-      "git",
-      "hook",
-      "hooks",
-      "pre-commit",
-      "precommit",
-      "post-commit",
-      "postcommit",
-      "pre-push",
-      "prepush",
-      "post-merge",
-      "postmerge",
-      "test"
-    ],
-    "version": "2.0.0",
-    "description": "githooks management forked from husky",
-    "publisher": {
-      "email": "yyx990803@gmail.com",
-      "username": "yyx990803"
-    },
-    "maintainers": [
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "haoqunjiang+npm@gmail.com",
-        "username": "soda"
-      }
-    ],
-    "license": "MIT",
-    "date": "2018-08-09T15:35:11.232Z",
-    "links": {
-      "homepage": "https://github.com/yyx990803/yorkie",
-      "repository": "git://github.com/yyx990803/yorkie.git",
-      "bugs": "https://github.com/yyx990803/yorkie/issues",
-      "npm": "https://www.npmjs.com/package/yorkie"
-    }
-  },
-  {
     "name": "@vue/tsconfig",
     "keywords": [
       "vue",
@@ -2196,71 +2313,27 @@
     }
   },
   {
-    "name": "@vue/cli-plugin-eslint",
-    "keywords": [
-      "vue",
-      "cli",
-      "eslint"
-    ],
-    "version": "5.0.8",
-    "description": "eslint plugin for vue-cli",
-    "publisher": {
-      "email": "haoqunjiang+npm@gmail.com",
-      "username": "soda"
-    },
-    "maintainers": [
-      {
-        "email": "guillaume.b.chau@gmail.com",
-        "username": "akryum"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "haoqunjiang+npm@gmail.com",
-        "username": "soda"
-      }
-    ],
-    "license": "MIT",
-    "date": "2022-07-07T10:22:07.183Z",
-    "links": {
-      "homepage": "https://github.com/vuejs/vue-cli/tree/dev/packages/@vue/cli-plugin-eslint#readme",
-      "repository": "git+https://github.com/vuejs/vue-cli.git",
-      "bugs": "https://github.com/vuejs/vue-cli/issues",
-      "npm": "https://www.npmjs.com/package/@vue/cli-plugin-eslint"
-    }
-  },
-  {
-    "name": "vue-server-renderer",
-    "keywords": [
-      "vue",
-      "server",
-      "ssr"
-    ],
-    "version": "2.7.16",
-    "description": "server renderer for Vue 2.0",
+    "name": "circular-json-es6",
+    "keywords": [],
+    "version": "2.0.2",
+    "description": "circular JSON.stringify and JSON.parse, for environments with native ES6 Map",
     "publisher": {
       "email": "yyx990803@gmail.com",
       "username": "yyx990803"
     },
     "maintainers": [
       {
-        "email": "posva13@gmail.com",
-        "username": "posva"
-      },
-      {
         "email": "yyx990803@gmail.com",
         "username": "yyx990803"
       }
     ],
     "license": "MIT",
-    "date": "2023-12-24T15:02:13.777Z",
+    "date": "2018-01-23T15:50:01.300Z",
     "links": {
-      "homepage": "https://github.com/vuejs/vue/tree/dev/packages/vue-server-renderer#readme",
-      "repository": "git+https://github.com/vuejs/vue.git",
-      "bugs": "https://github.com/vuejs/vue/issues",
-      "npm": "https://www.npmjs.com/package/vue-server-renderer"
+      "homepage": "https://github.com/yyx990803/circular-json-es6#readme",
+      "repository": "git+https://github.com/yyx990803/circular-json-es6.git",
+      "bugs": "https://github.com/yyx990803/circular-json-es6/issues",
+      "npm": "https://www.npmjs.com/package/circular-json-es6"
     }
   },
   {
@@ -2308,108 +2381,35 @@
     }
   },
   {
-    "name": "circular-json-es6",
-    "keywords": [],
-    "version": "2.0.2",
-    "description": "circular JSON.stringify and JSON.parse, for environments with native ES6 Map",
+    "name": "vue-server-renderer",
+    "keywords": [
+      "vue",
+      "server",
+      "ssr"
+    ],
+    "version": "2.7.16",
+    "description": "server renderer for Vue 2.0",
     "publisher": {
       "email": "yyx990803@gmail.com",
       "username": "yyx990803"
     },
     "maintainers": [
       {
+        "email": "posva13@gmail.com",
+        "username": "posva"
+      },
+      {
         "email": "yyx990803@gmail.com",
         "username": "yyx990803"
       }
     ],
     "license": "MIT",
-    "date": "2018-01-23T15:50:01.300Z",
+    "date": "2023-12-24T15:02:13.777Z",
     "links": {
-      "homepage": "https://github.com/yyx990803/circular-json-es6#readme",
-      "repository": "git+https://github.com/yyx990803/circular-json-es6.git",
-      "bugs": "https://github.com/yyx990803/circular-json-es6/issues",
-      "npm": "https://www.npmjs.com/package/circular-json-es6"
-    }
-  },
-  {
-    "name": "@vitejs/plugin-legacy",
-    "keywords": [
-      "frontend",
-      "vite",
-      "vite-plugin",
-      "@vitejs/plugin-legacy"
-    ],
-    "version": "6.0.0",
-    "description": "Vite's default browser support baseline is [Native ESM](https://caniuse.com/es6-module), [native ESM dynamic import](https://caniuse.com/es6-module-dynamic-import), and [`import.meta`](https://caniuse.com/mdn-javascript_operators_import_meta). This plugin",
-    "publisher": {
-      "email": "vitejs.twitter@gmail.com",
-      "username": "vitebot"
-    },
-    "maintainers": [
-      {
-        "email": "npm@haoqun.me",
-        "username": "soda"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "hey.patak@gmail.com",
-        "username": "patak"
-      },
-      {
-        "email": "anthonyfu117@hotmail.com",
-        "username": "antfu"
-      },
-      {
-        "email": "vitejs.twitter@gmail.com",
-        "username": "vitebot"
-      }
-    ],
-    "license": "MIT",
-    "date": "2024-11-26T10:44:30.002Z",
-    "links": {
-      "homepage": "https://github.com/vitejs/vite/tree/main/packages/plugin-legacy#readme",
-      "repository": "git+https://github.com/vitejs/vite.git",
-      "bugs": "https://github.com/vitejs/vite/issues",
-      "npm": "https://www.npmjs.com/package/@vitejs/plugin-legacy"
-    }
-  },
-  {
-    "name": "@vue/cli-plugin-typescript",
-    "keywords": [
-      "vue",
-      "cli",
-      "typescript"
-    ],
-    "version": "5.0.8",
-    "description": "typescript plugin for vue-cli",
-    "publisher": {
-      "email": "haoqunjiang+npm@gmail.com",
-      "username": "soda"
-    },
-    "maintainers": [
-      {
-        "email": "guillaume.b.chau@gmail.com",
-        "username": "akryum"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "haoqunjiang+npm@gmail.com",
-        "username": "soda"
-      }
-    ],
-    "license": "MIT",
-    "date": "2022-07-07T10:22:07.217Z",
-    "links": {
-      "homepage": "https://github.com/vuejs/vue-cli/tree/dev/packages/@vue/cli-plugin-typescript#readme",
-      "repository": "git+https://github.com/vuejs/vue-cli.git",
-      "bugs": "https://github.com/vuejs/vue-cli/issues",
-      "npm": "https://www.npmjs.com/package/@vue/cli-plugin-typescript"
+      "homepage": "https://github.com/vuejs/vue/tree/dev/packages/vue-server-renderer#readme",
+      "repository": "git+https://github.com/vuejs/vue.git",
+      "bugs": "https://github.com/vuejs/vue/issues",
+      "npm": "https://www.npmjs.com/package/vue-server-renderer"
     }
   },
   {
@@ -2509,6 +2509,34 @@
     }
   },
   {
+    "name": "babel-plugin-transform-vue-jsx",
+    "keywords": [
+      "vue",
+      "babel",
+      "jsx"
+    ],
+    "version": "3.7.0",
+    "description": "Babel plugin for Vue 2.0 JSX",
+    "publisher": {
+      "email": "yyx990803@gmail.com",
+      "username": "yyx990803"
+    },
+    "maintainers": [
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      }
+    ],
+    "license": "MIT",
+    "date": "2018-03-05T22:38:08.489Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/babel-plugin-transform-vue-jsx#readme",
+      "repository": "git+https://github.com/vuejs/babel-plugin-transform-vue-jsx.git",
+      "bugs": "https://github.com/vuejs/babel-plugin-transform-vue-jsx/issues",
+      "npm": "https://www.npmjs.com/package/babel-plugin-transform-vue-jsx"
+    }
+  },
+  {
     "name": "vuex-router-sync",
     "keywords": [
       "vuex",
@@ -2538,6 +2566,69 @@
       "repository": "git+https://github.com/vuejs/vuex-router-sync.git",
       "bugs": "https://github.com/vuejs/vuex-router-sync/issues",
       "npm": "https://www.npmjs.com/package/vuex-router-sync"
+    }
+  },
+  {
+    "name": "@vue/compat",
+    "keywords": [
+      "vue"
+    ],
+    "version": "3.5.13",
+    "description": "Vue 3 compatibility build for Vue 2",
+    "publisher": {
+      "email": "yyx990803@gmail.com",
+      "username": "yyx990803"
+    },
+    "maintainers": [
+      {
+        "email": "npm@haoqun.me",
+        "username": "soda"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      }
+    ],
+    "license": "MIT",
+    "date": "2024-11-15T14:48:56.440Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/core/tree/main/packages/vue-compat#readme",
+      "repository": "git+https://github.com/vuejs/core.git",
+      "bugs": "https://github.com/vuejs/core/issues",
+      "npm": "https://www.npmjs.com/package/@vue/compat"
+    }
+  },
+  {
+    "name": "vue-resource",
+    "keywords": [
+      "vue",
+      "xhr",
+      "http",
+      "ajax"
+    ],
+    "version": "1.5.3",
+    "description": "The HTTP client for Vue.js",
+    "publisher": {
+      "email": "steffan@schiewe.me",
+      "username": "steffans"
+    },
+    "maintainers": [
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "steffan@schiewe.me",
+        "username": "steffans"
+      }
+    ],
+    "license": "MIT",
+    "date": "2021-06-14T12:04:16.864Z",
+    "links": {
+      "homepage": "https://github.com/pagekit/vue-resource",
+      "repository": "git+https://github.com/pagekit/vue-resource.git",
+      "bugs": "https://github.com/pagekit/vue-resource/issues",
+      "npm": "https://www.npmjs.com/package/vue-resource"
     }
   },
   {
@@ -2582,31 +2673,39 @@
     }
   },
   {
-    "name": "babel-plugin-transform-vue-jsx",
+    "name": "vuepress",
     "keywords": [
-      "vue",
-      "babel",
-      "jsx"
+      "documentation",
+      "generator",
+      "vue"
     ],
-    "version": "3.7.0",
-    "description": "Babel plugin for Vue 2.0 JSX",
+    "version": "1.9.10",
+    "description": "Minimalistic doc generator with Vue component based layout system",
     "publisher": {
-      "email": "yyx990803@gmail.com",
-      "username": "yyx990803"
+      "email": "472590061@qq.com",
+      "username": "ulivz"
     },
     "maintainers": [
+      {
+        "email": "472590061@qq.com",
+        "username": "ulivz"
+      },
+      {
+        "email": "meteor.lxy@foxmail.com",
+        "username": "meteorlxy"
+      },
       {
         "email": "yyx990803@gmail.com",
         "username": "yyx990803"
       }
     ],
     "license": "MIT",
-    "date": "2018-03-05T22:38:08.489Z",
+    "date": "2023-08-14T08:07:16.913Z",
     "links": {
-      "homepage": "https://github.com/vuejs/babel-plugin-transform-vue-jsx#readme",
-      "repository": "git+https://github.com/vuejs/babel-plugin-transform-vue-jsx.git",
-      "bugs": "https://github.com/vuejs/babel-plugin-transform-vue-jsx/issues",
-      "npm": "https://www.npmjs.com/package/babel-plugin-transform-vue-jsx"
+      "homepage": "https://github.com/vuejs/vuepress#readme",
+      "repository": "git+https://github.com/vuejs/vuepress.git",
+      "bugs": "https://github.com/vuejs/vuepress/issues",
+      "npm": "https://www.npmjs.com/package/vuepress"
     }
   },
   {
@@ -2650,33 +2749,32 @@
     }
   },
   {
-    "name": "@vue/compat",
+    "name": "vuepress-html-webpack-plugin",
     "keywords": [
-      "vue"
+      "webpack",
+      "plugin",
+      "html",
+      "html-webpack-plugin"
     ],
-    "version": "3.5.13",
-    "description": "Vue 3 compatibility build for Vue 2",
+    "version": "3.2.0",
+    "description": "Simplifies creation of HTML files to serve your webpack bundles",
     "publisher": {
       "email": "yyx990803@gmail.com",
       "username": "yyx990803"
     },
     "maintainers": [
       {
-        "email": "npm@haoqun.me",
-        "username": "soda"
-      },
-      {
         "email": "yyx990803@gmail.com",
         "username": "yyx990803"
       }
     ],
     "license": "MIT",
-    "date": "2024-11-15T14:48:56.440Z",
+    "date": "2018-04-16T17:42:11.111Z",
     "links": {
-      "homepage": "https://github.com/vuejs/core/tree/main/packages/vue-compat#readme",
-      "repository": "git+https://github.com/vuejs/core.git",
-      "bugs": "https://github.com/vuejs/core/issues",
-      "npm": "https://www.npmjs.com/package/@vue/compat"
+      "homepage": "https://github.com/jantimon/html-webpack-plugin",
+      "repository": "git+https://github.com/jantimon/html-webpack-plugin.git",
+      "bugs": "https://github.com/jantimon/html-webpack-plugin/issues",
+      "npm": "https://www.npmjs.com/package/vuepress-html-webpack-plugin"
     }
   },
   {
@@ -2714,36 +2812,112 @@
     }
   },
   {
-    "name": "vue-resource",
+    "name": "@vuepress/plugin-last-updated",
     "keywords": [
+      "documentation",
+      "generator",
       "vue",
-      "xhr",
-      "http",
-      "ajax"
+      "vuepress"
     ],
-    "version": "1.5.3",
-    "description": "The HTTP client for Vue.js",
+    "version": "1.9.10",
+    "description": "last-updated plugin for vuepress",
     "publisher": {
-      "email": "steffan@schiewe.me",
-      "username": "steffans"
+      "email": "472590061@qq.com",
+      "username": "ulivz"
     },
     "maintainers": [
+      {
+        "email": "472590061@qq.com",
+        "username": "ulivz"
+      },
       {
         "email": "yyx990803@gmail.com",
         "username": "yyx990803"
       },
       {
-        "email": "steffan@schiewe.me",
-        "username": "steffans"
+        "email": "ben@bencodezen.io",
+        "username": "bencodezen"
+      },
+      {
+        "email": "meteor.lxy@foxmail.com",
+        "username": "meteorlxy"
       }
     ],
     "license": "MIT",
-    "date": "2021-06-14T12:04:16.864Z",
+    "date": "2023-08-14T08:07:10.822Z",
     "links": {
-      "homepage": "https://github.com/pagekit/vue-resource",
-      "repository": "git+https://github.com/pagekit/vue-resource.git",
-      "bugs": "https://github.com/pagekit/vue-resource/issues",
-      "npm": "https://www.npmjs.com/package/vue-resource"
+      "homepage": "https://github.com/vuejs/vuepress/blob/master/packages/@vuepress/plugin-last-updated#readme",
+      "repository": "git+https://github.com/vuejs/vuepress.git",
+      "bugs": "https://github.com/vuejs/vuepress/issues",
+      "npm": "https://www.npmjs.com/package/@vuepress/plugin-last-updated"
+    }
+  },
+  {
+    "name": "@vue/cli-ui-addon-webpack",
+    "keywords": [],
+    "version": "5.0.8",
+    "description": "> Dashboard & analyzer components for @vue/cli-ui",
+    "publisher": {
+      "email": "haoqunjiang+npm@gmail.com",
+      "username": "soda"
+    },
+    "maintainers": [
+      {
+        "email": "guillaume.b.chau@gmail.com",
+        "username": "akryum"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "haoqunjiang+npm@gmail.com",
+        "username": "soda"
+      }
+    ],
+    "license": "MIT",
+    "date": "2022-07-07T10:22:06.155Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/vue-cli#readme",
+      "repository": "git+https://github.com/vuejs/vue-cli.git",
+      "bugs": "https://github.com/vuejs/vue-cli/issues",
+      "npm": "https://www.npmjs.com/package/@vue/cli-ui-addon-webpack"
+    }
+  },
+  {
+    "name": "@vue/cli-plugin-pwa",
+    "keywords": [
+      "vue",
+      "cli",
+      "pwa"
+    ],
+    "version": "5.0.8",
+    "description": "pwa plugin for vue-cli",
+    "publisher": {
+      "email": "haoqunjiang+npm@gmail.com",
+      "username": "soda"
+    },
+    "maintainers": [
+      {
+        "email": "guillaume.b.chau@gmail.com",
+        "username": "akryum"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "haoqunjiang+npm@gmail.com",
+        "username": "soda"
+      }
+    ],
+    "license": "MIT",
+    "date": "2022-07-07T10:22:07.654Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/vue-cli/tree/dev/packages/@vue/cli-plugin-pwa#readme",
+      "repository": "git+https://github.com/vuejs/vue-cli.git",
+      "bugs": "https://github.com/vuejs/vue-cli/issues",
+      "npm": "https://www.npmjs.com/package/@vue/cli-plugin-pwa"
     }
   },
   {
@@ -2791,6 +2965,50 @@
     }
   },
   {
+    "name": "@vue/eslint-config-standard",
+    "keywords": [
+      "vue",
+      "eslint",
+      "standard"
+    ],
+    "version": "8.0.1",
+    "description": "eslint-config-standard for Vue.js projects",
+    "publisher": {
+      "email": "haoqunjiang+npm@gmail.com",
+      "username": "soda"
+    },
+    "maintainers": [
+      {
+        "email": "guillaume.b.chau@gmail.com",
+        "username": "akryum"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "haoqunjiang+npm@gmail.com",
+        "username": "soda"
+      },
+      {
+        "email": "msajnog93@gmail.com",
+        "username": "michalsnik"
+      },
+      {
+        "email": "public@mysticatea.dev",
+        "username": "mysticatea"
+      }
+    ],
+    "license": "MIT",
+    "date": "2022-07-27T05:53:37.395Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/eslint-config-standard/blob/main/packages/eslint-config-standard#readme",
+      "repository": "git+https://github.com/vuejs/eslint-config-standard.git",
+      "bugs": "https://github.com/vuejs/eslint-config-standard/issues",
+      "npm": "https://www.npmjs.com/package/@vue/eslint-config-standard"
+    }
+  },
+  {
     "name": "pug-plain-loader",
     "keywords": [
       "pug",
@@ -2824,50 +3042,13 @@
     }
   },
   {
-    "name": "vuepress",
-    "keywords": [
-      "documentation",
-      "generator",
-      "vue"
-    ],
-    "version": "1.9.10",
-    "description": "Minimalistic doc generator with Vue component based layout system",
-    "publisher": {
-      "email": "472590061@qq.com",
-      "username": "ulivz"
-    },
-    "maintainers": [
-      {
-        "email": "472590061@qq.com",
-        "username": "ulivz"
-      },
-      {
-        "email": "meteor.lxy@foxmail.com",
-        "username": "meteorlxy"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      }
-    ],
-    "license": "MIT",
-    "date": "2023-08-14T08:07:16.913Z",
-    "links": {
-      "homepage": "https://github.com/vuejs/vuepress#readme",
-      "repository": "git+https://github.com/vuejs/vuepress.git",
-      "bugs": "https://github.com/vuejs/vuepress/issues",
-      "npm": "https://www.npmjs.com/package/vuepress"
-    }
-  },
-  {
-    "name": "@vue/cli-plugin-pwa",
+    "name": "@vue/cli",
     "keywords": [
       "vue",
-      "cli",
-      "pwa"
+      "cli"
     ],
     "version": "5.0.8",
-    "description": "pwa plugin for vue-cli",
+    "description": "Command line interface for rapid Vue.js development",
     "publisher": {
       "email": "haoqunjiang+npm@gmail.com",
       "username": "soda"
@@ -2887,41 +3068,12 @@
       }
     ],
     "license": "MIT",
-    "date": "2022-07-07T10:22:07.654Z",
+    "date": "2022-07-07T10:22:17.565Z",
     "links": {
-      "homepage": "https://github.com/vuejs/vue-cli/tree/dev/packages/@vue/cli-plugin-pwa#readme",
+      "homepage": "https://cli.vuejs.org/",
       "repository": "git+https://github.com/vuejs/vue-cli.git",
       "bugs": "https://github.com/vuejs/vue-cli/issues",
-      "npm": "https://www.npmjs.com/package/@vue/cli-plugin-pwa"
-    }
-  },
-  {
-    "name": "vuepress-html-webpack-plugin",
-    "keywords": [
-      "webpack",
-      "plugin",
-      "html",
-      "html-webpack-plugin"
-    ],
-    "version": "3.2.0",
-    "description": "Simplifies creation of HTML files to serve your webpack bundles",
-    "publisher": {
-      "email": "yyx990803@gmail.com",
-      "username": "yyx990803"
-    },
-    "maintainers": [
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      }
-    ],
-    "license": "MIT",
-    "date": "2018-04-16T17:42:11.111Z",
-    "links": {
-      "homepage": "https://github.com/jantimon/html-webpack-plugin",
-      "repository": "git+https://github.com/jantimon/html-webpack-plugin.git",
-      "bugs": "https://github.com/jantimon/html-webpack-plugin/issues",
-      "npm": "https://www.npmjs.com/package/vuepress-html-webpack-plugin"
+      "npm": "https://www.npmjs.com/package/@vue/cli"
     }
   },
   {
@@ -2969,123 +3121,6 @@
     }
   },
   {
-    "name": "@vuepress/plugin-last-updated",
-    "keywords": [
-      "documentation",
-      "generator",
-      "vue",
-      "vuepress"
-    ],
-    "version": "1.9.10",
-    "description": "last-updated plugin for vuepress",
-    "publisher": {
-      "email": "472590061@qq.com",
-      "username": "ulivz"
-    },
-    "maintainers": [
-      {
-        "email": "472590061@qq.com",
-        "username": "ulivz"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "ben@bencodezen.io",
-        "username": "bencodezen"
-      },
-      {
-        "email": "meteor.lxy@foxmail.com",
-        "username": "meteorlxy"
-      }
-    ],
-    "license": "MIT",
-    "date": "2023-08-14T08:07:10.822Z",
-    "links": {
-      "homepage": "https://github.com/vuejs/vuepress/blob/master/packages/@vuepress/plugin-last-updated#readme",
-      "repository": "git+https://github.com/vuejs/vuepress.git",
-      "bugs": "https://github.com/vuejs/vuepress/issues",
-      "npm": "https://www.npmjs.com/package/@vuepress/plugin-last-updated"
-    }
-  },
-  {
-    "name": "@vue/eslint-config-standard",
-    "keywords": [
-      "vue",
-      "eslint",
-      "standard"
-    ],
-    "version": "8.0.1",
-    "description": "eslint-config-standard for Vue.js projects",
-    "publisher": {
-      "email": "haoqunjiang+npm@gmail.com",
-      "username": "soda"
-    },
-    "maintainers": [
-      {
-        "email": "guillaume.b.chau@gmail.com",
-        "username": "akryum"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "haoqunjiang+npm@gmail.com",
-        "username": "soda"
-      },
-      {
-        "email": "msajnog93@gmail.com",
-        "username": "michalsnik"
-      },
-      {
-        "email": "public@mysticatea.dev",
-        "username": "mysticatea"
-      }
-    ],
-    "license": "MIT",
-    "date": "2022-07-27T05:53:37.395Z",
-    "links": {
-      "homepage": "https://github.com/vuejs/eslint-config-standard/blob/main/packages/eslint-config-standard#readme",
-      "repository": "git+https://github.com/vuejs/eslint-config-standard.git",
-      "bugs": "https://github.com/vuejs/eslint-config-standard/issues",
-      "npm": "https://www.npmjs.com/package/@vue/eslint-config-standard"
-    }
-  },
-  {
-    "name": "@vue/cli-ui-addon-webpack",
-    "keywords": [],
-    "version": "5.0.8",
-    "description": "> Dashboard & analyzer components for @vue/cli-ui",
-    "publisher": {
-      "email": "haoqunjiang+npm@gmail.com",
-      "username": "soda"
-    },
-    "maintainers": [
-      {
-        "email": "guillaume.b.chau@gmail.com",
-        "username": "akryum"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "haoqunjiang+npm@gmail.com",
-        "username": "soda"
-      }
-    ],
-    "license": "MIT",
-    "date": "2022-07-07T10:22:06.155Z",
-    "links": {
-      "homepage": "https://github.com/vuejs/vue-cli#readme",
-      "repository": "git+https://github.com/vuejs/vue-cli.git",
-      "bugs": "https://github.com/vuejs/vue-cli/issues",
-      "npm": "https://www.npmjs.com/package/@vue/cli-ui-addon-webpack"
-    }
-  },
-  {
     "name": "@vuepress/markdown-loader",
     "keywords": [
       "documentation",
@@ -3127,13 +3162,14 @@
     }
   },
   {
-    "name": "@vue/cli",
+    "name": "@vue/cli-plugin-e2e-cypress",
     "keywords": [
       "vue",
-      "cli"
+      "cli",
+      "e2e-cypress"
     ],
     "version": "5.0.8",
-    "description": "Command line interface for rapid Vue.js development",
+    "description": "e2e-cypress plugin for vue-cli",
     "publisher": {
       "email": "haoqunjiang+npm@gmail.com",
       "username": "soda"
@@ -3153,12 +3189,43 @@
       }
     ],
     "license": "MIT",
-    "date": "2022-07-07T10:22:17.565Z",
+    "date": "2022-07-07T10:22:07.192Z",
     "links": {
-      "homepage": "https://cli.vuejs.org/",
+      "homepage": "https://github.com/vuejs/vue-cli/tree/dev/packages/@vue/cli-plugin-e2e-cypress#readme",
       "repository": "git+https://github.com/vuejs/vue-cli.git",
       "bugs": "https://github.com/vuejs/vue-cli/issues",
-      "npm": "https://www.npmjs.com/package/@vue/cli"
+      "npm": "https://www.npmjs.com/package/@vue/cli-plugin-e2e-cypress"
+    }
+  },
+  {
+    "name": "babel-preset-vue",
+    "keywords": [
+      "babel",
+      "vue",
+      "jsx",
+      "preset"
+    ],
+    "version": "2.0.2",
+    "description": "Babel preset for all Vue plugins.",
+    "publisher": {
+      "email": "0x142857@gmail.com",
+      "username": "rem"
+    },
+    "maintainers": [
+      {
+        "email": "0x142857@gmail.com",
+        "username": "rem"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      }
+    ],
+    "license": "MIT",
+    "date": "2018-03-21T12:33:52.844Z",
+    "links": {
+      "repository": "https://github.com/egoist/babel-preset-vue.git",
+      "npm": "https://www.npmjs.com/package/babel-preset-vue"
     }
   },
   {
@@ -3194,47 +3261,12 @@
     }
   },
   {
-    "name": "babel-preset-vue",
-    "keywords": [
-      "babel",
-      "vue",
-      "jsx",
-      "preset"
-    ],
-    "version": "2.0.2",
-    "description": "Babel preset for all Vue plugins.",
+    "name": "create-vue",
+    "keywords": [],
+    "version": "3.12.2",
+    "description": "🛠️ The recommended way to start a Vite-powered Vue project",
     "publisher": {
-      "email": "0x142857@gmail.com",
-      "username": "rem"
-    },
-    "maintainers": [
-      {
-        "email": "0x142857@gmail.com",
-        "username": "rem"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      }
-    ],
-    "license": "MIT",
-    "date": "2018-03-21T12:33:52.844Z",
-    "links": {
-      "repository": "https://github.com/egoist/babel-preset-vue.git",
-      "npm": "https://www.npmjs.com/package/babel-preset-vue"
-    }
-  },
-  {
-    "name": "@vue/cli-plugin-e2e-cypress",
-    "keywords": [
-      "vue",
-      "cli",
-      "e2e-cypress"
-    ],
-    "version": "5.0.8",
-    "description": "e2e-cypress plugin for vue-cli",
-    "publisher": {
-      "email": "haoqunjiang+npm@gmail.com",
+      "email": "npm@haoqun.me",
       "username": "soda"
     },
     "maintainers": [
@@ -3247,17 +3279,17 @@
         "username": "yyx990803"
       },
       {
-        "email": "haoqunjiang+npm@gmail.com",
+        "email": "npm@haoqun.me",
         "username": "soda"
       }
     ],
     "license": "MIT",
-    "date": "2022-07-07T10:22:07.192Z",
+    "date": "2024-11-29T16:30:42.051Z",
     "links": {
-      "homepage": "https://github.com/vuejs/vue-cli/tree/dev/packages/@vue/cli-plugin-e2e-cypress#readme",
-      "repository": "git+https://github.com/vuejs/vue-cli.git",
-      "bugs": "https://github.com/vuejs/vue-cli/issues",
-      "npm": "https://www.npmjs.com/package/@vue/cli-plugin-e2e-cypress"
+      "homepage": "https://github.com/vuejs/create-vue#readme",
+      "repository": "git+https://github.com/vuejs/create-vue.git",
+      "bugs": "https://github.com/vuejs/create-vue/issues",
+      "npm": "https://www.npmjs.com/package/create-vue"
     }
   },
   {
@@ -3318,66 +3350,6 @@
     }
   },
   {
-    "name": "create-vue",
-    "keywords": [],
-    "version": "3.12.2",
-    "description": "🛠️ The recommended way to start a Vite-powered Vue project",
-    "publisher": {
-      "email": "npm@haoqun.me",
-      "username": "soda"
-    },
-    "maintainers": [
-      {
-        "email": "guillaume.b.chau@gmail.com",
-        "username": "akryum"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "npm@haoqun.me",
-        "username": "soda"
-      }
-    ],
-    "license": "MIT",
-    "date": "2024-11-29T16:30:42.051Z",
-    "links": {
-      "homepage": "https://github.com/vuejs/create-vue#readme",
-      "repository": "git+https://github.com/vuejs/create-vue.git",
-      "bugs": "https://github.com/vuejs/create-vue/issues",
-      "npm": "https://www.npmjs.com/package/create-vue"
-    }
-  },
-  {
-    "name": "@vue/component-compiler",
-    "keywords": [
-      "vue",
-      "compiler",
-      "sfc"
-    ],
-    "version": "4.2.4",
-    "description": "bundler agnostic API for compiling Vue SFC",
-    "publisher": {
-      "email": "rahulkdn@gmail.com",
-      "username": "znck"
-    },
-    "maintainers": [
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      }
-    ],
-    "license": "MIT",
-    "date": "2021-05-05T05:02:12.211Z",
-    "links": {
-      "homepage": "https://github.com/vuejs/vue-component-compiler#readme",
-      "repository": "git+https://github.com/vuejs/vue-component-compiler.git",
-      "bugs": "https://github.com/vuejs/vue-component-compiler/issues",
-      "npm": "https://www.npmjs.com/package/@vue/component-compiler"
-    }
-  },
-  {
     "name": "@vuepress/types",
     "keywords": [
       "documentation",
@@ -3417,6 +3389,34 @@
       "repository": "git+https://github.com/vuejs/vuepress.git",
       "bugs": "https://github.com/vuejs/vuepress/issues",
       "npm": "https://www.npmjs.com/package/@vuepress/types"
+    }
+  },
+  {
+    "name": "@vue/component-compiler",
+    "keywords": [
+      "vue",
+      "compiler",
+      "sfc"
+    ],
+    "version": "4.2.4",
+    "description": "bundler agnostic API for compiling Vue SFC",
+    "publisher": {
+      "email": "rahulkdn@gmail.com",
+      "username": "znck"
+    },
+    "maintainers": [
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      }
+    ],
+    "license": "MIT",
+    "date": "2021-05-05T05:02:12.211Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/vue-component-compiler#readme",
+      "repository": "git+https://github.com/vuejs/vue-component-compiler.git",
+      "bugs": "https://github.com/vuejs/vue-component-compiler/issues",
+      "npm": "https://www.npmjs.com/package/@vue/component-compiler"
     }
   },
   {
@@ -3461,72 +3461,6 @@
     }
   },
   {
-    "name": "babel-preset-vue-app",
-    "keywords": [],
-    "version": "2.0.0",
-    "description": "Complete babel presets for a Vue app.",
-    "publisher": {
-      "email": "0x142857@gmail.com",
-      "username": "rem"
-    },
-    "maintainers": [
-      {
-        "email": "0x142857@gmail.com",
-        "username": "rem"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      }
-    ],
-    "license": "MIT",
-    "date": "2017-12-06T14:30:40.970Z",
-    "links": {
-      "homepage": "https://github.com/egoist/babel-preset-vue-app#readme",
-      "repository": "git+https://github.com/egoist/babel-preset-vue-app.git",
-      "bugs": "https://github.com/egoist/babel-preset-vue-app/issues",
-      "npm": "https://www.npmjs.com/package/babel-preset-vue-app"
-    }
-  },
-  {
-    "name": "@vue/cli-plugin-unit-mocha",
-    "keywords": [
-      "vue",
-      "vue-cli",
-      "mocha",
-      "webpack",
-      "unit-testing"
-    ],
-    "version": "5.0.8",
-    "description": "mocha unit testing plugin for vue-cli",
-    "publisher": {
-      "email": "haoqunjiang+npm@gmail.com",
-      "username": "soda"
-    },
-    "maintainers": [
-      {
-        "email": "guillaume.b.chau@gmail.com",
-        "username": "akryum"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "haoqunjiang+npm@gmail.com",
-        "username": "soda"
-      }
-    ],
-    "license": "MIT",
-    "date": "2022-07-07T10:22:07.533Z",
-    "links": {
-      "homepage": "https://github.com/vuejs/vue-cli/tree/dev/packages/@vue/cli-plugin-unit-mocha#readme",
-      "repository": "git+https://github.com/vuejs/vue-cli.git",
-      "bugs": "https://github.com/vuejs/vue-cli/issues",
-      "npm": "https://www.npmjs.com/package/@vue/cli-plugin-unit-mocha"
-    }
-  },
-  {
     "name": "@vue/devtools",
     "keywords": [],
     "version": "7.6.7",
@@ -3567,39 +3501,31 @@
     }
   },
   {
-    "name": "@vue/cli-plugin-e2e-nightwatch",
-    "keywords": [
-      "vue",
-      "cli",
-      "e2e-nightwatch"
-    ],
-    "version": "5.0.8",
-    "description": "e2e-nightwatch plugin for vue-cli",
+    "name": "babel-preset-vue-app",
+    "keywords": [],
+    "version": "2.0.0",
+    "description": "Complete babel presets for a Vue app.",
     "publisher": {
-      "email": "haoqunjiang+npm@gmail.com",
-      "username": "soda"
+      "email": "0x142857@gmail.com",
+      "username": "rem"
     },
     "maintainers": [
       {
-        "email": "guillaume.b.chau@gmail.com",
-        "username": "akryum"
+        "email": "0x142857@gmail.com",
+        "username": "rem"
       },
       {
         "email": "yyx990803@gmail.com",
         "username": "yyx990803"
-      },
-      {
-        "email": "haoqunjiang+npm@gmail.com",
-        "username": "soda"
       }
     ],
     "license": "MIT",
-    "date": "2022-07-07T10:22:07.310Z",
+    "date": "2017-12-06T14:30:40.970Z",
     "links": {
-      "homepage": "https://github.com/vuejs/vue-cli/tree/dev/packages/@vue/cli-plugin-e2e-nightwatch#readme",
-      "repository": "git+https://github.com/vuejs/vue-cli.git",
-      "bugs": "https://github.com/vuejs/vue-cli/issues",
-      "npm": "https://www.npmjs.com/package/@vue/cli-plugin-e2e-nightwatch"
+      "homepage": "https://github.com/egoist/babel-preset-vue-app#readme",
+      "repository": "git+https://github.com/egoist/babel-preset-vue-app.git",
+      "bugs": "https://github.com/egoist/babel-preset-vue-app/issues",
+      "npm": "https://www.npmjs.com/package/babel-preset-vue-app"
     }
   },
   {
@@ -3644,6 +3570,132 @@
       "repository": "git+https://github.com/vitejs/plugin-vue2-jsx.git",
       "bugs": "https://github.com/vitejs/plugin-vue2-jsx/issues",
       "npm": "https://www.npmjs.com/package/@vitejs/plugin-vue2-jsx"
+    }
+  },
+  {
+    "name": "@vue/cli-plugin-unit-mocha",
+    "keywords": [
+      "vue",
+      "vue-cli",
+      "mocha",
+      "webpack",
+      "unit-testing"
+    ],
+    "version": "5.0.8",
+    "description": "mocha unit testing plugin for vue-cli",
+    "publisher": {
+      "email": "haoqunjiang+npm@gmail.com",
+      "username": "soda"
+    },
+    "maintainers": [
+      {
+        "email": "guillaume.b.chau@gmail.com",
+        "username": "akryum"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "haoqunjiang+npm@gmail.com",
+        "username": "soda"
+      }
+    ],
+    "license": "MIT",
+    "date": "2022-07-07T10:22:07.533Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/vue-cli/tree/dev/packages/@vue/cli-plugin-unit-mocha#readme",
+      "repository": "git+https://github.com/vuejs/vue-cli.git",
+      "bugs": "https://github.com/vuejs/vue-cli/issues",
+      "npm": "https://www.npmjs.com/package/@vue/cli-plugin-unit-mocha"
+    }
+  },
+  {
+    "name": "nightwatch-helpers",
+    "keywords": [
+      "nightwatch",
+      "e2e",
+      "testing"
+    ],
+    "version": "1.2.0",
+    "description": "custom assertions and commands for easier nightwatch tests",
+    "publisher": {
+      "email": "yyx990803@gmail.com",
+      "username": "yyx990803"
+    },
+    "maintainers": [
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      }
+    ],
+    "license": "MIT",
+    "date": "2016-07-29T00:29:54.743Z",
+    "links": {
+      "homepage": "https://github.com/yyx990803/nightwatch-helpers#readme",
+      "repository": "git+https://github.com/yyx990803/nightwatch-helpers.git",
+      "bugs": "https://github.com/yyx990803/nightwatch-helpers/issues",
+      "npm": "https://www.npmjs.com/package/nightwatch-helpers"
+    }
+  },
+  {
+    "name": "@vue/cli-plugin-e2e-nightwatch",
+    "keywords": [
+      "vue",
+      "cli",
+      "e2e-nightwatch"
+    ],
+    "version": "5.0.8",
+    "description": "e2e-nightwatch plugin for vue-cli",
+    "publisher": {
+      "email": "haoqunjiang+npm@gmail.com",
+      "username": "soda"
+    },
+    "maintainers": [
+      {
+        "email": "guillaume.b.chau@gmail.com",
+        "username": "akryum"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "haoqunjiang+npm@gmail.com",
+        "username": "soda"
+      }
+    ],
+    "license": "MIT",
+    "date": "2022-07-07T10:22:07.310Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/vue-cli/tree/dev/packages/@vue/cli-plugin-e2e-nightwatch#readme",
+      "repository": "git+https://github.com/vuejs/vue-cli.git",
+      "bugs": "https://github.com/vuejs/vue-cli/issues",
+      "npm": "https://www.npmjs.com/package/@vue/cli-plugin-e2e-nightwatch"
+    }
+  },
+  {
+    "name": "babel-preset-flow-vue",
+    "keywords": [],
+    "version": "1.0.0",
+    "description": "yet another preset",
+    "publisher": {
+      "email": "yyx990803@gmail.com",
+      "username": "yyx990803"
+    },
+    "maintainers": [
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      }
+    ],
+    "license": "MIT",
+    "date": "2016-05-12T17:41:48.145Z",
+    "links": {
+      "homepage": "https://github.com/yyx990803/babel-preset-flow-vue#readme",
+      "repository": "git+https://github.com/yyx990803/babel-preset-flow-vue.git",
+      "bugs": "https://github.com/yyx990803/babel-preset-flow-vue/issues",
+      "npm": "https://www.npmjs.com/package/babel-preset-flow-vue"
     }
   },
   {
@@ -3711,30 +3763,6 @@
     }
   },
   {
-    "name": "babel-preset-flow-vue",
-    "keywords": [],
-    "version": "1.0.0",
-    "description": "yet another preset",
-    "publisher": {
-      "email": "yyx990803@gmail.com",
-      "username": "yyx990803"
-    },
-    "maintainers": [
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      }
-    ],
-    "license": "MIT",
-    "date": "2016-05-12T17:41:48.145Z",
-    "links": {
-      "homepage": "https://github.com/yyx990803/babel-preset-flow-vue#readme",
-      "repository": "git+https://github.com/yyx990803/babel-preset-flow-vue.git",
-      "bugs": "https://github.com/yyx990803/babel-preset-flow-vue/issues",
-      "npm": "https://www.npmjs.com/package/babel-preset-flow-vue"
-    }
-  },
-  {
     "name": "vuepress-vite",
     "keywords": [
       "documentation",
@@ -3776,31 +3804,39 @@
     }
   },
   {
-    "name": "nightwatch-helpers",
+    "name": "@vue/consolidate",
     "keywords": [
-      "nightwatch",
-      "e2e",
-      "testing"
+      "engine",
+      "template",
+      "view"
     ],
-    "version": "1.2.0",
-    "description": "custom assertions and commands for easier nightwatch tests",
+    "version": "1.0.0",
+    "description": "Template engine consolidation library (fork)",
     "publisher": {
       "email": "yyx990803@gmail.com",
       "username": "yyx990803"
     },
     "maintainers": [
       {
+        "email": "guillaume.b.chau@gmail.com",
+        "username": "akryum"
+      },
+      {
         "email": "yyx990803@gmail.com",
         "username": "yyx990803"
+      },
+      {
+        "email": "npm@haoqun.me",
+        "username": "soda"
       }
     ],
     "license": "MIT",
-    "date": "2016-07-29T00:29:54.743Z",
+    "date": "2024-02-13T09:41:52.560Z",
     "links": {
-      "homepage": "https://github.com/yyx990803/nightwatch-helpers#readme",
-      "repository": "git+https://github.com/yyx990803/nightwatch-helpers.git",
-      "bugs": "https://github.com/yyx990803/nightwatch-helpers/issues",
-      "npm": "https://www.npmjs.com/package/nightwatch-helpers"
+      "homepage": "https://github.com/yyx990803/consolidate.js",
+      "repository": "git+https://github.com/yyx990803/consolidate.js.git",
+      "bugs": "https://github.com/yyx990803/consolidate.js/issues",
+      "npm": "https://www.npmjs.com/package/@vue/consolidate"
     }
   },
   {
@@ -3879,118 +3915,6 @@
     }
   },
   {
-    "name": "@vue/consolidate",
-    "keywords": [
-      "engine",
-      "template",
-      "view"
-    ],
-    "version": "1.0.0",
-    "description": "Template engine consolidation library (fork)",
-    "publisher": {
-      "email": "yyx990803@gmail.com",
-      "username": "yyx990803"
-    },
-    "maintainers": [
-      {
-        "email": "guillaume.b.chau@gmail.com",
-        "username": "akryum"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "npm@haoqun.me",
-        "username": "soda"
-      }
-    ],
-    "license": "MIT",
-    "date": "2024-02-13T09:41:52.560Z",
-    "links": {
-      "homepage": "https://github.com/yyx990803/consolidate.js",
-      "repository": "git+https://github.com/yyx990803/consolidate.js.git",
-      "bugs": "https://github.com/yyx990803/consolidate.js/issues",
-      "npm": "https://www.npmjs.com/package/@vue/consolidate"
-    }
-  },
-  {
-    "name": "rollup-plugin-flow-no-whitespace",
-    "keywords": [
-      "flow",
-      "rollup"
-    ],
-    "version": "1.0.0",
-    "description": "rollup plugin to remove flow types, without leaving whitespace",
-    "publisher": {
-      "email": "yyx990803@gmail.com",
-      "username": "yyx990803"
-    },
-    "maintainers": [
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      }
-    ],
-    "license": "MIT",
-    "date": "2016-09-22T04:06:26.962Z",
-    "links": {
-      "npm": "https://www.npmjs.com/package/rollup-plugin-flow-no-whitespace"
-    }
-  },
-  {
-    "name": "vue-html-loader",
-    "keywords": [],
-    "version": "1.2.4",
-    "description": "vue template loader for webpack",
-    "publisher": {
-      "email": "yyx990803@gmail.com",
-      "username": "yyx990803"
-    },
-    "maintainers": [
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      }
-    ],
-    "license": "MIT",
-    "date": "2017-02-24T03:30:12.794Z",
-    "links": {
-      "homepage": "https://github.com/vuejs/vue-html-loader#readme",
-      "repository": "git+ssh://git@github.com/vuejs/vue-html-loader.git",
-      "bugs": "https://github.com/vuejs/vue-html-loader/issues",
-      "npm": "https://www.npmjs.com/package/vue-html-loader"
-    }
-  },
-  {
-    "name": "vue-touch",
-    "keywords": [],
-    "version": "1.1.0",
-    "description": "Hammer.js based touch events plugin for Vue.js",
-    "publisher": {
-      "email": "yyx990803@gmail.com",
-      "username": "yyx990803"
-    },
-    "maintainers": [
-      {
-        "email": "t.luenborg@googlemail.com",
-        "username": "linusborg"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      }
-    ],
-    "license": "MIT",
-    "date": "2016-05-03T17:35:22.705Z",
-    "links": {
-      "homepage": "https://github.com/vuejs/vue-touch#readme",
-      "repository": "git+https://github.com/vuejs/vue-touch.git",
-      "bugs": "https://github.com/vuejs/vue-touch/issues",
-      "npm": "https://www.npmjs.com/package/vue-touch"
-    }
-  },
-  {
     "name": "flow-remove-types-no-whitespace",
     "keywords": [
       "flow",
@@ -4019,34 +3943,6 @@
       "repository": "git+ssh://git@github.com/leebyron/flow-remove-types.git",
       "bugs": "https://github.com/leebyron/flow-remove-types/issues",
       "npm": "https://www.npmjs.com/package/flow-remove-types-no-whitespace"
-    }
-  },
-  {
-    "name": "vue-rx",
-    "keywords": [
-      "vue",
-      "rx",
-      "rxjs"
-    ],
-    "version": "6.2.0",
-    "description": "RxJS bindings for Vue",
-    "publisher": {
-      "email": "yyx990803@gmail.com",
-      "username": "yyx990803"
-    },
-    "maintainers": [
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      }
-    ],
-    "license": "MIT",
-    "date": "2019-05-16T04:05:11.570Z",
-    "links": {
-      "homepage": "https://github.com/vuejs/vue-rx#readme",
-      "repository": "git+https://github.com/vuejs/vue-rx.git",
-      "bugs": "https://github.com/vuejs/vue-rx/issues",
-      "npm": "https://www.npmjs.com/package/vue-rx"
     }
   },
   {
@@ -4102,13 +3998,10 @@
     }
   },
   {
-    "name": "vueify",
-    "keywords": [
-      "vue",
-      "browserify"
-    ],
-    "version": "9.4.1",
-    "description": "Vue component transform for Browserify",
+    "name": "vue-html-loader",
+    "keywords": [],
+    "version": "1.2.4",
+    "description": "vue template loader for webpack",
     "publisher": {
       "email": "yyx990803@gmail.com",
       "username": "yyx990803"
@@ -4120,12 +4013,119 @@
       }
     ],
     "license": "MIT",
-    "date": "2017-03-09T02:43:02.714Z",
+    "date": "2017-02-24T03:30:12.794Z",
     "links": {
-      "homepage": "https://github.com/vuejs/vueify",
-      "repository": "git+https://github.com/vuejs/vueify.git",
-      "bugs": "https://github.com/vuejs/vueify/issues",
-      "npm": "https://www.npmjs.com/package/vueify"
+      "homepage": "https://github.com/vuejs/vue-html-loader#readme",
+      "repository": "git+ssh://git@github.com/vuejs/vue-html-loader.git",
+      "bugs": "https://github.com/vuejs/vue-html-loader/issues",
+      "npm": "https://www.npmjs.com/package/vue-html-loader"
+    }
+  },
+  {
+    "name": "rollup-plugin-flow-no-whitespace",
+    "keywords": [
+      "flow",
+      "rollup"
+    ],
+    "version": "1.0.0",
+    "description": "rollup plugin to remove flow types, without leaving whitespace",
+    "publisher": {
+      "email": "yyx990803@gmail.com",
+      "username": "yyx990803"
+    },
+    "maintainers": [
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      }
+    ],
+    "license": "MIT",
+    "date": "2016-09-22T04:06:26.962Z",
+    "links": {
+      "npm": "https://www.npmjs.com/package/rollup-plugin-flow-no-whitespace"
+    }
+  },
+  {
+    "name": "vue-touch",
+    "keywords": [],
+    "version": "1.1.0",
+    "description": "Hammer.js based touch events plugin for Vue.js",
+    "publisher": {
+      "email": "yyx990803@gmail.com",
+      "username": "yyx990803"
+    },
+    "maintainers": [
+      {
+        "email": "t.luenborg@googlemail.com",
+        "username": "linusborg"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      }
+    ],
+    "license": "MIT",
+    "date": "2016-05-03T17:35:22.705Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/vue-touch#readme",
+      "repository": "git+https://github.com/vuejs/vue-touch.git",
+      "bugs": "https://github.com/vuejs/vue-touch/issues",
+      "npm": "https://www.npmjs.com/package/vue-touch"
+    }
+  },
+  {
+    "name": "@vite-plugin-vue-devtools/core",
+    "keywords": [],
+    "version": "1.0.0-rc.8",
+    "publisher": {
+      "email": "308241863@qq.com",
+      "username": "webfansplz"
+    },
+    "maintainers": [
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "webfansplz@gmail.com",
+        "username": "webfansplz"
+      }
+    ],
+    "license": "MIT",
+    "date": "2023-12-13T12:50:57.620Z",
+    "links": {
+      "homepage": "https://github.com/webfansplz/vite-plugin-vue-devtools#readme",
+      "repository": "git+https://github.com/webfansplz/vite-plugin-vue-devtools.git",
+      "bugs": "https://github.com/webfansplz/vite-plugin-vue-devtools/issues",
+      "npm": "https://www.npmjs.com/package/@vite-plugin-vue-devtools/core"
+    }
+  },
+  {
+    "name": "vue-rx",
+    "keywords": [
+      "vue",
+      "rx",
+      "rxjs"
+    ],
+    "version": "6.2.0",
+    "description": "RxJS bindings for Vue",
+    "publisher": {
+      "email": "yyx990803@gmail.com",
+      "username": "yyx990803"
+    },
+    "maintainers": [
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      }
+    ],
+    "license": "MIT",
+    "date": "2019-05-16T04:05:11.570Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/vue-rx#readme",
+      "repository": "git+https://github.com/vuejs/vue-rx.git",
+      "bugs": "https://github.com/vuejs/vue-rx/issues",
+      "npm": "https://www.npmjs.com/package/vue-rx"
     }
   },
   {
@@ -4165,6 +4165,33 @@
       "repository": "git+https://github.com/rolldown/rolldown.git",
       "bugs": "https://github.com/rolldown/rolldown/issues",
       "npm": "https://www.npmjs.com/package/@rolldown/binding-linux-x64-musl"
+    }
+  },
+  {
+    "name": "vueify",
+    "keywords": [
+      "vue",
+      "browserify"
+    ],
+    "version": "9.4.1",
+    "description": "Vue component transform for Browserify",
+    "publisher": {
+      "email": "yyx990803@gmail.com",
+      "username": "yyx990803"
+    },
+    "maintainers": [
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      }
+    ],
+    "license": "MIT",
+    "date": "2017-03-09T02:43:02.714Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/vueify",
+      "repository": "git+https://github.com/vuejs/vueify.git",
+      "bugs": "https://github.com/vuejs/vueify/issues",
+      "npm": "https://www.npmjs.com/package/vueify"
     }
   },
   {
@@ -4220,61 +4247,6 @@
     }
   },
   {
-    "name": "@vite-plugin-vue-devtools/core",
-    "keywords": [],
-    "version": "1.0.0-rc.8",
-    "publisher": {
-      "email": "308241863@qq.com",
-      "username": "webfansplz"
-    },
-    "maintainers": [
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "webfansplz@gmail.com",
-        "username": "webfansplz"
-      }
-    ],
-    "license": "MIT",
-    "date": "2023-12-13T12:50:57.620Z",
-    "links": {
-      "homepage": "https://github.com/webfansplz/vite-plugin-vue-devtools#readme",
-      "repository": "git+https://github.com/webfansplz/vite-plugin-vue-devtools.git",
-      "bugs": "https://github.com/webfansplz/vite-plugin-vue-devtools/issues",
-      "npm": "https://www.npmjs.com/package/@vite-plugin-vue-devtools/core"
-    }
-  },
-  {
-    "name": "vite-plugin-react",
-    "keywords": [
-      "vite",
-      "react",
-      "hmr"
-    ],
-    "version": "4.0.1",
-    "description": "React fast refresh plugin for Vite",
-    "publisher": {
-      "email": "yyx990803@gmail.com",
-      "username": "yyx990803"
-    },
-    "maintainers": [
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      }
-    ],
-    "license": "MIT",
-    "date": "2020-12-03T20:19:28.635Z",
-    "links": {
-      "homepage": "https://github.com/vitejs/vite-plugin-react/tree/master/#readme",
-      "repository": "git+https://github.com/vitejs/vite-plugin-react.git",
-      "bugs": "https://github.com/vitejs/vite-plugin-react/issues",
-      "npm": "https://www.npmjs.com/package/vite-plugin-react"
-    }
-  },
-  {
     "name": "@vuepress/bundlerutils",
     "keywords": [
       "bundler",
@@ -4312,6 +4284,34 @@
       "repository": "git+https://github.com/vuepress/core.git",
       "bugs": "https://github.com/vuepress/core/issues",
       "npm": "https://www.npmjs.com/package/@vuepress/bundlerutils"
+    }
+  },
+  {
+    "name": "vite-plugin-react",
+    "keywords": [
+      "vite",
+      "react",
+      "hmr"
+    ],
+    "version": "4.0.1",
+    "description": "React fast refresh plugin for Vite",
+    "publisher": {
+      "email": "yyx990803@gmail.com",
+      "username": "yyx990803"
+    },
+    "maintainers": [
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      }
+    ],
+    "license": "MIT",
+    "date": "2020-12-03T20:19:28.635Z",
+    "links": {
+      "homepage": "https://github.com/vitejs/vite-plugin-react/tree/master/#readme",
+      "repository": "git+https://github.com/vitejs/vite-plugin-react.git",
+      "bugs": "https://github.com/vitejs/vite-plugin-react/issues",
+      "npm": "https://www.npmjs.com/package/vite-plugin-react"
     }
   },
   {
@@ -4458,6 +4458,32 @@
     }
   },
   {
+    "name": "vuepress-theme-vue",
+    "keywords": [
+      "vue"
+    ],
+    "version": "1.1.1",
+    "description": "VuePress theme for official Vue projects",
+    "publisher": {
+      "email": "yyx990803@gmail.com",
+      "username": "yyx990803"
+    },
+    "maintainers": [
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      }
+    ],
+    "license": "MIT",
+    "date": "2020-07-17T21:54:52.101Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/vuepress-theme-vue#readme",
+      "repository": "git+https://github.com/vuejs/vuepress-theme-vue.git",
+      "bugs": "https://github.com/vuejs/vuepress-theme-vue/issues",
+      "npm": "https://www.npmjs.com/package/vuepress-theme-vue"
+    }
+  },
+  {
     "name": "babel-plugin-coverage",
     "keywords": [
       "babel",
@@ -4558,35 +4584,6 @@
     }
   },
   {
-    "name": "vue-ssr-webpack-plugin",
-    "keywords": [
-      "vue",
-      "ssr",
-      "webpack",
-      "plugin"
-    ],
-    "version": "3.0.0",
-    "description": "webpack plugin for generating a bundle manifest to use with Vue 2.x bundleRenderer",
-    "publisher": {
-      "email": "yyx990803@gmail.com",
-      "username": "yyx990803"
-    },
-    "maintainers": [
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      }
-    ],
-    "license": "MIT",
-    "date": "2017-04-13T10:08:08.533Z",
-    "links": {
-      "homepage": "https://github.com/vuejs/vue-ssr-webpack-plugin#readme",
-      "repository": "git+https://github.com/vuejs/vue-ssr-webpack-plugin.git",
-      "bugs": "https://github.com/vuejs/vue-ssr-webpack-plugin/issues",
-      "npm": "https://www.npmjs.com/package/vue-ssr-webpack-plugin"
-    }
-  },
-  {
     "name": "@vue/cli-service-global",
     "keywords": [
       "vue",
@@ -4619,6 +4616,74 @@
       "repository": "git+https://github.com/vuejs/vue-cli.git",
       "bugs": "https://github.com/vuejs/vue-cli/issues",
       "npm": "https://www.npmjs.com/package/@vue/cli-service-global"
+    }
+  },
+  {
+    "name": "vue-ssr-webpack-plugin",
+    "keywords": [
+      "vue",
+      "ssr",
+      "webpack",
+      "plugin"
+    ],
+    "version": "3.0.0",
+    "description": "webpack plugin for generating a bundle manifest to use with Vue 2.x bundleRenderer",
+    "publisher": {
+      "email": "yyx990803@gmail.com",
+      "username": "yyx990803"
+    },
+    "maintainers": [
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      }
+    ],
+    "license": "MIT",
+    "date": "2017-04-13T10:08:08.533Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/vue-ssr-webpack-plugin#readme",
+      "repository": "git+https://github.com/vuejs/vue-ssr-webpack-plugin.git",
+      "bugs": "https://github.com/vuejs/vue-ssr-webpack-plugin/issues",
+      "npm": "https://www.npmjs.com/package/vue-ssr-webpack-plugin"
+    }
+  },
+  {
+    "name": "@rolldown/binding-linux-arm64-gnu",
+    "keywords": [
+      "webpack",
+      "parcel",
+      "esbuild",
+      "rollup",
+      "bundler",
+      "rolldown"
+    ],
+    "version": "0.15.0",
+    "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API.",
+    "publisher": {
+      "email": "rolldown@voidzero.dev",
+      "username": "rolldownbot"
+    },
+    "maintainers": [
+      {
+        "email": "lynweklm@gmail.com",
+        "username": "broooooklyn"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "rolldown@voidzero.dev",
+        "username": "rolldownbot"
+      }
+    ],
+    "license": "MIT",
+    "date": "2024-12-02T18:45:06.923Z",
+    "links": {
+      "homepage": "https://rolldown.rs/",
+      "repository": "git+https://github.com/rolldown/rolldown.git",
+      "bugs": "https://github.com/rolldown/rolldown/issues",
+      "npm": "https://www.npmjs.com/package/@rolldown/binding-linux-arm64-gnu"
     }
   },
   {
@@ -4725,68 +4790,79 @@
     }
   },
   {
-    "name": "vuepress-theme-vue",
+    "name": "@vue/cli-init",
     "keywords": [
-      "vue"
+      "vue",
+      "cli"
     ],
-    "version": "1.1.1",
-    "description": "VuePress theme for official Vue projects",
+    "version": "5.0.8",
+    "description": "init addon for vue-cli",
     "publisher": {
-      "email": "yyx990803@gmail.com",
-      "username": "yyx990803"
+      "email": "haoqunjiang+npm@gmail.com",
+      "username": "soda"
     },
     "maintainers": [
       {
+        "email": "guillaume.b.chau@gmail.com",
+        "username": "akryum"
+      },
+      {
         "email": "yyx990803@gmail.com",
         "username": "yyx990803"
+      },
+      {
+        "email": "haoqunjiang+npm@gmail.com",
+        "username": "soda"
       }
     ],
     "license": "MIT",
-    "date": "2020-07-17T21:54:52.101Z",
+    "date": "2022-07-07T10:22:05.846Z",
     "links": {
-      "homepage": "https://github.com/vuejs/vuepress-theme-vue#readme",
-      "repository": "git+https://github.com/vuejs/vuepress-theme-vue.git",
-      "bugs": "https://github.com/vuejs/vuepress-theme-vue/issues",
-      "npm": "https://www.npmjs.com/package/vuepress-theme-vue"
+      "homepage": "https://github.com/vuejs/vue-cli/tree/dev/packages/@vue/cli-init#readme",
+      "repository": "git+https://github.com/vuejs/vue-cli.git",
+      "bugs": "https://github.com/vuejs/vue-cli/issues",
+      "npm": "https://www.npmjs.com/package/@vue/cli-init"
     }
   },
   {
-    "name": "@rolldown/binding-linux-arm64-gnu",
+    "name": "vuepress-webpack",
     "keywords": [
-      "webpack",
-      "parcel",
-      "esbuild",
-      "rollup",
-      "bundler",
-      "rolldown"
+      "documentation",
+      "generator",
+      "vue",
+      "vuepress"
     ],
-    "version": "0.15.0",
-    "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API.",
+    "version": "2.0.0-rc.0",
+    "description": "Vue-powered Static Site Generator",
     "publisher": {
-      "email": "rolldown@voidzero.dev",
-      "username": "rolldownbot"
+      "email": "meteor.lxy@foxmail.com",
+      "username": "meteorlxy"
     },
     "maintainers": [
       {
-        "email": "lynweklm@gmail.com",
-        "username": "broooooklyn"
+        "email": "472590061@qq.com",
+        "username": "ulivz"
       },
       {
         "email": "yyx990803@gmail.com",
         "username": "yyx990803"
       },
       {
-        "email": "rolldown@voidzero.dev",
-        "username": "rolldownbot"
+        "email": "ben@bencodezen.io",
+        "username": "bencodezen"
+      },
+      {
+        "email": "meteor.lxy@foxmail.com",
+        "username": "meteorlxy"
       }
     ],
     "license": "MIT",
-    "date": "2024-12-02T18:45:06.923Z",
+    "date": "2023-11-16T16:31:35.950Z",
     "links": {
-      "homepage": "https://rolldown.rs/",
-      "repository": "git+https://github.com/rolldown/rolldown.git",
-      "bugs": "https://github.com/rolldown/rolldown/issues",
-      "npm": "https://www.npmjs.com/package/@rolldown/binding-linux-arm64-gnu"
+      "homepage": "https://github.com/vuepress",
+      "repository": "git+https://github.com/vuepress/vuepress-next.git",
+      "bugs": "https://github.com/vuepress/vuepress-next/issues",
+      "npm": "https://www.npmjs.com/package/vuepress-webpack"
     }
   },
   {
@@ -4859,41 +4935,6 @@
     }
   },
   {
-    "name": "@vue/cli-init",
-    "keywords": [
-      "vue",
-      "cli"
-    ],
-    "version": "5.0.8",
-    "description": "init addon for vue-cli",
-    "publisher": {
-      "email": "haoqunjiang+npm@gmail.com",
-      "username": "soda"
-    },
-    "maintainers": [
-      {
-        "email": "guillaume.b.chau@gmail.com",
-        "username": "akryum"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "haoqunjiang+npm@gmail.com",
-        "username": "soda"
-      }
-    ],
-    "license": "MIT",
-    "date": "2022-07-07T10:22:05.846Z",
-    "links": {
-      "homepage": "https://github.com/vuejs/vue-cli/tree/dev/packages/@vue/cli-init#readme",
-      "repository": "git+https://github.com/vuejs/vue-cli.git",
-      "bugs": "https://github.com/vuejs/vue-cli/issues",
-      "npm": "https://www.npmjs.com/package/@vue/cli-init"
-    }
-  },
-  {
     "name": "@rolldown/binding-freebsd-x64",
     "keywords": [
       "webpack",
@@ -4930,86 +4971,6 @@
       "repository": "git+https://github.com/rolldown/rolldown.git",
       "bugs": "https://github.com/rolldown/rolldown/issues",
       "npm": "https://www.npmjs.com/package/@rolldown/binding-freebsd-x64"
-    }
-  },
-  {
-    "name": "vuepress-webpack",
-    "keywords": [
-      "documentation",
-      "generator",
-      "vue",
-      "vuepress"
-    ],
-    "version": "2.0.0-rc.0",
-    "description": "Vue-powered Static Site Generator",
-    "publisher": {
-      "email": "meteor.lxy@foxmail.com",
-      "username": "meteorlxy"
-    },
-    "maintainers": [
-      {
-        "email": "472590061@qq.com",
-        "username": "ulivz"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "ben@bencodezen.io",
-        "username": "bencodezen"
-      },
-      {
-        "email": "meteor.lxy@foxmail.com",
-        "username": "meteorlxy"
-      }
-    ],
-    "license": "MIT",
-    "date": "2023-11-16T16:31:35.950Z",
-    "links": {
-      "homepage": "https://github.com/vuepress",
-      "repository": "git+https://github.com/vuepress/vuepress-next.git",
-      "bugs": "https://github.com/vuepress/vuepress-next/issues",
-      "npm": "https://www.npmjs.com/package/vuepress-webpack"
-    }
-  },
-  {
-    "name": "@rolldown/binding-linux-arm64-musl",
-    "keywords": [
-      "webpack",
-      "parcel",
-      "esbuild",
-      "rollup",
-      "bundler",
-      "rolldown"
-    ],
-    "version": "0.15.0",
-    "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API.",
-    "publisher": {
-      "email": "rolldown@voidzero.dev",
-      "username": "rolldownbot"
-    },
-    "maintainers": [
-      {
-        "email": "lynweklm@gmail.com",
-        "username": "broooooklyn"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "rolldown@voidzero.dev",
-        "username": "rolldownbot"
-      }
-    ],
-    "license": "MIT",
-    "date": "2024-12-02T18:45:12.279Z",
-    "links": {
-      "homepage": "https://rolldown.rs/",
-      "repository": "git+https://github.com/rolldown/rolldown.git",
-      "bugs": "https://github.com/rolldown/rolldown/issues",
-      "npm": "https://www.npmjs.com/package/@rolldown/binding-linux-arm64-musl"
     }
   },
   {
@@ -5130,41 +5091,70 @@
     }
   },
   {
-    "name": "@vue/cli-plugin-e2e-webdriverio",
+    "name": "pod",
     "keywords": [
-      "vue",
       "cli",
-      "wdio",
-      "webdriverio",
-      "e2e-webdriverio"
+      "deployment",
+      "sysadmin",
+      "tools"
     ],
-    "version": "5.0.8",
-    "description": "e2e-webdriverio plugin for vue-cli",
+    "version": "0.9.0",
+    "description": "Super simple Node.js deployment tool",
     "publisher": {
-      "email": "haoqunjiang+npm@gmail.com",
-      "username": "soda"
+      "email": "yyx990803@gmail.com",
+      "username": "yyx990803"
     },
     "maintainers": [
       {
-        "email": "guillaume.b.chau@gmail.com",
-        "username": "akryum"
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      }
+    ],
+    "date": "2016-05-16T15:26:04.628Z",
+    "links": {
+      "homepage": "https://github.com/yyx990803/pod#readme",
+      "repository": "git+ssh://git@github.com/yyx990803/pod.git",
+      "bugs": "https://github.com/yyx990803/pod/issues",
+      "npm": "https://www.npmjs.com/package/pod"
+    }
+  },
+  {
+    "name": "@rolldown/binding-linux-arm64-musl",
+    "keywords": [
+      "webpack",
+      "parcel",
+      "esbuild",
+      "rollup",
+      "bundler",
+      "rolldown"
+    ],
+    "version": "0.15.0",
+    "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API.",
+    "publisher": {
+      "email": "rolldown@voidzero.dev",
+      "username": "rolldownbot"
+    },
+    "maintainers": [
+      {
+        "email": "lynweklm@gmail.com",
+        "username": "broooooklyn"
       },
       {
         "email": "yyx990803@gmail.com",
         "username": "yyx990803"
       },
       {
-        "email": "haoqunjiang+npm@gmail.com",
-        "username": "soda"
+        "email": "rolldown@voidzero.dev",
+        "username": "rolldownbot"
       }
     ],
     "license": "MIT",
-    "date": "2022-07-07T10:22:07.221Z",
+    "date": "2024-12-02T18:45:12.279Z",
     "links": {
-      "homepage": "https://github.com/vuejs/vue-cli/tree/dev/packages/@vue/cli-plugin-e2e-webdriverio#readme",
-      "repository": "git+https://github.com/vuejs/vue-cli.git",
-      "bugs": "https://github.com/vuejs/vue-cli/issues",
-      "npm": "https://www.npmjs.com/package/@vue/cli-plugin-e2e-webdriverio"
+      "homepage": "https://rolldown.rs/",
+      "repository": "git+https://github.com/rolldown/rolldown.git",
+      "bugs": "https://github.com/rolldown/rolldown/issues",
+      "npm": "https://www.npmjs.com/package/@rolldown/binding-linux-arm64-musl"
     }
   },
   {
@@ -5204,150 +5194,6 @@
       "repository": "git+https://github.com/rolldown/rolldown.git",
       "bugs": "https://github.com/rolldown/rolldown/issues",
       "npm": "https://www.npmjs.com/package/@rolldown/binding-darwin-x64"
-    }
-  },
-  {
-    "name": "@rolldown/binding-win32-arm64-msvc",
-    "keywords": [
-      "webpack",
-      "parcel",
-      "esbuild",
-      "rollup",
-      "bundler",
-      "rolldown"
-    ],
-    "version": "0.15.0",
-    "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API.",
-    "publisher": {
-      "email": "rolldown@voidzero.dev",
-      "username": "rolldownbot"
-    },
-    "maintainers": [
-      {
-        "email": "lynweklm@gmail.com",
-        "username": "broooooklyn"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "rolldown@voidzero.dev",
-        "username": "rolldownbot"
-      }
-    ],
-    "license": "MIT",
-    "date": "2024-12-02T18:45:32.812Z",
-    "links": {
-      "homepage": "https://rolldown.rs/",
-      "repository": "git+https://github.com/rolldown/rolldown.git",
-      "bugs": "https://github.com/rolldown/rolldown/issues",
-      "npm": "https://www.npmjs.com/package/@rolldown/binding-win32-arm64-msvc"
-    }
-  },
-  {
-    "name": "pod",
-    "keywords": [
-      "cli",
-      "deployment",
-      "sysadmin",
-      "tools"
-    ],
-    "version": "0.9.0",
-    "description": "Super simple Node.js deployment tool",
-    "publisher": {
-      "email": "yyx990803@gmail.com",
-      "username": "yyx990803"
-    },
-    "maintainers": [
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      }
-    ],
-    "date": "2016-05-16T15:26:04.628Z",
-    "links": {
-      "homepage": "https://github.com/yyx990803/pod#readme",
-      "repository": "git+ssh://git@github.com/yyx990803/pod.git",
-      "bugs": "https://github.com/yyx990803/pod/issues",
-      "npm": "https://www.npmjs.com/package/pod"
-    }
-  },
-  {
-    "name": "okie",
-    "keywords": [],
-    "version": "1.0.1",
-    "description": "Dead simple worker thread pool",
-    "publisher": {
-      "email": "yyx990803@gmail.com",
-      "username": "yyx990803"
-    },
-    "maintainers": [
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      }
-    ],
-    "license": "MIT",
-    "date": "2020-12-28T15:52:59.302Z",
-    "links": {
-      "repository": "git+https://github.com/yyx990803/okie.git",
-      "npm": "https://www.npmjs.com/package/okie"
-    }
-  },
-  {
-    "name": "@vue/theme",
-    "keywords": [
-      "vue",
-      "design-system"
-    ],
-    "version": "2.3.0",
-    "description": "The VitePress theme for vuejs.org.",
-    "publisher": {
-      "email": "yyx990803@gmail.com",
-      "username": "yyx990803"
-    },
-    "maintainers": [
-      {
-        "email": "kia.king.08@gmail.com",
-        "username": "kiaking"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "npm@haoqun.me",
-        "username": "soda"
-      },
-      {
-        "email": "david-181@hotmail.com",
-        "username": "pikax"
-      },
-      {
-        "email": "posva13@gmail.com",
-        "username": "posva"
-      },
-      {
-        "email": "anthonyfu117@hotmail.com",
-        "username": "antfu"
-      },
-      {
-        "email": "guillaume.b.chau@gmail.com",
-        "username": "akryum"
-      },
-      {
-        "email": "brc-dd@hotmail.com",
-        "username": "brc-dd"
-      }
-    ],
-    "license": "MIT",
-    "date": "2024-09-17T23:25:52.455Z",
-    "links": {
-      "homepage": "https://theme.vuejs.org",
-      "repository": "git+https://github.com/vuejs/theme.git",
-      "bugs": "https://github.com/vuejs/theme/issues",
-      "npm": "https://www.npmjs.com/package/@vue/theme"
     }
   },
   {
@@ -5415,6 +5261,83 @@
     }
   },
   {
+    "name": "@rolldown/binding-win32-arm64-msvc",
+    "keywords": [
+      "webpack",
+      "parcel",
+      "esbuild",
+      "rollup",
+      "bundler",
+      "rolldown"
+    ],
+    "version": "0.15.0",
+    "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API.",
+    "publisher": {
+      "email": "rolldown@voidzero.dev",
+      "username": "rolldownbot"
+    },
+    "maintainers": [
+      {
+        "email": "lynweklm@gmail.com",
+        "username": "broooooklyn"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "rolldown@voidzero.dev",
+        "username": "rolldownbot"
+      }
+    ],
+    "license": "MIT",
+    "date": "2024-12-02T18:45:32.812Z",
+    "links": {
+      "homepage": "https://rolldown.rs/",
+      "repository": "git+https://github.com/rolldown/rolldown.git",
+      "bugs": "https://github.com/rolldown/rolldown/issues",
+      "npm": "https://www.npmjs.com/package/@rolldown/binding-win32-arm64-msvc"
+    }
+  },
+  {
+    "name": "@vue/cli-plugin-e2e-webdriverio",
+    "keywords": [
+      "vue",
+      "cli",
+      "wdio",
+      "webdriverio",
+      "e2e-webdriverio"
+    ],
+    "version": "5.0.8",
+    "description": "e2e-webdriverio plugin for vue-cli",
+    "publisher": {
+      "email": "haoqunjiang+npm@gmail.com",
+      "username": "soda"
+    },
+    "maintainers": [
+      {
+        "email": "guillaume.b.chau@gmail.com",
+        "username": "akryum"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "haoqunjiang+npm@gmail.com",
+        "username": "soda"
+      }
+    ],
+    "license": "MIT",
+    "date": "2022-07-07T10:22:07.221Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/vue-cli/tree/dev/packages/@vue/cli-plugin-e2e-webdriverio#readme",
+      "repository": "git+https://github.com/vuejs/vue-cli.git",
+      "bugs": "https://github.com/vuejs/vue-cli/issues",
+      "npm": "https://www.npmjs.com/package/@vue/cli-plugin-e2e-webdriverio"
+    }
+  },
+  {
     "name": "@vue/eslint-plugin",
     "keywords": [
       "eslint",
@@ -5458,33 +5381,65 @@
     }
   },
   {
-    "name": "gitbook-plugin-theme-vuejs",
-    "keywords": [],
-    "version": "1.1.0",
-    "description": "vue.js theme for gitbook",
+    "name": "@vue/theme",
+    "keywords": [
+      "vue",
+      "design-system"
+    ],
+    "version": "2.3.0",
+    "description": "The VitePress theme for vuejs.org.",
     "publisher": {
       "email": "yyx990803@gmail.com",
       "username": "yyx990803"
     },
     "maintainers": [
       {
+        "email": "kia.king.08@gmail.com",
+        "username": "kiaking"
+      },
+      {
         "email": "yyx990803@gmail.com",
         "username": "yyx990803"
+      },
+      {
+        "email": "npm@haoqun.me",
+        "username": "soda"
+      },
+      {
+        "email": "david-181@hotmail.com",
+        "username": "pikax"
+      },
+      {
+        "email": "posva13@gmail.com",
+        "username": "posva"
+      },
+      {
+        "email": "anthonyfu117@hotmail.com",
+        "username": "antfu"
+      },
+      {
+        "email": "guillaume.b.chau@gmail.com",
+        "username": "akryum"
+      },
+      {
+        "email": "brc-dd@hotmail.com",
+        "username": "brc-dd"
       }
     ],
-    "date": "2017-10-06T14:07:24.598Z",
+    "license": "MIT",
+    "date": "2024-09-17T23:25:52.455Z",
     "links": {
-      "npm": "https://www.npmjs.com/package/gitbook-plugin-theme-vuejs"
+      "homepage": "https://theme.vuejs.org",
+      "repository": "git+https://github.com/vuejs/theme.git",
+      "bugs": "https://github.com/vuejs/theme/issues",
+      "npm": "https://www.npmjs.com/package/@vue/theme"
     }
   },
   {
-    "name": "laravel-elixir-vue-2",
-    "keywords": [
-      "vue",
-      "laravel"
-    ],
-    "version": "0.3.0",
-    "description": "'Laravel Elixir Vue 2.0 Integration'",
+    "name": "okie",
+    "keywords": [],
+    "version": "1.0.1",
+    "description": "Dead simple worker thread pool",
     "publisher": {
       "email": "yyx990803@gmail.com",
       "username": "yyx990803"
@@ -5496,12 +5451,10 @@
       }
     ],
     "license": "MIT",
-    "date": "2016-11-30T16:16:11.758Z",
+    "date": "2020-12-28T15:52:59.302Z",
     "links": {
-      "homepage": "https://github.com/vuejs/laravel-elixir-vue-2#readme",
-      "repository": "git+https://github.com/vuejs/laravel-elixir-vue-2.git",
-      "bugs": "https://github.com/vuejs/laravel-elixir-vue-2/issues",
-      "npm": "https://www.npmjs.com/package/laravel-elixir-vue-2"
+      "repository": "git+https://github.com/yyx990803/okie.git",
+      "npm": "https://www.npmjs.com/package/okie"
     }
   },
   {
@@ -5534,13 +5487,13 @@
     }
   },
   {
-    "name": "shell-task",
+    "name": "laravel-elixir-vue-2",
     "keywords": [
-      "shell",
-      "cli"
+      "vue",
+      "laravel"
     ],
-    "version": "1.0.0",
-    "description": "Proof-of-concept then-able shell commands in node.",
+    "version": "0.3.0",
+    "description": "'Laravel Elixir Vue 2.0 Integration'",
     "publisher": {
       "email": "yyx990803@gmail.com",
       "username": "yyx990803"
@@ -5552,23 +5505,19 @@
       }
     ],
     "license": "MIT",
-    "date": "2014-10-07T20:11:46.377Z",
+    "date": "2016-11-30T16:16:11.758Z",
     "links": {
-      "homepage": "https://github.com/yyx990803/shell-task",
-      "repository": "https://github.com/yyx990803/shell-task.git",
-      "bugs": "https://github.com/yyx990803/shell-task/issues",
-      "npm": "https://www.npmjs.com/package/shell-task"
+      "homepage": "https://github.com/vuejs/laravel-elixir-vue-2#readme",
+      "repository": "git+https://github.com/vuejs/laravel-elixir-vue-2.git",
+      "bugs": "https://github.com/vuejs/laravel-elixir-vue-2/issues",
+      "npm": "https://www.npmjs.com/package/laravel-elixir-vue-2"
     }
   },
   {
-    "name": "vue-ssr-html-stream",
-    "keywords": [
-      "vue",
-      "ssr",
-      "stream"
-    ],
-    "version": "2.2.0",
-    "description": "Transform stream to simplify Vue SSR streaming",
+    "name": "gitbook-plugin-theme-vuejs",
+    "keywords": [],
+    "version": "1.1.0",
+    "description": "vue.js theme for gitbook",
     "publisher": {
       "email": "yyx990803@gmail.com",
       "username": "yyx990803"
@@ -5579,13 +5528,9 @@
         "username": "yyx990803"
       }
     ],
-    "license": "MIT",
-    "date": "2017-03-18T15:03:47.673Z",
+    "date": "2017-10-06T14:07:24.598Z",
     "links": {
-      "homepage": "https://github.com/vuejs/vue-ssr-html-stream#readme",
-      "repository": "git+https://github.com/vuejs/vue-ssr-html-stream.git",
-      "bugs": "https://github.com/vuejs/vue-ssr-html-stream/issues",
-      "npm": "https://www.npmjs.com/package/vue-ssr-html-stream"
+      "npm": "https://www.npmjs.com/package/gitbook-plugin-theme-vuejs"
     }
   },
   {
@@ -5627,6 +5572,34 @@
       "repository": "git+https://github.com/vuepressjs/vuepress-plugin-html-redirect.git",
       "bugs": "https://github.com/vuepressjs/vuepress-plugin-html-redirect/issues",
       "npm": "https://www.npmjs.com/package/@vuepress/plugin-html-redirect"
+    }
+  },
+  {
+    "name": "vue-ssr-html-stream",
+    "keywords": [
+      "vue",
+      "ssr",
+      "stream"
+    ],
+    "version": "2.2.0",
+    "description": "Transform stream to simplify Vue SSR streaming",
+    "publisher": {
+      "email": "yyx990803@gmail.com",
+      "username": "yyx990803"
+    },
+    "maintainers": [
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      }
+    ],
+    "license": "MIT",
+    "date": "2017-03-18T15:03:47.673Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/vue-ssr-html-stream#readme",
+      "repository": "git+https://github.com/vuejs/vue-ssr-html-stream.git",
+      "bugs": "https://github.com/vuejs/vue-ssr-html-stream/issues",
+      "npm": "https://www.npmjs.com/package/vue-ssr-html-stream"
     }
   },
   {
@@ -5717,6 +5690,33 @@
     }
   },
   {
+    "name": "shell-task",
+    "keywords": [
+      "shell",
+      "cli"
+    ],
+    "version": "1.0.0",
+    "description": "Proof-of-concept then-able shell commands in node.",
+    "publisher": {
+      "email": "yyx990803@gmail.com",
+      "username": "yyx990803"
+    },
+    "maintainers": [
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      }
+    ],
+    "license": "MIT",
+    "date": "2014-10-07T20:11:46.377Z",
+    "links": {
+      "homepage": "https://github.com/yyx990803/shell-task",
+      "repository": "https://github.com/yyx990803/shell-task.git",
+      "bugs": "https://github.com/yyx990803/shell-task/issues",
+      "npm": "https://www.npmjs.com/package/shell-task"
+    }
+  },
+  {
     "name": "vue-animated-list",
     "keywords": [
       "vue",
@@ -5791,6 +5791,45 @@
     }
   },
   {
+    "name": "weex-template-compiler",
+    "keywords": [
+      "vue",
+      "compiler"
+    ],
+    "version": "2.5.16-weex.1",
+    "description": "Weex template compiler for Vue 2.0",
+    "publisher": {
+      "email": "hello@imyzf.com",
+      "username": "imyzf"
+    },
+    "maintainers": [
+      {
+        "email": "fkysly@gmail.com",
+        "username": "fkysly"
+      },
+      {
+        "email": "zhanghan.me@gmail.com",
+        "username": "hanks"
+      },
+      {
+        "email": "zhaojinjiang@me.com",
+        "username": "jinjiang"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      }
+    ],
+    "license": "MIT",
+    "date": "2018-07-23T11:32:04.494Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/vue/tree/dev/packages/weex-template-compiler#readme",
+      "repository": "git+https://github.com/vuejs/vue.git",
+      "bugs": "https://github.com/vuejs/vue/issues",
+      "npm": "https://www.npmjs.com/package/weex-template-compiler"
+    }
+  },
+  {
     "name": "wiretap",
     "keywords": [
       "data",
@@ -5853,45 +5892,6 @@
       "repository": "git+https://github.com/vuejs/vue-cli.git",
       "bugs": "https://github.com/vuejs/vue-cli/issues",
       "npm": "https://www.npmjs.com/package/@vue/cli-upgrade"
-    }
-  },
-  {
-    "name": "weex-template-compiler",
-    "keywords": [
-      "vue",
-      "compiler"
-    ],
-    "version": "2.5.16-weex.1",
-    "description": "Weex template compiler for Vue 2.0",
-    "publisher": {
-      "email": "hello@imyzf.com",
-      "username": "imyzf"
-    },
-    "maintainers": [
-      {
-        "email": "fkysly@gmail.com",
-        "username": "fkysly"
-      },
-      {
-        "email": "zhanghan.me@gmail.com",
-        "username": "hanks"
-      },
-      {
-        "email": "zhaojinjiang@me.com",
-        "username": "jinjiang"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      }
-    ],
-    "license": "MIT",
-    "date": "2018-07-23T11:32:04.494Z",
-    "links": {
-      "homepage": "https://github.com/vuejs/vue/tree/dev/packages/weex-template-compiler#readme",
-      "repository": "git+https://github.com/vuejs/vue.git",
-      "bugs": "https://github.com/vuejs/vue/issues",
-      "npm": "https://www.npmjs.com/package/weex-template-compiler"
     }
   },
   {
@@ -5980,46 +5980,6 @@
     }
   },
   {
-    "name": "@vuepress/plugin-debug",
-    "keywords": [
-      "vuepress",
-      "plugin",
-      "debug"
-    ],
-    "version": "2.0.0-alpha.6",
-    "description": "VuePress plugin - debug",
-    "publisher": {
-      "email": "meteor.lxy@foxmail.com",
-      "username": "meteorlxy"
-    },
-    "maintainers": [
-      {
-        "email": "472590061@qq.com",
-        "username": "ulivz"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "ben@bencodezen.io",
-        "username": "bencodezen"
-      },
-      {
-        "email": "meteor.lxy@foxmail.com",
-        "username": "meteorlxy"
-      }
-    ],
-    "license": "MIT",
-    "date": "2020-12-09T12:13:11.166Z",
-    "links": {
-      "homepage": "https://github.com/vuepress",
-      "repository": "git+https://github.com/vuepress/vuepress-next.git",
-      "bugs": "https://github.com/vuepress/vuepress-next/issues",
-      "npm": "https://www.npmjs.com/package/@vuepress/plugin-debug"
-    }
-  },
-  {
     "name": "gulp-component",
     "keywords": [
       "gulp",
@@ -6083,6 +6043,46 @@
     }
   },
   {
+    "name": "@vuepress/plugin-debug",
+    "keywords": [
+      "vuepress",
+      "plugin",
+      "debug"
+    ],
+    "version": "2.0.0-alpha.6",
+    "description": "VuePress plugin - debug",
+    "publisher": {
+      "email": "meteor.lxy@foxmail.com",
+      "username": "meteorlxy"
+    },
+    "maintainers": [
+      {
+        "email": "472590061@qq.com",
+        "username": "ulivz"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "ben@bencodezen.io",
+        "username": "bencodezen"
+      },
+      {
+        "email": "meteor.lxy@foxmail.com",
+        "username": "meteorlxy"
+      }
+    ],
+    "license": "MIT",
+    "date": "2020-12-09T12:13:11.166Z",
+    "links": {
+      "homepage": "https://github.com/vuepress",
+      "repository": "git+https://github.com/vuepress/vuepress-next.git",
+      "bugs": "https://github.com/vuepress/vuepress-next/issues",
+      "npm": "https://www.npmjs.com/package/@vuepress/plugin-debug"
+    }
+  },
+  {
     "name": "khaos-patched",
     "keywords": [
       "template",
@@ -6111,6 +6111,33 @@
       "repository": "git://github.com/segmentio/khaos.git",
       "bugs": "https://github.com/segmentio/khaos/issues",
       "npm": "https://www.npmjs.com/package/khaos-patched"
+    }
+  },
+  {
+    "name": "zoomerang",
+    "keywords": [
+      "browser",
+      "zoom"
+    ],
+    "version": "0.1.9",
+    "description": "drop-in zoomer for anything",
+    "publisher": {
+      "email": "yyx990803@gmail.com",
+      "username": "yyx990803"
+    },
+    "maintainers": [
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      }
+    ],
+    "license": "MIT",
+    "date": "2015-07-25T04:22:55.275Z",
+    "links": {
+      "homepage": "https://github.com/yyx990803/zoomerang",
+      "repository": "git+https://github.com/yyx990803/zoomerang.git",
+      "bugs": "https://github.com/yyx990803/zoomerang/issues",
+      "npm": "https://www.npmjs.com/package/zoomerang"
     }
   },
   {
@@ -6220,33 +6247,6 @@
     }
   },
   {
-    "name": "zoomerang",
-    "keywords": [
-      "browser",
-      "zoom"
-    ],
-    "version": "0.1.9",
-    "description": "drop-in zoomer for anything",
-    "publisher": {
-      "email": "yyx990803@gmail.com",
-      "username": "yyx990803"
-    },
-    "maintainers": [
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      }
-    ],
-    "license": "MIT",
-    "date": "2015-07-25T04:22:55.275Z",
-    "links": {
-      "homepage": "https://github.com/yyx990803/zoomerang",
-      "repository": "git+https://github.com/yyx990803/zoomerang.git",
-      "bugs": "https://github.com/yyx990803/zoomerang/issues",
-      "npm": "https://www.npmjs.com/package/zoomerang"
-    }
-  },
-  {
     "name": "hakuneko",
     "keywords": [
       "hakuneko",
@@ -6292,6 +6292,7 @@
     "license": "Unlicense",
     "date": "2019-06-22T08:42:47.261Z",
     "links": {
+      "repository": "",
       "npm": "https://www.npmjs.com/package/hakuneko"
     }
   },
@@ -6530,47 +6531,6 @@
     }
   },
   {
-    "name": "@vuepress/plugin-notification",
-    "keywords": [
-      "documentation",
-      "vue",
-      "vuepress",
-      "generator"
-    ],
-    "version": "1.0.0-alpha.5",
-    "description": "notification plugin for vuepress",
-    "publisher": {
-      "email": "472590061@qq.com",
-      "username": "ulivz"
-    },
-    "maintainers": [
-      {
-        "email": "472590061@qq.com",
-        "username": "ulivz"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "ben@bencodezen.io",
-        "username": "bencodezen"
-      },
-      {
-        "email": "meteor.lxy@foxmail.com",
-        "username": "meteorlxy"
-      }
-    ],
-    "license": "MIT",
-    "date": "2018-10-07T14:48:38.900Z",
-    "links": {
-      "homepage": "https://github.com/vuejs/vuepress/packages/@vuepress/plugin-notification#readme",
-      "repository": "git+https://github.com/vuejs/vuepress.git",
-      "bugs": "https://github.com/vuejs/vuepress/issues",
-      "npm": "https://www.npmjs.com/package/@vuepress/plugin-notification"
-    }
-  },
-  {
     "name": "@vue/compiler-ssr-canary",
     "keywords": [
       "vue"
@@ -6633,68 +6593,6 @@
     }
   },
   {
-    "name": "@vue/compiler-sfc-canary",
-    "keywords": [
-      "vue"
-    ],
-    "version": "3.20240701.0",
-    "description": "@vue/compiler-sfc",
-    "publisher": {
-      "email": "yyx990803@gmail.com",
-      "username": "yyx990803"
-    },
-    "maintainers": [
-      {
-        "email": "sxzz@sxzz.moe",
-        "username": "sxzz"
-      },
-      {
-        "email": "rahulkdn@gmail.com",
-        "username": "znck"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "guillaume.b.chau@gmail.com",
-        "username": "akryum"
-      },
-      {
-        "email": "npm@haoqun.me",
-        "username": "soda"
-      },
-      {
-        "email": "thorsten@linusb.org",
-        "username": "linusborg"
-      },
-      {
-        "email": "anthonyfu117@hotmail.com",
-        "username": "antfu"
-      },
-      {
-        "email": "david-181@hotmail.com",
-        "username": "pikax"
-      },
-      {
-        "email": "posva13@gmail.com",
-        "username": "posva"
-      },
-      {
-        "email": "kia.king.08@gmail.com",
-        "username": "kiaking"
-      }
-    ],
-    "license": "MIT",
-    "date": "2024-07-01T01:28:36.818Z",
-    "links": {
-      "homepage": "https://github.com/vuejs/core/tree/main/packages/compiler-sfc#readme",
-      "repository": "git+https://github.com/vuejs/core.git",
-      "bugs": "https://github.com/vuejs/core/issues",
-      "npm": "https://www.npmjs.com/package/@vue/compiler-sfc-canary"
-    }
-  },
-  {
     "name": "rolldown-vite",
     "keywords": [
       "frontend",
@@ -6727,6 +6625,42 @@
       "repository": "git+https://github.com/vitejs/vite.git",
       "bugs": "https://github.com/vitejs/vite/issues",
       "npm": "https://www.npmjs.com/package/rolldown-vite"
+    }
+  },
+  {
+    "name": "@vue/cli-plugin-webpack-4",
+    "keywords": [
+      "vue",
+      "cli",
+      "webpack 4"
+    ],
+    "version": "5.0.0-beta.2",
+    "description": "webpack-4 plugin for @vue/cli v5",
+    "publisher": {
+      "email": "haoqunjiang+npm@gmail.com",
+      "username": "soda"
+    },
+    "maintainers": [
+      {
+        "email": "guillaume.b.chau@gmail.com",
+        "username": "akryum"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "haoqunjiang+npm@gmail.com",
+        "username": "soda"
+      }
+    ],
+    "license": "MIT",
+    "date": "2021-06-09T05:17:15.886Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/vue-cli/tree/dev/packages/@vue/@vue/cli-plugin-webpack-4#readme",
+      "repository": "git+https://github.com/vuejs/vue-cli.git",
+      "bugs": "https://github.com/vuejs/vue-cli/issues",
+      "npm": "https://www.npmjs.com/package/@vue/cli-plugin-webpack-4"
     }
   },
   {
@@ -6792,86 +6726,6 @@
     }
   },
   {
-    "name": "@vue/cli-plugin-webpack-4",
-    "keywords": [
-      "vue",
-      "cli",
-      "webpack 4"
-    ],
-    "version": "5.0.0-beta.2",
-    "description": "webpack-4 plugin for @vue/cli v5",
-    "publisher": {
-      "email": "haoqunjiang+npm@gmail.com",
-      "username": "soda"
-    },
-    "maintainers": [
-      {
-        "email": "guillaume.b.chau@gmail.com",
-        "username": "akryum"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "haoqunjiang+npm@gmail.com",
-        "username": "soda"
-      }
-    ],
-    "license": "MIT",
-    "date": "2021-06-09T05:17:15.886Z",
-    "links": {
-      "homepage": "https://github.com/vuejs/vue-cli/tree/dev/packages/@vue/@vue/cli-plugin-webpack-4#readme",
-      "repository": "git+https://github.com/vuejs/vue-cli.git",
-      "bugs": "https://github.com/vuejs/vue-cli/issues",
-      "npm": "https://www.npmjs.com/package/@vue/cli-plugin-webpack-4"
-    }
-  },
-  {
-    "name": "@rolldown/node-binding-linux-x64-musl",
-    "keywords": [
-      "napi-rs",
-      "NAPI",
-      "N-API",
-      "Rust",
-      "node-addon",
-      "node-addon-api",
-      "rollup",
-      "rolldown",
-      "bundler",
-      "swc",
-      "esbuild"
-    ],
-    "version": "0.0.5",
-    "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API. ",
-    "publisher": {
-      "email": "rolldown@vitelabs.dev",
-      "username": "rolldownbot"
-    },
-    "maintainers": [
-      {
-        "email": "rolldown@vitelabs.dev",
-        "username": "rolldownbot"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "lynweklm@gmail.com",
-        "username": "broooooklyn"
-      }
-    ],
-    "license": "MIT",
-    "date": "2024-03-08T08:29:52.977Z",
-    "links": {
-      "homepage": "https://github.com/rolldown-rs/rolldown#readme",
-      "repository": "git+ssh://git@github.com/rolldown-rs/rolldown.git",
-      "bugs": "https://github.com/rolldown-rs/rolldown/issues",
-      "npm": "https://www.npmjs.com/package/@rolldown/node-binding-linux-x64-musl"
-    }
-  },
-  {
     "name": "@vue/reactivity-canary",
     "keywords": [
       "vue"
@@ -6931,6 +6785,109 @@
       "repository": "git+https://github.com/vuejs/core.git",
       "bugs": "https://github.com/vuejs/core/issues",
       "npm": "https://www.npmjs.com/package/@vue/reactivity-canary"
+    }
+  },
+  {
+    "name": "@vue/compiler-sfc-canary",
+    "keywords": [
+      "vue"
+    ],
+    "version": "3.20240701.0",
+    "description": "@vue/compiler-sfc",
+    "publisher": {
+      "email": "yyx990803@gmail.com",
+      "username": "yyx990803"
+    },
+    "maintainers": [
+      {
+        "email": "sxzz@sxzz.moe",
+        "username": "sxzz"
+      },
+      {
+        "email": "rahulkdn@gmail.com",
+        "username": "znck"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "guillaume.b.chau@gmail.com",
+        "username": "akryum"
+      },
+      {
+        "email": "npm@haoqun.me",
+        "username": "soda"
+      },
+      {
+        "email": "thorsten@linusb.org",
+        "username": "linusborg"
+      },
+      {
+        "email": "anthonyfu117@hotmail.com",
+        "username": "antfu"
+      },
+      {
+        "email": "david-181@hotmail.com",
+        "username": "pikax"
+      },
+      {
+        "email": "posva13@gmail.com",
+        "username": "posva"
+      },
+      {
+        "email": "kia.king.08@gmail.com",
+        "username": "kiaking"
+      }
+    ],
+    "license": "MIT",
+    "date": "2024-07-01T01:28:36.818Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/core/tree/main/packages/compiler-sfc#readme",
+      "repository": "git+https://github.com/vuejs/core.git",
+      "bugs": "https://github.com/vuejs/core/issues",
+      "npm": "https://www.npmjs.com/package/@vue/compiler-sfc-canary"
+    }
+  },
+  {
+    "name": "@vuepress/plugin-notification",
+    "keywords": [
+      "documentation",
+      "vue",
+      "vuepress",
+      "generator"
+    ],
+    "version": "1.0.0-alpha.5",
+    "description": "notification plugin for vuepress",
+    "publisher": {
+      "email": "472590061@qq.com",
+      "username": "ulivz"
+    },
+    "maintainers": [
+      {
+        "email": "472590061@qq.com",
+        "username": "ulivz"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "ben@bencodezen.io",
+        "username": "bencodezen"
+      },
+      {
+        "email": "meteor.lxy@foxmail.com",
+        "username": "meteorlxy"
+      }
+    ],
+    "license": "MIT",
+    "date": "2018-10-07T14:48:38.900Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/vuepress/packages/@vuepress/plugin-notification#readme",
+      "repository": "git+https://github.com/vuejs/vuepress.git",
+      "bugs": "https://github.com/vuejs/vuepress/issues",
+      "npm": "https://www.npmjs.com/package/@vuepress/plugin-notification"
     }
   },
   {
@@ -7058,77 +7015,6 @@
     }
   },
   {
-    "name": "gulp-jscoverage",
-    "keywords": [
-      "gulpplugin",
-      "gulp",
-      "cli",
-      "jscoverage",
-      "test"
-    ],
-    "version": "0.1.0",
-    "description": "JSCoverage instrumentation plugin for Gulp",
-    "publisher": {
-      "email": "yyx990803@gmail.com",
-      "username": "yyx990803"
-    },
-    "maintainers": [
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      }
-    ],
-    "license": "MIT",
-    "date": "2013-12-28T01:26:29.652Z",
-    "links": {
-      "homepage": "https://github.com/yyx990803/gulp-jscoverage",
-      "repository": "https://github.com/yyx990803/gulp-jscoverage",
-      "bugs": "https://github.com/yyx990803/gulp-jscoverage/issues",
-      "npm": "https://www.npmjs.com/package/gulp-jscoverage"
-    }
-  },
-  {
-    "name": "@vuepress/plugin-i18n-ui",
-    "keywords": [
-      "documentation",
-      "vue",
-      "vuepress",
-      "generator"
-    ],
-    "version": "1.0.0-alpha.0",
-    "description": "i18n-ui plugin for vuepress",
-    "publisher": {
-      "email": "472590061@qq.com",
-      "username": "ulivz"
-    },
-    "maintainers": [
-      {
-        "email": "472590061@qq.com",
-        "username": "ulivz"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "ben@bencodezen.io",
-        "username": "bencodezen"
-      },
-      {
-        "email": "meteor.lxy@foxmail.com",
-        "username": "meteorlxy"
-      }
-    ],
-    "license": "MIT",
-    "date": "2018-09-26T17:48:12.230Z",
-    "links": {
-      "homepage": "https://github.com/vuejs/vuepress/packages/@vuepress/plugin-i18n-ui#readme",
-      "repository": "git+https://github.com/vuejs/vuepress.git",
-      "bugs": "https://github.com/vuejs/vuepress/issues",
-      "npm": "https://www.npmjs.com/package/@vuepress/plugin-i18n-ui"
-    }
-  },
-  {
     "name": "@vue/runtime-dom-canary",
     "keywords": [
       "vue"
@@ -7232,6 +7118,33 @@
     }
   },
   {
+    "name": "@vite-plugin-vue-devtools/client",
+    "keywords": [],
+    "version": "1.0.0-rc.8",
+    "publisher": {
+      "email": "308241863@qq.com",
+      "username": "webfansplz"
+    },
+    "maintainers": [
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "webfansplz@gmail.com",
+        "username": "webfansplz"
+      }
+    ],
+    "license": "MIT",
+    "date": "2023-12-13T12:51:14.666Z",
+    "links": {
+      "homepage": "https://github.com/webfansplz/vite-plugin-vue-devtools#readme",
+      "repository": "git+https://github.com/webfansplz/vite-plugin-vue-devtools.git",
+      "bugs": "https://github.com/webfansplz/vite-plugin-vue-devtools/issues",
+      "npm": "https://www.npmjs.com/package/@vite-plugin-vue-devtools/client"
+    }
+  },
+  {
     "name": "@vue/runtime-core-canary",
     "keywords": [
       "vue"
@@ -7291,73 +7204,6 @@
       "repository": "git+https://github.com/vuejs/core.git",
       "bugs": "https://github.com/vuejs/core/issues",
       "npm": "https://www.npmjs.com/package/@vue/runtime-core-canary"
-    }
-  },
-  {
-    "name": "@rolldown/plugin-node-polyfills",
-    "keywords": [
-      "rolldown"
-    ],
-    "version": "1.0.0",
-    "description": "node polyfills for Rolldown",
-    "publisher": {
-      "email": "yyx990803@gmail.com",
-      "username": "yyx990803"
-    },
-    "maintainers": [
-      {
-        "email": "rolldown@voidzero.dev",
-        "username": "rolldownbot"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "lynweklm@gmail.com",
-        "username": "broooooklyn"
-      }
-    ],
-    "license": "MIT",
-    "date": "2024-08-12T08:03:58.375Z",
-    "links": {
-      "homepage": "https://github.com/rolldown/rolldown-plugin-node-polyfills#readme",
-      "repository": "git+https://github.com/rolldown/rolldown-plugin-node-polyfills.git",
-      "bugs": "https://github.com/rolldown/rolldown-plugin-node-polyfills/issues",
-      "npm": "https://www.npmjs.com/package/@rolldown/plugin-node-polyfills"
-    }
-  },
-  {
-    "name": "vue-data-tree",
-    "keywords": [
-      "vuejs",
-      "data",
-      "tree",
-      "component"
-    ],
-    "version": "0.0.8",
-    "description": "Vue data tree",
-    "publisher": {
-      "email": "anteriovieira@gmail.com",
-      "username": "anteriovieira"
-    },
-    "maintainers": [
-      {
-        "email": "anteriovieira@gmail.com",
-        "username": "anteriovieira"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      }
-    ],
-    "license": "ISC",
-    "date": "2017-03-23T00:51:16.320Z",
-    "links": {
-      "homepage": "https://github.com/owen-it/vue-data-tree#readme",
-      "repository": "git+https://github.com/owen-it/vue-data-tree.git",
-      "bugs": "https://github.com/owen-it/vue-data-tree/issues",
-      "npm": "https://www.npmjs.com/package/vue-data-tree"
     }
   },
   {
@@ -7450,79 +7296,104 @@
     }
   },
   {
-    "name": "@vite-plugin-vue-devtools/client",
-    "keywords": [],
-    "version": "1.0.0-rc.8",
+    "name": "@rolldown/node-binding-linux-x64-musl",
+    "keywords": [
+      "napi-rs",
+      "NAPI",
+      "N-API",
+      "Rust",
+      "node-addon",
+      "node-addon-api",
+      "rollup",
+      "rolldown",
+      "bundler",
+      "swc",
+      "esbuild"
+    ],
+    "version": "0.0.5",
+    "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API. ",
     "publisher": {
-      "email": "308241863@qq.com",
-      "username": "webfansplz"
+      "email": "rolldown@vitelabs.dev",
+      "username": "rolldownbot"
     },
     "maintainers": [
+      {
+        "email": "rolldown@vitelabs.dev",
+        "username": "rolldownbot"
+      },
       {
         "email": "yyx990803@gmail.com",
         "username": "yyx990803"
       },
       {
-        "email": "webfansplz@gmail.com",
-        "username": "webfansplz"
+        "email": "lynweklm@gmail.com",
+        "username": "broooooklyn"
       }
     ],
     "license": "MIT",
-    "date": "2023-12-13T12:51:14.666Z",
+    "date": "2024-03-08T08:29:52.977Z",
     "links": {
-      "homepage": "https://github.com/webfansplz/vite-plugin-vue-devtools#readme",
-      "repository": "git+https://github.com/webfansplz/vite-plugin-vue-devtools.git",
-      "bugs": "https://github.com/webfansplz/vite-plugin-vue-devtools/issues",
-      "npm": "https://www.npmjs.com/package/@vite-plugin-vue-devtools/client"
+      "homepage": "https://github.com/rolldown-rs/rolldown#readme",
+      "repository": "git+ssh://git@github.com/rolldown-rs/rolldown.git",
+      "bugs": "https://github.com/rolldown-rs/rolldown/issues",
+      "npm": "https://www.npmjs.com/package/@rolldown/node-binding-linux-x64-musl"
     }
   },
   {
-    "name": "jshint-semicolon-hack",
-    "keywords": [],
-    "version": "2.5.11",
-    "description": "Static analysis tool for JavaScript",
+    "name": "@vuepress/plugin-i18n-ui",
+    "keywords": [
+      "documentation",
+      "vue",
+      "vuepress",
+      "generator"
+    ],
+    "version": "1.0.0-alpha.0",
+    "description": "i18n-ui plugin for vuepress",
+    "publisher": {
+      "email": "472590061@qq.com",
+      "username": "ulivz"
+    },
+    "maintainers": [
+      {
+        "email": "472590061@qq.com",
+        "username": "ulivz"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "ben@bencodezen.io",
+        "username": "bencodezen"
+      },
+      {
+        "email": "meteor.lxy@foxmail.com",
+        "username": "meteorlxy"
+      }
+    ],
+    "license": "MIT",
+    "date": "2018-09-26T17:48:12.230Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/vuepress/packages/@vuepress/plugin-i18n-ui#readme",
+      "repository": "git+https://github.com/vuejs/vuepress.git",
+      "bugs": "https://github.com/vuejs/vuepress/issues",
+      "npm": "https://www.npmjs.com/package/@vuepress/plugin-i18n-ui"
+    }
+  },
+  {
+    "name": "@rolldown/plugin-node-polyfills",
+    "keywords": [
+      "rolldown"
+    ],
+    "version": "1.0.0",
+    "description": "node polyfills for Rolldown",
     "publisher": {
       "email": "yyx990803@gmail.com",
       "username": "yyx990803"
     },
     "maintainers": [
       {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      }
-    ],
-    "date": "2014-11-17T00:23:49.949Z",
-    "links": {
-      "homepage": "http://jshint.com/",
-      "repository": "https://github.com/jshint/jshint.git",
-      "bugs": "https://github.com/jshint/jshint/issues",
-      "npm": "https://www.npmjs.com/package/jshint-semicolon-hack"
-    }
-  },
-  {
-    "name": "@rolldown/node-binding-linux-arm64-musl",
-    "keywords": [
-      "napi-rs",
-      "NAPI",
-      "N-API",
-      "Rust",
-      "node-addon",
-      "node-addon-api",
-      "rollup",
-      "rolldown",
-      "bundler",
-      "swc",
-      "esbuild"
-    ],
-    "version": "0.0.5",
-    "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API. ",
-    "publisher": {
-      "email": "rolldown@vitelabs.dev",
-      "username": "rolldownbot"
-    },
-    "maintainers": [
-      {
-        "email": "rolldown@vitelabs.dev",
+        "email": "rolldown@voidzero.dev",
         "username": "rolldownbot"
       },
       {
@@ -7535,56 +7406,12 @@
       }
     ],
     "license": "MIT",
-    "date": "2024-03-08T08:30:22.491Z",
+    "date": "2024-08-12T08:03:58.375Z",
     "links": {
-      "homepage": "https://github.com/rolldown-rs/rolldown#readme",
-      "repository": "git+ssh://git@github.com/rolldown-rs/rolldown.git",
-      "bugs": "https://github.com/rolldown-rs/rolldown/issues",
-      "npm": "https://www.npmjs.com/package/@rolldown/node-binding-linux-arm64-musl"
-    }
-  },
-  {
-    "name": "@rolldown/node-binding-linux-arm-gnueabihf",
-    "keywords": [
-      "napi-rs",
-      "NAPI",
-      "N-API",
-      "Rust",
-      "node-addon",
-      "node-addon-api",
-      "rollup",
-      "rolldown",
-      "bundler",
-      "swc",
-      "esbuild"
-    ],
-    "version": "0.0.5",
-    "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API. ",
-    "publisher": {
-      "email": "rolldown@vitelabs.dev",
-      "username": "rolldownbot"
-    },
-    "maintainers": [
-      {
-        "email": "rolldown@vitelabs.dev",
-        "username": "rolldownbot"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "lynweklm@gmail.com",
-        "username": "broooooklyn"
-      }
-    ],
-    "license": "MIT",
-    "date": "2024-03-08T08:30:09.619Z",
-    "links": {
-      "homepage": "https://github.com/rolldown-rs/rolldown#readme",
-      "repository": "git+ssh://git@github.com/rolldown-rs/rolldown.git",
-      "bugs": "https://github.com/rolldown-rs/rolldown/issues",
-      "npm": "https://www.npmjs.com/package/@rolldown/node-binding-linux-arm-gnueabihf"
+      "homepage": "https://github.com/rolldown/rolldown-plugin-node-polyfills#readme",
+      "repository": "git+https://github.com/rolldown/rolldown-plugin-node-polyfills.git",
+      "bugs": "https://github.com/rolldown/rolldown-plugin-node-polyfills/issues",
+      "npm": "https://www.npmjs.com/package/@rolldown/plugin-node-polyfills"
     }
   },
   {
@@ -7632,91 +7459,36 @@
     }
   },
   {
-    "name": "@rolldown/node-binding-linux-arm64-gnu",
+    "name": "vue-data-tree",
     "keywords": [
-      "napi-rs",
-      "NAPI",
-      "N-API",
-      "Rust",
-      "node-addon",
-      "node-addon-api",
-      "rollup",
-      "rolldown",
-      "bundler",
-      "swc",
-      "esbuild"
+      "vuejs",
+      "data",
+      "tree",
+      "component"
     ],
-    "version": "0.0.5",
-    "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API. ",
+    "version": "0.0.8",
+    "description": "Vue data tree",
     "publisher": {
-      "email": "rolldown@vitelabs.dev",
-      "username": "rolldownbot"
+      "email": "anteriovieira@gmail.com",
+      "username": "anteriovieira"
     },
     "maintainers": [
       {
-        "email": "rolldown@vitelabs.dev",
-        "username": "rolldownbot"
+        "email": "anteriovieira@gmail.com",
+        "username": "anteriovieira"
       },
       {
         "email": "yyx990803@gmail.com",
         "username": "yyx990803"
-      },
-      {
-        "email": "lynweklm@gmail.com",
-        "username": "broooooklyn"
       }
     ],
-    "license": "MIT",
-    "date": "2024-03-08T08:29:59.572Z",
+    "license": "ISC",
+    "date": "2017-03-23T00:51:16.320Z",
     "links": {
-      "homepage": "https://github.com/rolldown-rs/rolldown#readme",
-      "repository": "git+ssh://git@github.com/rolldown-rs/rolldown.git",
-      "bugs": "https://github.com/rolldown-rs/rolldown/issues",
-      "npm": "https://www.npmjs.com/package/@rolldown/node-binding-linux-arm64-gnu"
-    }
-  },
-  {
-    "name": "@rolldown/node-binding-darwin-arm64",
-    "keywords": [
-      "napi-rs",
-      "NAPI",
-      "N-API",
-      "Rust",
-      "node-addon",
-      "node-addon-api",
-      "rollup",
-      "rolldown",
-      "bundler",
-      "swc",
-      "esbuild"
-    ],
-    "version": "0.0.5",
-    "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API. ",
-    "publisher": {
-      "email": "rolldown@vitelabs.dev",
-      "username": "rolldownbot"
-    },
-    "maintainers": [
-      {
-        "email": "rolldown@vitelabs.dev",
-        "username": "rolldownbot"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "lynweklm@gmail.com",
-        "username": "broooooklyn"
-      }
-    ],
-    "license": "MIT",
-    "date": "2024-03-08T08:30:13.461Z",
-    "links": {
-      "homepage": "https://github.com/rolldown-rs/rolldown#readme",
-      "repository": "git+ssh://git@github.com/rolldown-rs/rolldown.git",
-      "bugs": "https://github.com/rolldown-rs/rolldown/issues",
-      "npm": "https://www.npmjs.com/package/@rolldown/node-binding-darwin-arm64"
+      "homepage": "https://github.com/owen-it/vue-data-tree#readme",
+      "repository": "git+https://github.com/owen-it/vue-data-tree.git",
+      "bugs": "https://github.com/owen-it/vue-data-tree/issues",
+      "npm": "https://www.npmjs.com/package/vue-data-tree"
     }
   },
   {
@@ -7791,47 +7563,33 @@
     }
   },
   {
-    "name": "@rolldown/node-binding-win32-ia32-msvc",
+    "name": "gulp-jscoverage",
     "keywords": [
-      "napi-rs",
-      "NAPI",
-      "N-API",
-      "Rust",
-      "node-addon",
-      "node-addon-api",
-      "rollup",
-      "rolldown",
-      "bundler",
-      "swc",
-      "esbuild"
+      "gulpplugin",
+      "gulp",
+      "cli",
+      "jscoverage",
+      "test"
     ],
-    "version": "0.0.5",
-    "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API. ",
+    "version": "0.1.0",
+    "description": "JSCoverage instrumentation plugin for Gulp",
     "publisher": {
-      "email": "rolldown@vitelabs.dev",
-      "username": "rolldownbot"
+      "email": "yyx990803@gmail.com",
+      "username": "yyx990803"
     },
     "maintainers": [
       {
-        "email": "rolldown@vitelabs.dev",
-        "username": "rolldownbot"
-      },
-      {
         "email": "yyx990803@gmail.com",
         "username": "yyx990803"
-      },
-      {
-        "email": "lynweklm@gmail.com",
-        "username": "broooooklyn"
       }
     ],
     "license": "MIT",
-    "date": "2024-03-08T08:30:05.060Z",
+    "date": "2013-12-28T01:26:29.652Z",
     "links": {
-      "homepage": "https://github.com/rolldown-rs/rolldown#readme",
-      "repository": "git+ssh://git@github.com/rolldown-rs/rolldown.git",
-      "bugs": "https://github.com/rolldown-rs/rolldown/issues",
-      "npm": "https://www.npmjs.com/package/@rolldown/node-binding-win32-ia32-msvc"
+      "homepage": "https://github.com/yyx990803/gulp-jscoverage",
+      "repository": "https://github.com/yyx990803/gulp-jscoverage",
+      "bugs": "https://github.com/yyx990803/gulp-jscoverage/issues",
+      "npm": "https://www.npmjs.com/package/gulp-jscoverage"
     }
   },
   {
@@ -7875,30 +7633,47 @@
     }
   },
   {
-    "name": "browser-audio",
+    "name": "@rolldown/node-binding-win32-ia32-msvc",
     "keywords": [
-      "audio",
-      "browser"
+      "napi-rs",
+      "NAPI",
+      "N-API",
+      "Rust",
+      "node-addon",
+      "node-addon-api",
+      "rollup",
+      "rolldown",
+      "bundler",
+      "swc",
+      "esbuild"
     ],
-    "version": "1.0.2",
-    "description": "Browser audio player",
+    "version": "0.0.5",
+    "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API. ",
     "publisher": {
-      "email": "yyx990803@gmail.com",
-      "username": "yyx990803"
+      "email": "rolldown@vitelabs.dev",
+      "username": "rolldownbot"
     },
     "maintainers": [
       {
+        "email": "rolldown@vitelabs.dev",
+        "username": "rolldownbot"
+      },
+      {
         "email": "yyx990803@gmail.com",
         "username": "yyx990803"
+      },
+      {
+        "email": "lynweklm@gmail.com",
+        "username": "broooooklyn"
       }
     ],
     "license": "MIT",
-    "date": "2015-04-13T19:00:30.241Z",
+    "date": "2024-03-08T08:30:05.060Z",
     "links": {
-      "homepage": "https://github.com/yyx990803/browser-audio",
-      "repository": "https://github.com/yyx990803/browser-audio",
-      "bugs": "https://github.com/yyx990803/browser-audio/issues",
-      "npm": "https://www.npmjs.com/package/browser-audio"
+      "homepage": "https://github.com/rolldown-rs/rolldown#readme",
+      "repository": "git+ssh://git@github.com/rolldown-rs/rolldown.git",
+      "bugs": "https://github.com/rolldown-rs/rolldown/issues",
+      "npm": "https://www.npmjs.com/package/@rolldown/node-binding-win32-ia32-msvc"
     }
   },
   {
@@ -7954,13 +7729,13 @@
     }
   },
   {
-    "name": "vue-element",
+    "name": "browser-audio",
     "keywords": [
-      "vue",
-      "custom-elements"
+      "audio",
+      "browser"
     ],
-    "version": "1.0.1",
-    "description": "register a custom element with Vue.js.",
+    "version": "1.0.2",
+    "description": "Browser audio player",
     "publisher": {
       "email": "yyx990803@gmail.com",
       "username": "yyx990803"
@@ -7972,12 +7747,12 @@
       }
     ],
     "license": "MIT",
-    "date": "2015-05-31T21:31:32.696Z",
+    "date": "2015-04-13T19:00:30.241Z",
     "links": {
-      "homepage": "https://github.com/vuejs/vue-element",
-      "repository": "git+https://github.com/vuejs/vue-element.git",
-      "bugs": "https://github.com/vuejs/vue-element/issues",
-      "npm": "https://www.npmjs.com/package/vue-element"
+      "homepage": "https://github.com/yyx990803/browser-audio",
+      "repository": "https://github.com/yyx990803/browser-audio",
+      "bugs": "https://github.com/yyx990803/browser-audio/issues",
+      "npm": "https://www.npmjs.com/package/browser-audio"
     }
   },
   {
@@ -8043,6 +7818,33 @@
     }
   },
   {
+    "name": "vue-element",
+    "keywords": [
+      "vue",
+      "custom-elements"
+    ],
+    "version": "1.0.1",
+    "description": "register a custom element with Vue.js.",
+    "publisher": {
+      "email": "yyx990803@gmail.com",
+      "username": "yyx990803"
+    },
+    "maintainers": [
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      }
+    ],
+    "license": "MIT",
+    "date": "2015-05-31T21:31:32.696Z",
+    "links": {
+      "homepage": "https://github.com/vuejs/vue-element",
+      "repository": "git+https://github.com/vuejs/vue-element.git",
+      "bugs": "https://github.com/vuejs/vue-element/issues",
+      "npm": "https://www.npmjs.com/package/vue-element"
+    }
+  },
+  {
     "name": "@rolldown/node-binding-android-arm64",
     "keywords": [
       "napi-rs",
@@ -8084,50 +7886,6 @@
       "repository": "git+ssh://git@github.com/rolldown-rs/rolldown.git",
       "bugs": "https://github.com/rolldown-rs/rolldown/issues",
       "npm": "https://www.npmjs.com/package/@rolldown/node-binding-android-arm64"
-    }
-  },
-  {
-    "name": "@rolldown/binding-android-arm64",
-    "keywords": [
-      "napi-rs",
-      "NAPI",
-      "N-API",
-      "Rust",
-      "node-addon",
-      "node-addon-api",
-      "rollup",
-      "rolldown",
-      "bundler",
-      "swc",
-      "esbuild"
-    ],
-    "version": "0.5.0-canary-9cbba9e-20240324233010",
-    "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API. ",
-    "publisher": {
-      "email": "rolldown@vitelabs.dev",
-      "username": "rolldownbot"
-    },
-    "maintainers": [
-      {
-        "email": "rolldown@vitelabs.dev",
-        "username": "rolldownbot"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "lynweklm@gmail.com",
-        "username": "broooooklyn"
-      }
-    ],
-    "license": "MIT",
-    "date": "2024-03-24T23:30:23.415Z",
-    "links": {
-      "homepage": "https://rolldown.rs/",
-      "repository": "git+https://github.com/rolldown/rolldown.git",
-      "bugs": "https://github.com/rolldown/rolldown/issues",
-      "npm": "https://www.npmjs.com/package/@rolldown/binding-android-arm64"
     }
   },
   {
@@ -8175,15 +7933,54 @@
     }
   },
   {
-    "name": "raveal",
+    "name": "@rolldown/node-binding-linux-arm64-musl",
     "keywords": [
-      "browser",
-      "radial",
-      "reveal",
-      "clip"
+      "napi-rs",
+      "NAPI",
+      "N-API",
+      "Rust",
+      "node-addon",
+      "node-addon-api",
+      "rollup",
+      "rolldown",
+      "bundler",
+      "swc",
+      "esbuild"
     ],
-    "version": "0.0.4",
-    "description": "Radially reveal an element",
+    "version": "0.0.5",
+    "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API. ",
+    "publisher": {
+      "email": "rolldown@vitelabs.dev",
+      "username": "rolldownbot"
+    },
+    "maintainers": [
+      {
+        "email": "rolldown@vitelabs.dev",
+        "username": "rolldownbot"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "lynweklm@gmail.com",
+        "username": "broooooklyn"
+      }
+    ],
+    "license": "MIT",
+    "date": "2024-03-08T08:30:22.491Z",
+    "links": {
+      "homepage": "https://github.com/rolldown-rs/rolldown#readme",
+      "repository": "git+ssh://git@github.com/rolldown-rs/rolldown.git",
+      "bugs": "https://github.com/rolldown-rs/rolldown/issues",
+      "npm": "https://www.npmjs.com/package/@rolldown/node-binding-linux-arm64-musl"
+    }
+  },
+  {
+    "name": "jshint-semicolon-hack",
+    "keywords": [],
+    "version": "2.5.11",
+    "description": "Static analysis tool for JavaScript",
     "publisher": {
       "email": "yyx990803@gmail.com",
       "username": "yyx990803"
@@ -8194,13 +7991,56 @@
         "username": "yyx990803"
       }
     ],
-    "license": "MIT",
-    "date": "2014-08-12T18:05:55.876Z",
+    "date": "2014-11-17T00:23:49.949Z",
     "links": {
-      "homepage": "https://github.com/yyx990803/raveal",
-      "repository": "https://github.com/yyx990803/raveal.git",
-      "bugs": "https://github.com/yyx990803/raveal/issues",
-      "npm": "https://www.npmjs.com/package/raveal"
+      "homepage": "http://jshint.com/",
+      "repository": "https://github.com/jshint/jshint.git",
+      "bugs": "https://github.com/jshint/jshint/issues",
+      "npm": "https://www.npmjs.com/package/jshint-semicolon-hack"
+    }
+  },
+  {
+    "name": "@rolldown/binding-android-arm64",
+    "keywords": [
+      "napi-rs",
+      "NAPI",
+      "N-API",
+      "Rust",
+      "node-addon",
+      "node-addon-api",
+      "rollup",
+      "rolldown",
+      "bundler",
+      "swc",
+      "esbuild"
+    ],
+    "version": "0.5.0-canary-9cbba9e-20240324233010",
+    "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API. ",
+    "publisher": {
+      "email": "rolldown@vitelabs.dev",
+      "username": "rolldownbot"
+    },
+    "maintainers": [
+      {
+        "email": "rolldown@vitelabs.dev",
+        "username": "rolldownbot"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "lynweklm@gmail.com",
+        "username": "broooooklyn"
+      }
+    ],
+    "license": "MIT",
+    "date": "2024-03-24T23:30:23.415Z",
+    "links": {
+      "homepage": "https://rolldown.rs/",
+      "repository": "git+https://github.com/rolldown/rolldown.git",
+      "bugs": "https://github.com/rolldown/rolldown/issues",
+      "npm": "https://www.npmjs.com/package/@rolldown/binding-android-arm64"
     }
   },
   {
@@ -8365,6 +8205,35 @@
     }
   },
   {
+    "name": "raveal",
+    "keywords": [
+      "browser",
+      "radial",
+      "reveal",
+      "clip"
+    ],
+    "version": "0.0.4",
+    "description": "Radially reveal an element",
+    "publisher": {
+      "email": "yyx990803@gmail.com",
+      "username": "yyx990803"
+    },
+    "maintainers": [
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      }
+    ],
+    "license": "MIT",
+    "date": "2014-08-12T18:05:55.876Z",
+    "links": {
+      "homepage": "https://github.com/yyx990803/raveal",
+      "repository": "https://github.com/yyx990803/raveal.git",
+      "bugs": "https://github.com/yyx990803/raveal/issues",
+      "npm": "https://www.npmjs.com/package/raveal"
+    }
+  },
+  {
     "name": "fancytext",
     "keywords": [],
     "version": "0.0.6",
@@ -8383,6 +8252,94 @@
     "date": "2014-10-10T19:11:02.692Z",
     "links": {
       "npm": "https://www.npmjs.com/package/fancytext"
+    }
+  },
+  {
+    "name": "@rolldown/node-binding-linux-arm-gnueabihf",
+    "keywords": [
+      "napi-rs",
+      "NAPI",
+      "N-API",
+      "Rust",
+      "node-addon",
+      "node-addon-api",
+      "rollup",
+      "rolldown",
+      "bundler",
+      "swc",
+      "esbuild"
+    ],
+    "version": "0.0.5",
+    "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API. ",
+    "publisher": {
+      "email": "rolldown@vitelabs.dev",
+      "username": "rolldownbot"
+    },
+    "maintainers": [
+      {
+        "email": "rolldown@vitelabs.dev",
+        "username": "rolldownbot"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "lynweklm@gmail.com",
+        "username": "broooooklyn"
+      }
+    ],
+    "license": "MIT",
+    "date": "2024-03-08T08:30:09.619Z",
+    "links": {
+      "homepage": "https://github.com/rolldown-rs/rolldown#readme",
+      "repository": "git+ssh://git@github.com/rolldown-rs/rolldown.git",
+      "bugs": "https://github.com/rolldown-rs/rolldown/issues",
+      "npm": "https://www.npmjs.com/package/@rolldown/node-binding-linux-arm-gnueabihf"
+    }
+  },
+  {
+    "name": "@rolldown/node-binding-linux-arm64-gnu",
+    "keywords": [
+      "napi-rs",
+      "NAPI",
+      "N-API",
+      "Rust",
+      "node-addon",
+      "node-addon-api",
+      "rollup",
+      "rolldown",
+      "bundler",
+      "swc",
+      "esbuild"
+    ],
+    "version": "0.0.5",
+    "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API. ",
+    "publisher": {
+      "email": "rolldown@vitelabs.dev",
+      "username": "rolldownbot"
+    },
+    "maintainers": [
+      {
+        "email": "rolldown@vitelabs.dev",
+        "username": "rolldownbot"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "lynweklm@gmail.com",
+        "username": "broooooklyn"
+      }
+    ],
+    "license": "MIT",
+    "date": "2024-03-08T08:29:59.572Z",
+    "links": {
+      "homepage": "https://github.com/rolldown-rs/rolldown#readme",
+      "repository": "git+ssh://git@github.com/rolldown-rs/rolldown.git",
+      "bugs": "https://github.com/rolldown-rs/rolldown/issues",
+      "npm": "https://www.npmjs.com/package/@rolldown/node-binding-linux-arm64-gnu"
     }
   },
   {
@@ -8458,6 +8415,50 @@
       "repository": "git+https://github.com/rolldown-rs/rolldown.git",
       "bugs": "https://github.com/rolldown-rs/rolldown/issues",
       "npm": "https://www.npmjs.com/package/@rolldown/wasm-binding"
+    }
+  },
+  {
+    "name": "@rolldown/node-binding-darwin-arm64",
+    "keywords": [
+      "napi-rs",
+      "NAPI",
+      "N-API",
+      "Rust",
+      "node-addon",
+      "node-addon-api",
+      "rollup",
+      "rolldown",
+      "bundler",
+      "swc",
+      "esbuild"
+    ],
+    "version": "0.0.5",
+    "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API. ",
+    "publisher": {
+      "email": "rolldown@vitelabs.dev",
+      "username": "rolldownbot"
+    },
+    "maintainers": [
+      {
+        "email": "rolldown@vitelabs.dev",
+        "username": "rolldownbot"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "lynweklm@gmail.com",
+        "username": "broooooklyn"
+      }
+    ],
+    "license": "MIT",
+    "date": "2024-03-08T08:30:13.461Z",
+    "links": {
+      "homepage": "https://github.com/rolldown-rs/rolldown#readme",
+      "repository": "git+ssh://git@github.com/rolldown-rs/rolldown.git",
+      "bugs": "https://github.com/rolldown-rs/rolldown/issues",
+      "npm": "https://www.npmjs.com/package/@rolldown/node-binding-darwin-arm64"
     }
   },
   {
@@ -8566,6 +8567,33 @@
       "repository": "git+https://github.com/Brooooooklyn/rolldown.git",
       "bugs": "https://github.com/Brooooooklyn/rolldown/issues",
       "npm": "https://www.npmjs.com/package/@rolldown/core-linux-x64-gnu"
+    }
+  },
+  {
+    "name": "grunt-component-add",
+    "keywords": [
+      "component",
+      "gruntplugin"
+    ],
+    "version": "0.1.0",
+    "description": "Automatically add files to your component.json",
+    "publisher": {
+      "email": "yyx990803@gmail.com",
+      "username": "yyx990803"
+    },
+    "maintainers": [
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      }
+    ],
+    "license": "MIT",
+    "date": "2014-01-01T22:48:06.504Z",
+    "links": {
+      "homepage": "https://github.com/yyx990803/grunt-component-add",
+      "repository": "https://github.com/yyx990803/grunt-component-add.git",
+      "bugs": "https://github.com/yyx990803/grunt-component-add/issues",
+      "npm": "https://www.npmjs.com/package/grunt-component-add"
     }
   },
   {
@@ -8757,6 +8785,46 @@
     }
   },
   {
+    "name": "@rolldown/core-win32-x64-msvc",
+    "keywords": [
+      "Rollup",
+      "webpack",
+      "parcel",
+      "bundle",
+      "swc",
+      "napi-rs",
+      "node-api"
+    ],
+    "version": "0.1.2",
+    "description": "Rollup Rust implementation with 100% API compatible",
+    "publisher": {
+      "email": "lynweklm@gmail.com",
+      "username": "broooooklyn"
+    },
+    "maintainers": [
+      {
+        "email": "rolldown@vitelabs.dev",
+        "username": "rolldownbot"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "lynweklm@gmail.com",
+        "username": "broooooklyn"
+      }
+    ],
+    "license": "MIT",
+    "date": "2021-10-15T05:55:31.426Z",
+    "links": {
+      "homepage": "https://github.com/Brooooooklyn/rolldown",
+      "repository": "git+https://github.com/Brooooooklyn/rolldown.git",
+      "bugs": "https://github.com/Brooooooklyn/rolldown/issues",
+      "npm": "https://www.npmjs.com/package/@rolldown/core-win32-x64-msvc"
+    }
+  },
+  {
     "name": "@rolldown/core-linux-arm-gnueabihf",
     "keywords": [
       "Rollup",
@@ -8794,50 +8862,6 @@
       "repository": "git+https://github.com/Brooooooklyn/rolldown.git",
       "bugs": "https://github.com/Brooooooklyn/rolldown/issues",
       "npm": "https://www.npmjs.com/package/@rolldown/core-linux-arm-gnueabihf"
-    }
-  },
-  {
-    "name": "@rolldown/node-binding-android-arm-eabi",
-    "keywords": [
-      "napi-rs",
-      "NAPI",
-      "N-API",
-      "Rust",
-      "node-addon",
-      "node-addon-api",
-      "rollup",
-      "rolldown",
-      "bundler",
-      "swc",
-      "esbuild"
-    ],
-    "version": "0.0.5",
-    "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API. ",
-    "publisher": {
-      "email": "rolldown@vitelabs.dev",
-      "username": "rolldownbot"
-    },
-    "maintainers": [
-      {
-        "email": "rolldown@vitelabs.dev",
-        "username": "rolldownbot"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "lynweklm@gmail.com",
-        "username": "broooooklyn"
-      }
-    ],
-    "license": "MIT",
-    "date": "2024-03-08T08:30:30.519Z",
-    "links": {
-      "homepage": "https://github.com/rolldown-rs/rolldown#readme",
-      "repository": "git+ssh://git@github.com/rolldown-rs/rolldown.git",
-      "bugs": "https://github.com/rolldown-rs/rolldown/issues",
-      "npm": "https://www.npmjs.com/package/@rolldown/node-binding-android-arm-eabi"
     }
   },
   {
@@ -8905,6 +8929,50 @@
       "repository": "git+https://github.com/Brooooooklyn/rolldown.git",
       "bugs": "https://github.com/Brooooooklyn/rolldown/issues",
       "npm": "https://www.npmjs.com/package/@rolldown/core-darwin-x64"
+    }
+  },
+  {
+    "name": "@rolldown/node-binding-android-arm-eabi",
+    "keywords": [
+      "napi-rs",
+      "NAPI",
+      "N-API",
+      "Rust",
+      "node-addon",
+      "node-addon-api",
+      "rollup",
+      "rolldown",
+      "bundler",
+      "swc",
+      "esbuild"
+    ],
+    "version": "0.0.5",
+    "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API. ",
+    "publisher": {
+      "email": "rolldown@vitelabs.dev",
+      "username": "rolldownbot"
+    },
+    "maintainers": [
+      {
+        "email": "rolldown@vitelabs.dev",
+        "username": "rolldownbot"
+      },
+      {
+        "email": "yyx990803@gmail.com",
+        "username": "yyx990803"
+      },
+      {
+        "email": "lynweklm@gmail.com",
+        "username": "broooooklyn"
+      }
+    ],
+    "license": "MIT",
+    "date": "2024-03-08T08:30:30.519Z",
+    "links": {
+      "homepage": "https://github.com/rolldown-rs/rolldown#readme",
+      "repository": "git+ssh://git@github.com/rolldown-rs/rolldown.git",
+      "bugs": "https://github.com/rolldown-rs/rolldown/issues",
+      "npm": "https://www.npmjs.com/package/@rolldown/node-binding-android-arm-eabi"
     }
   },
   {
@@ -9055,27 +9123,6 @@
     }
   },
   {
-    "name": "@vue/dev-server",
-    "keywords": [],
-    "version": "0.2.0",
-    "description": "**⚠️ Warning: Experimental ⚠️**",
-    "publisher": {
-      "email": "yyx990803@gmail.com",
-      "username": "yyx990803"
-    },
-    "maintainers": [
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      }
-    ],
-    "license": "MIT",
-    "date": "2020-04-21T04:43:05.707Z",
-    "links": {
-      "npm": "https://www.npmjs.com/package/@vue/dev-server"
-    }
-  },
-  {
     "name": "@vue/benchmark-agent",
     "keywords": [],
     "version": "0.0.0",
@@ -9121,13 +9168,10 @@
     }
   },
   {
-    "name": "grunt-component-add",
-    "keywords": [
-      "component",
-      "gruntplugin"
-    ],
-    "version": "0.1.0",
-    "description": "Automatically add files to your component.json",
+    "name": "@vue/dev-server",
+    "keywords": [],
+    "version": "0.2.0",
+    "description": "**⚠️ Warning: Experimental ⚠️**",
     "publisher": {
       "email": "yyx990803@gmail.com",
       "username": "yyx990803"
@@ -9139,12 +9183,9 @@
       }
     ],
     "license": "MIT",
-    "date": "2014-01-01T22:48:06.504Z",
+    "date": "2020-04-21T04:43:05.707Z",
     "links": {
-      "homepage": "https://github.com/yyx990803/grunt-component-add",
-      "repository": "https://github.com/yyx990803/grunt-component-add.git",
-      "bugs": "https://github.com/yyx990803/grunt-component-add/issues",
-      "npm": "https://www.npmjs.com/package/grunt-component-add"
+      "npm": "https://www.npmjs.com/package/@vue/dev-server"
     }
   },
   {
@@ -9185,46 +9226,6 @@
       "repository": "git+https://github.com/Brooooooklyn/rolldown.git",
       "bugs": "https://github.com/Brooooooklyn/rolldown/issues",
       "npm": "https://www.npmjs.com/package/@rolldown/core-linux-arm64-musl"
-    }
-  },
-  {
-    "name": "@rolldown/core-win32-x64-msvc",
-    "keywords": [
-      "Rollup",
-      "webpack",
-      "parcel",
-      "bundle",
-      "swc",
-      "napi-rs",
-      "node-api"
-    ],
-    "version": "0.1.2",
-    "description": "Rollup Rust implementation with 100% API compatible",
-    "publisher": {
-      "email": "lynweklm@gmail.com",
-      "username": "broooooklyn"
-    },
-    "maintainers": [
-      {
-        "email": "rolldown@vitelabs.dev",
-        "username": "rolldownbot"
-      },
-      {
-        "email": "yyx990803@gmail.com",
-        "username": "yyx990803"
-      },
-      {
-        "email": "lynweklm@gmail.com",
-        "username": "broooooklyn"
-      }
-    ],
-    "license": "MIT",
-    "date": "2021-10-15T05:55:31.426Z",
-    "links": {
-      "homepage": "https://github.com/Brooooooklyn/rolldown",
-      "repository": "git+https://github.com/Brooooooklyn/rolldown.git",
-      "bugs": "https://github.com/Brooooooklyn/rolldown/issues",
-      "npm": "https://www.npmjs.com/package/@rolldown/core-win32-x64-msvc"
     }
   },
   {
