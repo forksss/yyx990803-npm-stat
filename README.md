@@ -6,7 +6,7 @@ yyx990803-npm-stat
 
 NPM download statistics for [Evan You](https://www.npmjs.com/~yyx990803)'s opens source projects for the past year. Updated Daily.
 
-Update date: <!--GAMFC-->2025-04-15 05:41:29<!--GAMFC-END-->
+Update date: <!--GAMFC-->2025-04-16 05:41:32<!--GAMFC-END-->
 
 ## Recommendation
 
